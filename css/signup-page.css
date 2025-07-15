@@ -1,0 +1,405 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #f3f3f3;
+}
+
+.container {
+  padding: 0px 3%;
+}
+
+.alert-bar {
+  border-radius: 8px;
+  height: 50px;
+  background-color: #FF9500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 50px 10px 50px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.alert-bar p {
+  font-size: 20px;
+  letter-spacing: 1px;
+  color: white;
+}
+.alert-bar a{
+  text-decoration: none;
+  color: white;
+
+  &:hover{
+    color: olivedrab;
+  }
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 8%;
+
+}
+
+header .logo img {
+  width: 200px;
+
+}
+
+.nav-links ul {
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style: none;
+  gap: 90px;
+  font-family: monospace;
+}
+
+.nav-links ul li {
+  padding: 5px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  &:hover {
+    background-color: #ddd;
+  }
+}
+.nav-links ul a{
+  color: black;
+  text-decoration: none;
+}
+
+.nav-links ul li:last-child {
+  background-color: orangered;
+  color: white;
+
+  &:hover {
+    background-color: lightcoral;
+  }
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 8%;
+
+}
+
+header .logo img {
+  width: 200px;
+
+}
+
+.nav-links ul {
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style: none;
+  gap: 90px;
+  font-family: monospace;
+}
+
+.nav-links ul li {
+  padding: 5px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  &:hover {
+    background-color: #ddd;
+  }
+}
+.nav-links ul a{
+  color: black;
+  text-decoration: none;
+}
+
+.nav-links ul li:last-child {
+  background-color: orangered;
+  color: white;
+
+  &:hover {
+    background-color: lightcoral;
+  }
+}
+/* ============== main-section ==================*/
+
+main {
+  display: flex;
+  padding: 10px 8% 8% 8%;
+  margin-top: 60px;
+}
+
+/*  ================== testimonials-section===============  */
+
+section {
+  padding: 40px;
+
+}
+
+.testimonials-section {
+  width: 60%;
+  padding-top: 100px;
+  padding-right: 10%;
+}
+
+.testimonials-section h1 {
+  font-size: 50px;
+  text-align: center;
+  font-weight: 400;
+  margin: 50px 0px;
+}
+
+.testimonials-section .testimonial-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+
+.testimonial-card p {
+  padding: 10%;
+  text-align: justify;
+  line-height: 1.6rem;
+  word-spacing: 2px;
+}
+
+.testimonial-card .student-details {
+  border-top: 1px solid #ccc;
+  background-color: #ececec;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 10px;
+}
+
+.student-details .image-name {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 42%;
+}
+
+.student-details .image-name img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.student-details button {
+  width: 30%;
+  font-size: 20px;
+  padding: 15px 0px;
+  border: none;
+  border-radius: 10px;
+}
+
+
+.last-buttons {
+  margin-top: 20px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 30px;
+}
+
+.last-buttons button {
+  width: 120px;
+  border: none;
+  background-color: #3b4705;
+  color: white;
+  border-radius: 5px;
+  font-size: larger;
+  padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ================ login-form- section */
+.login-form-section {
+  width: 40%;
+  background-color: #fff;
+  border-radius: 20px;
+}
+
+.login-form-section h1 {
+  text-align: center;
+  font-size: 60px;
+  font-family: monospace;
+}
+
+.login-form-section p {
+  text-align: center;
+  font-size: 18px;
+  margin: 40px 0px;
+}
+
+.login-form-section label {
+  font-size: 25px;
+  margin: 10px 0px;
+}
+
+
+.login-form-section input {
+  padding: 20px 30px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-size: 18px;
+  margin-bottom: 30px;
+  margin-top: 10px;
+  width: 100%;
+  outline-color: orange;
+}
+
+.login-form-section button {
+  width: 100%;
+  font-size: 20px;
+  padding: 20px 0px;
+  margin-top: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: orange;
+  font-weight: 600;
+  color: #fff;
+  transition: 0.3s ease-in-out;
+
+  &:hover {
+    background-color: rgb(252, 182, 52);
+  }
+}
+
+
+
+
+
+/* ================ footer ==================== */
+
+footer {
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 70px;
+}
+
+footer .left {
+  width: 25%;
+  padding: 20px;
+}
+
+footer .left .bottom-logo {
+  text-align: center;
+}
+
+footer .left .bottom-logo img {
+  height: 80px;
+}
+
+footer .left ul li {
+  margin: 30px 0px;
+  font-size: 20px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  color: olive;
+  cursor: pointer;
+
+  &:hover {
+    color: orange;
+  }
+}
+
+footer .left ul li i {
+  margin-right: 10px;
+  font-size: 20px;
+  color: #2c2b2b;
+  cursor: default;
+}
+
+footer .left ul li a {
+  color: olive;
+  text-decoration: none;
+
+  &:hover {
+    color: orange;
+  }
+}
+
+
+footer .right {
+  height: 200px;
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .right h3 {
+  text-align: center;
+  font-size: 23px;
+  padding: 5px 10px;
+  border-bottom: 1px solid #5b6e07af;
+
+}
+
+footer .right a {
+  text-decoration: none;
+
+}
+
+footer .right a p,
+.right .social-profile-section a i {
+  padding: 0px 10px;
+  text-transform: capitalize;
+  font-size: 18px;
+  margin: 20px 0px;
+  color: #3b4705;
+  transition: 0.1s ease-in;
+
+  &:hover {
+    color: olive;
+  }
+
+}
+
+.right .social-profile-section a i {
+  font-size: 40px;
+  color: black;
+
+}

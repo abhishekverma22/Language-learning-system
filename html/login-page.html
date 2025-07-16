@@ -5,13 +5,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>FluencyMate - Language Learning Platform</title>
-  <link rel="stylesheet" href="/css/login-page.css">
   <link rel="shortcut icon" href="../images/fevicons (2).png" type="image/x-icon">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
     integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-    <script type="module" src="../js/login.js"></script>
+  <link rel="stylesheet" href="../css/login-page.css">
 </head>
 
 <body>
@@ -23,6 +21,10 @@
       <div class="logo">
         <img src="../images/logo.png" alt="logo image">
       </div>
+      <div class="hamburger">
+        <i class="fa-solid fa-bars"></i>
+        <i class="fa-solid fa-times"></i>
+      </div>
       <nav class="nav-links">
         <ul>
           <li><a href="../index.html">Home</a></li>
@@ -33,7 +35,6 @@
       </nav>
     </header>
     <main>
-
       <section class="testimonials-section">
         <h1>Students Testimonials</h1>
         <div class="testimonial-card">
@@ -43,7 +44,6 @@
             I never felt lost, even when the topics became challenging.
             The feedback from mentors was valuable and encouraging.
             I feel prepared to apply for jobs with the confidence I've gained.</p>
-
           <div class="student-details">
             <div class="image-name">
               <img src="../images/student.jpg" alt="Student image">
@@ -62,20 +62,15 @@
         <p>Welcome Back! Please log in to access your account.</p>
         <label>Email</label>
         <input type="email" placeholder="Enter your Email" id="login-email">
-
         <label>Password</label>
         <input type="password" placeholder="Enter your Password" id="login-password">
         <p id="error-message"></p>
         <button id="login-btn">Login</button>
-        <p>Don't have an account? <a href="./signup-page.html">Sign Up</a><i class="fa-solid fa-arrow-right"></i> </p>
+        <p class="signup-link">Don't have an account? <a href="./signup-page.html">Sign Up</a><i
+            class="fa-solid fa-arrow-right"></i></p>
       </section>
-
-
     </main>
-
-
   </div>
-  <!-- ================= footer ================ -->
   <footer>
     <div class="left">
       <div class="bottom-logo">
@@ -84,14 +79,10 @@
       <div class="contact-info">
         <ul>
           <li><i class="fa-solid fa-envelope"></i> <a
-              href="mailto:vermaabhishekabhi22@gmail.com">vermaabhishekabhi22@gmail.com</a>
-          </li>
-          <li><i class="fa-solid fa-phone"></i>
-            <a href="tel: +919507615016">+91-9507615016</a>
-          </li>
-          <li><i class="fa-solid fa-location-dot"></i>
-            <a href="https://maps.app.goo.gl/qNB1r6kgins6tzpD7" target="_blank">Ranchi, Jharkhand</a>
-          </li>
+              href="mailto:vermaabhishekabhi22@gmail.com">vermaabhishekabhi22@gmail.com</a></li>
+          <li><i class="fa-solid fa-phone"></i> <a href="tel: +919507615016">+91-9507615016</a></li>
+          <li><i class="fa-solid fa-location-dot"></i> <a href="https://maps.app.goo.gl/qNB1r6kgins6tzpD7"
+              target="_blank">Ranchi, Jharkhand</a></li>
         </ul>
       </div>
     </div>
@@ -110,8 +101,6 @@
         <a href="#questions">
           <p>Questions</p>
         </a>
-
-
       </div>
       <div class="about-us-section">
         <h3>Quick Links</h3>
@@ -121,28 +110,19 @@
         <a href="#">
           <p>Courses</p>
         </a>
-
       </div>
       <div class="social-profile-section">
         <h3>Social Profiles</h3>
-        <a href="https://github.com/abhishekverma22" target="_blank">
-          <i class="fa-brands fa-square-github"></i>
-        </a>
-
-        <a href="https://www.linkedin.com/in/abhishek-verma-mern/" target="_blank">
-          <i class="fa-brands fa-linkedin"></i>
-        </a>
-
-        <a href="https://www.instagram.com/pratham_verma_02?igsh=MXFkeml6azh6cmkwcg%3D%3D&utm_source=qr "
-          target="_blank">
-          <i class="fa-brands fa-square-instagram"></i>
-        </a>
-
-
+        <a href="https://github.com/abhishekverma22" target="_blank"><i class="fa-brands fa-square-github"></i></a>
+        <a href="https://www.linkedin.com/in/abhishek-verma-mern/" target="_blank"><i
+            class="fa-brands fa-linkedin"></i></a>
+        <a href="https://www.instagram.com/pratham_verma_02?igsh=MXFkeml6azh6cmkwcg%3D%3D&utm_source=qr"
+          target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
       </div>
     </div>
   </footer>
 
+  <script type="module" src="../js/login.js"></script>
 </body>
 
 </html>

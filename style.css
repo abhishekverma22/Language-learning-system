@@ -234,6 +234,7 @@ header .logo img {
 .bottom-banner-card img {
   width: clamp(80px, 15vw, 120px);
   min-height: 60px;
+  border-radius: 50%;
 }
 
 hr {

@@ -799,6 +799,7 @@ footer .right a p:hover,
 
   .bottom-banner-card img {
     width: clamp(60px, 12vw, 100px);
+    border-radius: 50%;
   }
 
   .second-banner video {

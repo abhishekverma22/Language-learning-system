@@ -10,12 +10,18 @@ html {
 
 body {
   background-color: #f3f3f3;
+  font-size: 16px;
+  /* Base font size for scalability */
 }
 
+/* Container */
 .container {
-  padding: 0px 3%;
+  padding: 0 3%;
+  max-width: 1400px;
+  margin: 0 auto;
 }
 
+/* Alert Bar */
 .alert-bar {
   border-radius: 8px;
   height: 50px;
@@ -23,12 +29,12 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 20px 50px 10px 50px;
+  margin: 20px 5%;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 
 .alert-bar p {
-  font-size: 20px;
+  font-size: clamp(14px, 3.5vw, 18px);
   letter-spacing: 1px;
   color: white;
 }
@@ -36,44 +42,45 @@ body {
 .alert-bar a {
   text-decoration: none;
   color: white;
-
-  &:hover {
-    color: olivedrab;
-  }
 }
 
+.alert-bar a:hover {
+  color: olivedrab;
+}
+
+/* Header */
 header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 8%;
-
+  padding: 10px 5%;
+  flex-wrap: wrap;
 }
 
 header .logo img {
-  width: 200px;
-
+  width: clamp(120px, 25vw, 180px);
 }
 
+/* Navigation */
 .nav-links ul {
-  font-size: 20px;
+  font-size: clamp(14px, 3vw, 16px);
   display: flex;
   align-items: center;
   justify-content: space-around;
   list-style: none;
-  gap: 90px;
+  gap: clamp(20px, 5vw, 60px);
   font-family: monospace;
 }
 
 .nav-links ul li {
-  padding: 5px 20px;
+  padding: 5px 15px;
   border-radius: 5px;
   cursor: pointer;
   transition: 0.3s ease-in-out;
+}
 
-  &:hover {
-    background-color: #ddd;
-  }
+.nav-links ul li:hover {
+  background-color: #ddd;
 }
 
 .nav-links ul a {
@@ -84,18 +91,51 @@ header .logo img {
 .nav-links ul li:last-child {
   background-color: orangered;
   color: white;
-
-  &:hover {
-    background-color: lightcoral;
-  }
 }
 
-/* ====================  top-banner   ======================*/
+.nav-links ul li:last-child:hover {
+  background-color: lightcoral;
+}
+
+/* Hamburger Menu */
+.hamburger {
+  display: none;
+  font-size: 28px;
+  cursor: pointer;
+  color: #333;
+  z-index: 1001;
+}
+
+.hamburger .fa-bars,
+.hamburger .fa-times {
+  transition: opacity 0.3s ease-in-out;
+}
+
+.hamburger .fa-times {
+  display: none;
+}
+
+.hamburger.active .fa-bars {
+  display: none;
+}
+
+.hamburger.active .fa-times {
+  display: inline-block;
+}
+
+.nav-links {
+  transition: transform 0.3s ease-in-out;
+}
+
+.nav-links.active {
+  display: flex;
+}
+
+/* Top Banner */
 .top-banner {
   width: 100%;
   text-align: center;
-  padding: 5%;
-  /* background-color: rgba(250, 235, 215, 0.548); */
+  padding: 5% 3%;
   place-content: center;
   border: none;
 }
@@ -104,16 +144,17 @@ header .logo img {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 20px;
-  font-size: 35px;
+  gap: 15px;
+  font-size: clamp(20px, 5vw, 30px);
   background-color: #ffffff;
-  padding: 0px 90px;
-  min-height: 120px;
+  padding: 10px 5%;
+  min-height: 80px;
   border-radius: 10px;
+  flex-wrap: wrap;
 }
 
 .heading .bolt-icon {
-  padding: 14px 18px;
+  padding: 10px 14px;
   border-radius: 5px;
   background-color: rgb(250, 239, 218);
 }
@@ -123,7 +164,7 @@ header .logo img {
 }
 
 .heading .bolt-icon i {
-  font-size: 40px;
+  font-size: clamp(24px, 6vw, 36px);
 }
 
 .heading h1 span {
@@ -131,26 +172,29 @@ header .logo img {
 }
 
 .sub-heading {
-  margin-top: 20px;
+  margin-top: 15px;
 }
 
 .sub-heading h2 {
-  word-spacing: 3px;
+  word-spacing: 2px;
   font-weight: 400;
-  margin-left: 90px;
+  margin: 0 3%;
+  font-size: clamp(16px, 4vw, 20px);
 }
 
 .buttons {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
 .buttons button {
-  padding: 22px 50px;
-  margin: 40px;
-  border-radius: 10px;
-  font-size: 20px;
+  padding: 15px 30px;
+  margin: 20px 10px;
+  border-radius: 8px;
+  font-size: clamp(14px, 3.5vw, 18px);
   font-weight: 600;
   border: none;
   cursor: pointer;
@@ -160,193 +204,184 @@ header .logo img {
 .buttons button:first-child {
   background-color: orange;
   color: #fff;
+}
 
-  &:hover {
-    background-color: rgb(248, 183, 62)
-  }
+.buttons button:first-child:hover {
+  background-color: rgb(248, 183, 62);
 }
 
 .buttons button:last-child {
   background-color: #fff;
+}
 
-  &:hover {
-    background-color: #e6e5e5;
-  }
+.buttons button:last-child:hover {
+  background-color: #e6e5e5;
 }
 
 .bottom-banner-card {
   border-radius: 10px;
   background-color: #fff;
   width: 100%;
-  height: 300px;
+  min-height: 100px;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 10px;
 }
 
 .bottom-banner-card img {
-  width: 170px;
-  min-height: 140px;
+  width: clamp(80px, 15vw, 120px);
+  min-height: 60px;
 }
 
 hr {
   height: 50%;
   color: #ddd;
   border-radius: 10px;
-  width: 3px;
+  width: 2px;
   border: none;
   background-color: #ddd;
 }
 
-
-/* ============   second-banner   ================== */
-
-
-
-
+/* Second Banner */
 .second-banner video {
   width: 100%;
+  max-height: 500px;
   border-radius: 10px;
-
+  object-fit: cover;
 }
 
-/* =============== section tag common css =============*/
-
+/* Section Common */
 section {
-  padding: 5%;
+  padding: 5% 3%;
   border-top: 1px solid #ccc;
 }
 
 section h1 {
-  font-size: 45px;
+  font-size: clamp(26px, 5vw, 40px);
   color: rgb(68, 68, 68);
 }
 
 .benefit-title h1 span {
   color: orangered;
-  font-size: 50px;
+  font-size: clamp(30px, 5vw, 45px);
 }
 
 section p {
-  margin-top: 15px;
-  font-size: 25px;
-  letter-spacing: 1px;
-  word-spacing: 2px;
+  margin-top: 10px;
+  font-size: clamp(16px, 3.5vw, 22px);
+  letter-spacing: 0.5px;
+  word-spacing: 1px;
   font-family: sans-serif;
 }
 
 section p i {
   color: orange;
   border-bottom: 2px solid;
-  padding-bottom: 5px;
+  padding-bottom: 4px;
 }
 
-
-
-/* =============  benefit-section ============== */
-
+/* Benefit Section */
 .benefit-cards-container {
   display: grid;
-  /* Changed from flex to block */
-  padding: 20px;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  padding: 15px;
   justify-items: center;
-  gap: 30px;
-  margin-top: 40px;
+  gap: 20px;
+  margin-top: 30px;
 }
 
 .benefit-card {
-  flex: 1 1 300px;
-  /* Flex properties can be removed since display is block */
   background-color: #ffffff;
-  padding: 20px;
+  padding: 15px;
   border-radius: 10px;
-  height: 300px;
+  min-height: 250px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  margin-bottom: 20px;
+  margin-bottom: 15px;
+  width: 100%;
 }
 
 .benefit-card h1 {
   text-align: right;
-  font-size: 55px;
-  margin-bottom: 10px;
+  font-size: clamp(30px, 6vw, 50px);
+  margin-bottom: 8px;
 }
 
 .benefit-card h2 {
-  font-size: 25px;
+  font-size: clamp(18px, 4vw, 22px);
   color: #2c2b2b;
 }
 
 .benefit-card strong {
   color: #504242;
   display: block;
-  padding: 5px 10px;
-  margin: 15px 0px;
-  font-size: 18px;
+  padding: 5px 8px;
+  margin: 10px 0;
+  font-size: clamp(14px, 3vw, 16px);
 }
 
 .benefit-card p {
   text-align: justify;
-  max-width: 90%;
+  max-width: 95%;
   color: rgb(146, 88, 16);
-  letter-spacing: 1px;
-  font-size: 17px;
-  line-height: 1.5rem;
-  margin-top: 30px;
+  letter-spacing: 0.5px;
+  font-size: clamp(13px, 3vw, 15px);
+  line-height: 1.4rem;
+  margin-top: 20px;
 }
 
-/* ========= testimonials-section  =========== */
-
+/* Testimonials Section */
 .testimonials-title p {
-  margin-top: 10px;
-  font-size: 23px;
-  letter-spacing: 1px;
+  margin-top: 8px;
+  font-size: clamp(16px, 3.5vw, 20px);
+  letter-spacing: 0.5px;
   word-spacing: 1px;
   font-family: sans-serif;
 }
 
 .testimonials-title p i {
-  font-size: 20px;
+  font-size: clamp(14px, 3vw, 18px);
   color: orange;
   border-bottom: 2px solid;
-  padding-bottom: 5px;
+  padding-bottom: 4px;
 }
-
 
 .testimonials-cards-section {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  margin-top: 40px;
-  padding: 20px;
-  gap: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  margin-top: 30px;
+  padding: 15px;
+  gap: 20px;
 }
 
 .testimonial-card {
   border-radius: 10px;
   transition: 0.3s ease-in-out;
+}
 
-  &:hover {
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    transform: scale(1.04);
-  }
+.testimonial-card:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  transform: scale(1.04);
 }
 
 .testimonial-card .top {
   background-color: #fff;
-  font-size: 22px;
+  font-size: clamp(16px, 3.5vw, 20px);
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
-  padding: 50px 30px;
+  padding: 30px 20px;
   border-bottom: 1px solid #cccccc;
 }
 
 .testimonial-card .top p {
-  font-size: 18px;
+  font-size: clamp(14px, 3vw, 16px);
 }
 
 .testimonial-card .bottom {
   display: flex;
-  padding: 30px;
+  padding: 20px;
   align-items: center;
   justify-content: space-between;
   border-bottom-left-radius: 10px;
@@ -356,85 +391,82 @@ section p i {
 
 .bottom h3 {
   color: rgb(48, 61, 2);
-  font-size: 25px;
+  font-size: clamp(16px, 3.5vw, 22px);
 }
 
 .bottom button {
-  font-size: 18px;
-  padding: 15px;
+  font-size: clamp(14px, 3vw, 16px);
+  padding: 10px;
   border: none;
   background-color: #fff;
-  border-radius: 10px;
+  border-radius: 8px;
   font-weight: 900;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   transition: 0.3s ease-in-out;
-
-  &:hover {
-    background-color: #3b4705;
-    color: #fff;
-    cursor: pointer;
-  }
 }
 
+.bottom button:hover {
+  background-color: #3b4705;
+  color: #fff;
+  cursor: pointer;
+}
 
-
-/* =============  pricing-section ============= */
-
+/* Pricing Section */
 .pricing-section .prcing-cards {
-  width: 98%;
-  margin: auto;
+  width: 100%;
+  margin: 30px auto 0;
   background-color: #fff;
-  margin-top: 70px;
   border-radius: 10px;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  padding: 50px 40px;
-  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  padding: 30px 20px;
+  gap: 15px;
 }
 
 .price-card {
   background-color: #c7c7c71c;
-  border-radius: 15px;
-  padding: 50px 20px;
+  border-radius: 12px;
+  padding: 30px 15px;
 }
 
 .price-card h3 {
   text-align: center;
   border: 1px solid rgba(255, 183, 49, 0.384);
   background-color: rgba(253, 220, 158, 0.219);
-  padding: 20px 0px;
+  padding: 15px 0;
   border-radius: 5px;
-  font-size: 30px;
+  font-size: clamp(20px, 4vw, 26px);
   color: #2c2b2b;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 
 .price-card h1 {
-  font-size: 60px;
+  font-size: clamp(30px, 6vw, 50px);
   text-align: center;
   color: #3b4705;
 }
 
 .price-card h1 span {
-  font-size: 25px;
+  font-size: clamp(16px, 3.5vw, 22px);
   color: #504242;
   font-weight: 600;
 }
 
 .price-card .price-details {
-  margin-top: 50px;
+  margin-top: 30px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   border: 1px solid rgba(99, 99, 99, 0.2);
   border-bottom: none;
   background-color: #fff;
-  padding: 30px 16%;
+  padding: 20px 5%;
 }
 
 .price-card .price-details p {
   text-align: center;
-  margin: 20px 0px;
+  margin: 15px 0;
   font-weight: 500;
+  font-size: clamp(14px, 3vw, 16px);
 }
 
 .price-details ul {
@@ -442,27 +474,27 @@ section p i {
 }
 
 .price-details li {
-  font-size: 18px;
-  margin: 20px 0px;
-  padding: 20px;
+  font-size: clamp(13px, 3vw, 15px);
+  margin: 15px 0;
+  padding: 15px;
   border: 1px solid rgba(173, 169, 163, 0.281);
 }
 
 .price-details li span {
-  padding: 8px;
+  padding: 6px;
   place-content: center;
-  margin-right: 10px;
+  margin-right: 8px;
 }
 
 .price-details li i {
-  font-size: 20px;
+  font-size: clamp(14px, 3vw, 18px);
   color: orangered;
   font-weight: 900;
 }
 
 .get-start-container {
   background-color: orange;
-  min-height: 80px;
+  min-height: 60px;
   place-content: center;
   text-align: center;
   border-bottom-left-radius: 10px;
@@ -473,32 +505,32 @@ section p i {
 
 .get-start-container a {
   text-decoration: none;
-  font-size: 25px;
+  font-size: clamp(16px, 3.5vw, 22px);
   font-weight: 400;
   color: #fff;
 }
 
-
-/* ===================  asked-question-section ================= */
-
+/* Asked Question Section */
 .asked-question-section {
   display: flex;
-
-}
-
-.asked-question-section div {
-  background-color: #fff;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
 .asked-question-section .left {
-  width: 40%;
-  padding: 70px;
+  width: 100%;
+  max-width: 40%;
+  padding: 40px;
+}
+
+.asked-question-section .left h1 {
+  font-size: clamp(24px, 5vw, 40px);
 }
 
 .left p {
-  font-size: 20px;
-  line-height: 26px;
-  margin-top: 40px;
+  font-size: clamp(14px, 3vw, 18px);
+  line-height: 1.5rem;
+  margin-top: 30px;
   color: rgb(47, 59, 26);
   font-weight: 300;
 }
@@ -509,41 +541,43 @@ section p i {
 }
 
 .left button {
-  width: 50%;
-  margin-top: 120px;
-  padding: 30px;
+  width: 60%;
+  max-width: 200px;
+  margin-top: 60px;
+  padding: 20px;
   border: 1px solid #cccccc44;
   border-radius: 5px;
-  border-top-right-radius: 40px;
-  border-bottom-left-radius: 40px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
   background-color: #f1f0f0;
-  font-size: 20px;
+  font-size: clamp(14px, 3vw, 18px);
   transition: 0.3s ease-in-out;
+}
 
-  &:hover {
-    background-color: #cccccc6e;
-    cursor: pointer;
-  }
+.left button:hover {
+  background-color: #cccccc6e;
+  cursor: pointer;
 }
 
 .asked-question-section .right {
-  width: 60%;
-  padding: 40px;
+  width: 100%;
+  max-width: 60%;
+  padding: 30px;
 }
 
 .question-card {
   border: 1px solid #9292924b;
-  margin: 20px 0px;
-  padding: 20px;
-  border-radius: 20px;
+  margin: 15px 0;
+  padding: 15px;
+  border-radius: 15px;
 }
 
 .faq-question {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 20px 0px;
-  font-size: 20px;
+  margin: 15px 0;
+  font-size: clamp(14px, 3vw, 18px);
 }
 
 .faq-question button {
@@ -552,88 +586,86 @@ section p i {
   align-items: center;
   justify-content: center;
   background-color: rgba(255, 166, 0, 0.589);
-  font-size: 20px;
-  padding: 12px 17px;
+  font-size: clamp(14px, 3vw, 16px);
+  padding: 10px 15px;
   cursor: pointer;
-  border-radius: 10px;
+  border-radius: 8px;
   transition: 0.2s ease-in-out;
+}
 
-  &:hover {
-    background-color: rgba(255, 166, 0, 0.952);
-
-  }
+.faq-question button:hover {
+  background-color: rgba(255, 166, 0, 0.952);
 }
 
 .asked-question-section .right h3 {
-  max-width: 85%;
+  max-width: 90%;
   text-align: center;
+  font-size: clamp(16px, 3.5vw, 20px);
 }
 
 .asked-question-section .right h3::before {
   content: ">>  ";
   color: red;
   border-bottom: 1px solid olive;
-  margin-right: 10px;
+  margin-right: 8px;
 }
 
 .asked-question-section .right p {
-  font-size: 18px;
-  max-width: 80%;
+  font-size: clamp(13px, 3vw, 16px);
+  max-width: 85%;
   border-left: 3px solid #ccc;
   text-align: justify;
-  padding-left: 45px;
+  padding-left: 30px;
 }
 
 .asked-question-section .faq-answer {
-  margin-top: 30px;
-  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-bottom: 15px;
 }
 
 .hidden {
   display: none;
 }
 
-/* ================ footer ==================== */
-
+/* Footer */
 footer {
   width: 100%;
   background-color: #fff;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
-  padding: 40px 70px;
+  padding: 30px 5%;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
 footer .left {
-  width: 25%;
-  padding: 20px;
-}
-
-footer .left .bottom-logo {
-  text-align: center;
+  width: 100%;
+  max-width: 25%;
+  padding: 15px;
 }
 
 footer .left .bottom-logo img {
-  height: 80px;
+  height: clamp(60px, 15vw, 80px);
 }
 
 footer .left ul li {
-  margin: 30px 0px;
-  font-size: 20px;
+  margin: 20px 0;
+  font-size: clamp(14px, 3vw, 18px);
   list-style: none;
   display: flex;
   align-items: center;
   color: olive;
   cursor: pointer;
+}
 
-  &:hover {
-    color: orange;
-  }
+footer .left ul li:hover {
+  color: orange;
 }
 
 footer .left ul li i {
-  margin-right: 10px;
-  font-size: 20px;
+  margin-right: 8px;
+  font-size: clamp(14px, 3vw, 18px);
   color: #2c2b2b;
   cursor: default;
 }
@@ -641,50 +673,186 @@ footer .left ul li i {
 footer .left ul li a {
   color: olive;
   text-decoration: none;
-
-  &:hover {
-    color: orange;
-  }
 }
 
+footer .left ul li a:hover {
+  color: orange;
+}
 
 footer .right {
-  height: 200px;
-  width: 50%;
+  height: auto;
+  width: 100%;
+  max-width: 50%;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
 footer .right h3 {
   text-align: center;
-  font-size: 23px;
-  padding: 5px 10px;
+  font-size: clamp(16px, 3.5vw, 20px);
+  padding: 5px 8px;
   border-bottom: 1px solid #5b6e07af;
-
 }
 
 footer .right a {
   text-decoration: none;
-
 }
 
 footer .right a p,
 .right .social-profile-section a i {
-  padding: 0px 10px;
+  padding: 0 8px;
   text-transform: capitalize;
-  font-size: 18px;
-  margin: 20px 0px;
+  font-size: clamp(14px, 3vw, 16px);
+  margin: 15px 0;
   color: #3b4705;
   transition: 0.1s ease-in;
+}
 
-  &:hover {
-    color: olive;
-  }
-
+footer .right a p:hover,
+.right .social-profile-section a i:hover {
+  color: olive;
 }
 
 .right .social-profile-section a i {
-  font-size: 40px;
+  font-size: clamp(24px, 6vw, 32px);
   color: black;
+}
 
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+
+  .nav-links {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #e0e0e0;
+    padding: 80px 20px 20px;
+    transform: translateX(100%);
+    z-index: 1000;
+    overflow-y: auto;
+  }
+
+  .nav-links.active {
+    display: block;
+    transform: translateX(0);
+  }
+
+  .nav-links ul {
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+
+  .nav-links ul li {
+    padding: 15px 30px;
+    font-size: clamp(18px, 5vw, 22px);
+    width: 80%;
+    max-width: 300px;
+    border-radius: 8px;
+    transition: 0.3s ease-in-out;
+  }
+
+  .nav-links ul li:hover {
+    background-color: #f3f3f3;
+    transform: scale(1.05);
+  }
+
+  .nav-links ul li:last-child {
+    background-color: orangered;
+    color: white;
+  }
+
+  .nav-links ul li:last-child:hover {
+    background-color: lightcoral;
+  }
+
+  .alert-bar {
+    margin: 15px 3%;
+    height: 40px;
+  }
+
+  .heading {
+    flex-direction: column;
+    padding: 15px;
+    text-align: center;
+  }
+
+  .sub-heading h2 {
+    margin: 0 3%;
+  }
+
+  .bottom-banner-card {
+    justify-content: center;
+  }
+
+  .bottom-banner-card img {
+    width: clamp(60px, 12vw, 100px);
+  }
+
+  .second-banner video {
+    max-height: 300px;
+  }
+
+  .asked-question-section .left,
+  .asked-question-section .right {
+    max-width: 100%;
+    padding: 20px;
+  }
+
+  .left button {
+    width: 80%;
+    max-width: none;
+  }
+
+  footer .left,
+  footer .right {
+    max-width: 100%;
+  }
+
+  footer .right {
+    justify-content: space-around;
+  }
+}
+
+@media (max-width: 480px) {
+  section {
+    padding: 5% 3%;
+  }
+
+  .benefit-card,
+  .testimonial-card,
+  .price-card {
+    min-height: auto;
+  }
+
+  .benefit-cards-container,
+  .testimonials-cards-section,
+  .prcing-cards {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+  .price-card .price-details {
+    padding: 20px 3%;
+  }
+
+  .asked-question-section .right p {
+    max-width: 100%;
+    padding-left: 20px;
+  }
+
+  footer {
+    padding: 20px 3%;
+  }
 }

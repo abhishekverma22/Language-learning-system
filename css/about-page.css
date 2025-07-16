@@ -241,76 +241,27 @@ section {
 
 
 /* ================ login-form- section */
-.login-form-section {
+.about-section{
   width: 40%;
   background-color: #fff;
   border-radius: 20px;
 }
 
-.login-form-section h1 {
+.about-section h1 {
   text-align: center;
-  font-size: 60px;
+  font-size: 40px;
+  color: #2c2b2b;
   font-family: monospace;
 }
 
-.login-form-section p {
-  text-align: center;
+.about-section p {
+  line-height: 1.5rem;
   font-size: 18px;
   margin: 40px 0px;
 }
-
-
-.login-form-section label {
-  font-size: 25px;
-  margin: 10px 0px;
-}
-
-
-.login-form-section input {
-  padding: 20px 30px;
-  border-radius: 10px;
-  border: 1px solid #ccc;
-  font-size: 18px;
-  margin-bottom: 20px;
-  margin-top: 10px;
-  width: 100%;
-  outline-color: orange;
-}
-
-.login-form-section button {
-  width: 100%;
-  font-size: 20px;
-  padding: 20px 0px;
-  border: none;
-  cursor: pointer;
-  border-radius: 5px;
-  background-color: orange;
-  font-weight: 600;
-  color: #fff;
-  transition: 0.3s ease-in-out;
-
-  &:hover {
-    background-color: rgb(252, 182, 52);
-  }
-}
-
-.login-form-section p {
-  margin-top: 50px;
-  font-size: 20px;
-}
-
-.login-form-section p a {
-  color: blue;
-  text-decoration: none;
-  border-bottom: 1px solid;
-  padding-bottom: 2px;
-}
-
-.login-form-section p i {
-  transform: rotate(320deg);
-  font-size: 20px;
-  margin-left: 10px;
-
+.about-section p span{
+  font-weight: 800;
+  color:  rgb(139, 139, 3);
 }
 
 /* ================ footer ==================== */

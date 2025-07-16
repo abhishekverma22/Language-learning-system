@@ -141,177 +141,74 @@ header .logo img {
 /* ============== main-section ==================*/
 
 main {
-  display: flex;
   padding: 10px 8% 8% 8%;
   margin-top: 60px;
 }
 
-/*  ================== testimonials-section===============  */
+/*  ================== course-section===============  */
 
-section {
-  padding: 40px;
 
-}
-
-.testimonials-section {
-  width: 60%;
-  padding-top: 100px;
-  padding-right: 10%;
-}
-
-.testimonials-section h1 {
-  font-size: 50px;
-  text-align: center;
-  font-weight: 400;
-  margin: 50px 0px;
-}
-
-.testimonials-section .testimonial-card {
+.courses-content {
+  flex: 1;
   background-color: #fff;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-}
-
-
-.testimonial-card p {
-  padding: 10%;
-  text-align: justify;
-  line-height: 1.6rem;
-  word-spacing: 2px;
-}
-
-.testimonial-card .student-details {
-  border-top: 1px solid #ccc;
-  background-color: #ececec;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 30px 10px;
-}
-
-.student-details .image-name {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  width: 50%;
-}
-
-.student-details .image-name img {
-  width: 150px;
-  height: 150px;
-  object-fit: cover;
-  border-radius: 50%;
-}
-
-.student-details button {
-  width: 30%;
-  font-size: 20px;
-  padding: 15px 0px;
-  border: none;
-  background-color: #ddd;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: 0.3s ease-in-out;
-
-  &:hover {
-    background-color: #ccc;
-  }
-}
-
-
-.last-buttons {
-  margin-top: 20px;
-  padding: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: end;
-  gap: 30px;
-}
-
-.last-buttons button {
-  width: 120px;
-  border: none;
-  background-color: #3b4705;
-  color: white;
-  border-radius: 5px;
-  font-size: larger;
-  padding: 10px;
-}
-
-
-/* ================ login-form- section */
-.login-form-section {
-  width: 40%;
-  background-color: #fff;
-  border-radius: 20px;
-}
-
-.login-form-section h1 {
-  text-align: center;
-  font-size: 60px;
-  font-family: monospace;
-}
-
-.login-form-section p {
-  text-align: center;
-  font-size: 18px;
-  margin: 40px 0px;
-}
-
-
-.login-form-section label {
-  font-size: 25px;
-  margin: 10px 0px;
-}
-
-
-.login-form-section input {
-  padding: 20px 30px;
+  padding: 30px;
   border-radius: 10px;
+  overflow-y: auto;
+
+}
+
+.courses-content h1 {
+margin-bottom: 50px;
+  font-size: 45px;
+  color: rgb(68, 68, 68);
+}
+
+.courses-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+}
+
+.course-card {
+  background-color: #dddddd71;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.course-card img {
+  margin: 10px 0;
+  border-radius: 8px;
+  object-fit: contain;
   border: 1px solid #ccc;
-  font-size: 18px;
+  background-color: #fff;
+  height: 150px;
+  width: 100%;
+}
+
+.course-card:hover {
+  transform: translateY(-5px);
+}
+
+.course-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: rgb(51, 51, 3);
+}
+
+.course-card p {
+  font-size: 1rem;
+  color: #444;
+  margin-top: 20px;
   margin-bottom: 20px;
-  margin-top: 10px;
-  width: 100%;
-  outline-color: orange;
 }
 
-.login-form-section button {
-  width: 100%;
-  font-size: 20px;
-  padding: 20px 0px;
-  border: none;
-  cursor: pointer;
-  border-radius: 5px;
-  background-color: orange;
-  font-weight: 600;
-  color: #fff;
-  transition: 0.3s ease-in-out;
 
-  &:hover {
-    background-color: rgb(252, 182, 52);
-  }
-}
 
-.login-form-section p {
-  margin-top: 50px;
-  font-size: 20px;
-}
 
-.login-form-section p a {
-  color: blue;
-  text-decoration: none;
-  border-bottom: 1px solid;
-  padding-bottom: 2px;
-}
 
-.login-form-section p i {
-  transform: rotate(320deg);
-  font-size: 20px;
-  margin-left: 10px;
-
-}
 
 /* ================ footer ==================== */
 

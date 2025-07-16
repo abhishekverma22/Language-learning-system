@@ -1,0 +1,138 @@
+/* ========== Global Reset ========== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #f3f3f3;
+  font-family: monospace;
+}
+
+/* ========== Header Layout ========== */
+header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 10px 8%;
+  background-color: white;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+}
+
+/* Left Section: Logo + Nav */
+.left-section {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.logo img {
+  width: 160px;
+}
+
+.nav-links ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  font-size: 18px;
+}
+
+.nav-links ul li {
+  padding: 6px 14px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  position: relative;
+}
+
+.nav-links ul li:hover {
+  background-color: #ddd;
+}
+
+.nav-links ul a {
+  text-decoration: none;
+  color: black;
+  display: block;
+}
+
+/* Dropdown Menu */
+.nav-links ul li.dropdown .dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  min-width: 160px;
+  background-color: white;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  z-index: 999;
+}
+
+.nav-links ul li.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu li {
+  padding: 10px 15px;
+  white-space: nowrap;
+}
+
+.dropdown-menu li:hover {
+  background-color: #f2f2f2;
+}
+
+/* ========== Right Section: Search + Icons ========== */
+.right-section {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.search-bar {
+  padding: 10px 12px;
+  width: 250px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline-color: rgba(255, 166, 0, 0.432);
+}
+
+.fa-bell {
+  font-size: 20px;
+  color: #333;
+  cursor: pointer;
+}
+
+.profile-img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.right-section button {
+  padding: 5px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 6px;
+  background-color: orangered;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.right-section button:hover {
+  background-color: lightcoral;
+}
+
+/* ========== Main Section Placeholder ========== */
+/* Add styles for main content here if needed */

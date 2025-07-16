@@ -4,9 +4,10 @@
   box-sizing: border-box;
 }
 
-html{
+html {
   scroll-behavior: smooth;
 }
+
 body {
   background-color: #f3f3f3;
 }
@@ -31,11 +32,12 @@ body {
   letter-spacing: 1px;
   color: white;
 }
-.alert-bar a{
+
+.alert-bar a {
   text-decoration: none;
   color: white;
 
-  &:hover{
+  &:hover {
     color: olivedrab;
   }
 }
@@ -68,11 +70,13 @@ header .logo img {
   border-radius: 5px;
   cursor: pointer;
   transition: 0.3s ease-in-out;
+
   &:hover {
     background-color: #ddd;
   }
 }
-.nav-links ul a{
+
+.nav-links ul a {
   color: black;
   text-decoration: none;
 }
@@ -336,6 +340,10 @@ section p i {
   border-bottom: 1px solid #cccccc;
 }
 
+.testimonial-card .top p {
+  font-size: 18px;
+}
+
 .testimonial-card .bottom {
   display: flex;
   padding: 30px;
@@ -352,7 +360,7 @@ section p i {
 }
 
 .bottom button {
-  font-size: 20px;
+  font-size: 18px;
   padding: 15px;
   border: none;
   background-color: #fff;
@@ -576,14 +584,15 @@ section p i {
   padding-left: 45px;
 }
 
-.asked-question-section .faq-answer{
+.asked-question-section .faq-answer {
   margin-top: 30px;
   margin-bottom: 20px;
 }
 
-.hidden{
+.hidden {
   display: none;
 }
+
 /* ================ footer ==================== */
 
 footer {
@@ -601,7 +610,7 @@ footer .left {
 }
 
 footer .left .bottom-logo {
-  text-align: center;  
+  text-align: center;
 }
 
 footer .left .bottom-logo img {
@@ -666,13 +675,15 @@ footer .right a p,
   font-size: 18px;
   margin: 20px 0px;
   color: #3b4705;
-transition: 0.1s ease-in;
+  transition: 0.1s ease-in;
+
   &:hover {
     color: olive;
   }
 
 }
-.right .social-profile-section a i{
+
+.right .social-profile-section a i {
   font-size: 40px;
   color: black;
 

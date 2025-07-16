@@ -5,13 +5,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>FluencyMate - Language Learning Platform</title>
-  <link rel="stylesheet" href="/css/login-page.css">
+  <link rel="stylesheet" href="/css/about-page.css">
   <link rel="shortcut icon" href="../images/fevicons (2).png" type="image/x-icon">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
     integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-    <script type="module" src="../js/login.js"></script>
 </head>
 
 <body>
@@ -19,6 +17,8 @@
     <p> 🌟 Free Courses – Sale Ends Soon, <a href="#">Get It Now</a></p>
   </div>
   <div class="container">
+
+    <!-- ===================Header nav bar===================== -->
     <header>
       <div class="logo">
         <img src="../images/logo.png" alt="logo image">
@@ -26,14 +26,16 @@
       <nav class="nav-links">
         <ul>
           <li><a href="../index.html">Home</a></li>
-          <li><a href="../html/courses.html">Courses</a></li>
-          <li><a href="../html/about-page.html">About</a></li>
+          <li><a href="./courses.html">Courses</a></li>
+          <li><a href="./about-page.html">About</a></li>
           <li><a href="./signup-page.html">Register</a></li>
         </ul>
       </nav>
     </header>
-    <main>
 
+
+    <!--==================== main-section============================ -->
+    <main>
       <section class="testimonials-section">
         <h1>Students Testimonials</h1>
         <div class="testimonial-card">
@@ -57,21 +59,41 @@
           <button><i class="fa-solid fa-arrow-right"></i></button>
         </div>
       </section>
-      <section class="login-form-section">
-        <h1>Login</h1>
-        <p>Welcome Back! Please log in to access your account.</p>
-        <label>Email</label>
-        <input type="email" placeholder="Enter your Email" id="login-email">
+      <section class="about-section">
+        <!-- <div class="about-section"> -->
+        <div class="about-content">
+          <h1>About Our FluencyMate</h1>
+          <p>
+            <span>Welcome to LinguaLearn – your personalized language learning companion.</span>
+            Our app is designed to help you master new languages with interactive lessons, quizzes, audio practice, and
+            real-time feedback. Whether you're starting from scratch or brushing up your skills, LinguaLearn adapts to
+            your pace and style.
+          </p>
+          <p>
+            <span>Learn English, Spanish, French, and many more languages </span> from anywhere, anytime.
+            Join thousands of learners and start speaking confidently today!
+          </p>
+          <p>Our platform blends modern teaching techniques with AI-driven personalization to offer a fun, efficient,
+            and effective learning experience. With bite-sized daily lessons and gamified challenges, you stay motivated
+            and make consistent progress.</p>
+          <p> <span>Practice real-world conversations</span> using speech recognition, engage with native phrases and
+            grammar, and
+            track your fluency with in-app analytics.</p>
+          <p>LinguaLearn is ideal for students, travelers, job seekers, or anyone looking to explore global cultures
+            through language.</p>
+          <p>With <span>offline support</span>, personalized reminders, and daily goal tracking, staying consistent has
+            never been
+            easier.</p>
+          <p><span>Start your journey today. Learn at your pace. Speak with confidence.</span></p>
+        </div>
+        <!-- </div> -->
 
-        <label>Password</label>
-        <input type="password" placeholder="Enter your Password" id="login-password">
-        <p id="error-message"></p>
-        <button id="login-btn">Login</button>
-        <p>Don't have an account? <a href="./signup-page.html">Sign Up</a><i class="fa-solid fa-arrow-right"></i> </p>
       </section>
 
-
     </main>
+
+
+
 
 
   </div>

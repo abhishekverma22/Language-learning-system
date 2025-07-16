@@ -17,11 +17,14 @@
     <p> 🌟 Free Courses – Sale Ends Soon, <a href="#">Get It Now</a></p>
   </div>
   <div class="container">
-
     <!-- ===================Header nav bar===================== -->
     <header>
       <div class="logo">
         <img src="../images/logo.png" alt="logo image">
+      </div>
+      <div class="hamburger">
+        <i class="fa-solid fa-bars"></i>
+        <i class="fa-solid fa-times"></i>
       </div>
       <nav class="nav-links">
         <ul>
@@ -32,8 +35,6 @@
         </ul>
       </nav>
     </header>
-
-
     <!--==================== main-section============================ -->
     <main>
       <section class="testimonials-section">
@@ -45,7 +46,6 @@
             I never felt lost, even when the topics became challenging.
             The feedback from mentors was valuable and encouraging.
             I feel prepared to apply for jobs with the confidence I've gained.</p>
-
           <div class="student-details">
             <div class="image-name">
               <img src="../images/student.jpg" alt="Student image">
@@ -60,7 +60,6 @@
         </div>
       </section>
       <section class="about-section">
-        <!-- <div class="about-section"> -->
         <div class="about-content">
           <h1>About Our FluencyMate</h1>
           <p>
@@ -77,25 +76,15 @@
             and effective learning experience. With bite-sized daily lessons and gamified challenges, you stay motivated
             and make consistent progress.</p>
           <p> <span>Practice real-world conversations</span> using speech recognition, engage with native phrases and
-            grammar, and
-            track your fluency with in-app analytics.</p>
+            grammar, and track your fluency with in-app analytics.</p>
           <p>LinguaLearn is ideal for students, travelers, job seekers, or anyone looking to explore global cultures
             through language.</p>
           <p>With <span>offline support</span>, personalized reminders, and daily goal tracking, staying consistent has
-            never been
-            easier.</p>
+            never been easier.</p>
           <p><span>Start your journey today. Learn at your pace. Speak with confidence.</span></p>
         </div>
-        <!-- </div> -->
-
       </section>
-
     </main>
-
-
-
-
-
   </div>
   <!-- ================= footer ================ -->
   <footer>
@@ -121,7 +110,7 @@
       <div class="home-section">
         <h3>Home</h3>
         <a href="#benefits">
-          <p>benefits</p>
+          <p>Benefits</p>
         </a>
         <a href="#testimonials">
           <p>Testimonials</p>
@@ -132,8 +121,6 @@
         <a href="#questions">
           <p>Questions</p>
         </a>
-
-
       </div>
       <div class="about-us-section">
         <h3>Quick Links</h3>
@@ -143,28 +130,40 @@
         <a href="#">
           <p>Courses</p>
         </a>
-
       </div>
       <div class="social-profile-section">
         <h3>Social Profiles</h3>
         <a href="https://github.com/abhishekverma22" target="_blank">
           <i class="fa-brands fa-square-github"></i>
         </a>
-
         <a href="https://www.linkedin.com/in/abhishek-verma-mern/" target="_blank">
           <i class="fa-brands fa-linkedin"></i>
         </a>
-
         <a href="https://www.instagram.com/pratham_verma_02?igsh=MXFkeml6azh6cmkwcg%3D%3D&utm_source=qr "
           target="_blank">
           <i class="fa-brands fa-square-instagram"></i>
         </a>
-
-
       </div>
     </div>
   </footer>
-
 </body>
 
 </html>
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const hamburger = document.querySelector('.hamburger');
+    const navLinks = document.querySelector('.nav-links');
+
+    hamburger.addEventListener('click', () => {
+      hamburger.classList.toggle('active');
+      navLinks.classList.toggle('active');
+    });
+
+    navLinks.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        hamburger.classList.remove('active');
+        navLinks.classList.remove('active');
+      });
+    });
+  });
+</script>

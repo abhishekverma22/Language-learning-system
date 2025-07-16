@@ -135,9 +135,11 @@ header .logo img {
 .top-banner {
   width: 100%;
   text-align: center;
-  padding: 5% 3%;
+  padding: 10% 3%;
   place-content: center;
   border: none;
+  margin: 20px 0px;
+
 }
 
 .heading {
@@ -148,7 +150,7 @@ header .logo img {
   font-size: clamp(20px, 5vw, 30px);
   background-color: #ffffff;
   padding: 10px 5%;
-  min-height: 80px;
+  min-height: 120px;
   border-radius: 10px;
   flex-wrap: wrap;
 }
@@ -172,7 +174,7 @@ header .logo img {
 }
 
 .sub-heading {
-  margin-top: 15px;
+  margin: 40px 0px;
 }
 
 .sub-heading h2 {
@@ -196,6 +198,7 @@ header .logo img {
   border-radius: 8px;
   font-size: clamp(14px, 3.5vw, 18px);
   font-weight: 600;
+  min-width: 200px;
   border: none;
   cursor: pointer;
   transition: 0.3s ease-in-out;
@@ -229,6 +232,7 @@ header .logo img {
   flex-wrap: wrap;
   gap: 10px;
   padding: 10px;
+  margin-top: 50px;
 }
 
 .bottom-banner-card img {
@@ -287,7 +291,7 @@ section p i {
 /* Benefit Section */
 .benefit-cards-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
   padding: 15px;
   justify-items: center;
   gap: 20px;
@@ -351,7 +355,7 @@ section p i {
 
 .testimonials-cards-section {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(550px, 1fr));
   margin-top: 30px;
   padding: 15px;
   gap: 20px;
@@ -514,14 +518,17 @@ section p i {
 /* Asked Question Section */
 .asked-question-section {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   gap: 20px;
+  align-items: flex-start;
+  justify-content: space-between;
 }
 
 .asked-question-section .left {
   width: 100%;
   max-width: 40%;
   padding: 40px;
+  flex: 0 0 40%;
 }
 
 .asked-question-section .left h1 {
@@ -564,6 +571,7 @@ section p i {
   width: 100%;
   max-width: 60%;
   padding: 30px;
+  flex: 0 0 60%;
 }
 
 .question-card {
@@ -755,6 +763,7 @@ footer .right a p:hover,
     height: 100%;
   }
 
+
   .nav-links ul li {
     padding: 15px 30px;
     font-size: clamp(18px, 5vw, 22px);
@@ -802,19 +811,25 @@ footer .right a p:hover,
     border-radius: 50%;
   }
 
+
   .second-banner video {
     max-height: 300px;
+  }
+
+  .asked-question-section {
+    flex-wrap: wrap;
   }
 
   .asked-question-section .left,
   .asked-question-section .right {
     max-width: 100%;
+    flex: 0 0 100%;
     padding: 20px;
   }
 
   .left button {
     width: 80%;
-    max-width: none;
+     max-width: none;
   }
 
   footer .left,

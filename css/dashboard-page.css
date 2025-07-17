@@ -9,6 +9,7 @@
 
 html {
     scroll-behavior: smooth;
+    scrollbar-width: none;
 }
 
 body {
@@ -416,6 +417,7 @@ h3 {
         padding: 20px 20px 40px 20px;
         color: white;
         overflow-y: auto;
+        scrollbar-width: none;
         /* 👈 In case hamburger menu needs scrolling */
     }
 

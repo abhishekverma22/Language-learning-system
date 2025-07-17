@@ -368,6 +368,11 @@ h3 {
 
 
 
+.no-scroll {
+    overflow: hidden;
+    height: 100vh;
+    /* freeze height to prevent scroll */
+}
 
 /* ========== Responsive CSS ========== */
 
@@ -401,16 +406,17 @@ h3 {
         top: 58px;
         right: 0;
         width: 70%;
-        min-height: calc(100vh - 58px);
+        height: calc(100vh - 58px);
+        /* 👈 This ensures it covers below header */
         z-index: 1000;
         backdrop-filter: blur(20px);
         -webkit-backdrop-filter: blur(10px);
-        /* for Safari */
         background: rgba(204, 204, 204, 0.63);
-        /* translucent background */
         border-radius: 10px;
         padding: 20px;
         color: white;
+        overflow-y: auto;
+        /* 👈 In case hamburger menu needs scrolling */
     }
 
     #hamburger {

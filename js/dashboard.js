@@ -28,29 +28,28 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   // 🍔 Hamburger menu toggle
-  const body = document.body;
-  const hamburger = document.getElementById("hamburger");
-  const aside = document.querySelector("aside");
+ const dashboardContainer = document.getElementById("dashboard-container");
+const hamburger = document.getElementById("hamburger");
+const aside = document.querySelector("aside");
 
-  let isMenuOpen = false;
+let isMenuOpen = false;
 
-  if (hamburger && aside) {
-    hamburger.addEventListener("click", () => {
-      if (!isMenuOpen) {
-        aside.style.display = "block";
-        body.style.overflow = "hidden";
-        // 🔁 Change icon to close
-        hamburger.innerHTML = '<span class="material-symbols-outlined">close</span > ';
-        isMenuOpen = true;
-      } else {
-        aside.style.display = "none";
-        body.style.overflow = "auto";
-        // 🔁 Change icon back to menu
-        hamburger.innerHTML = '<span class="material-symbols-outlined">sort</span>';
-        isMenuOpen = false;
-      }
-    });
-  }
+if (hamburger && aside) {
+  hamburger.addEventListener("click", () => {
+    if (!isMenuOpen) {
+      aside.style.display = "block";
+      document.body.classList.add("no-scroll");  // 👈 prevent scroll
+      hamburger.innerHTML = '<span class="material-symbols-outlined">close</span>';
+      isMenuOpen = true;
+    } else {
+      aside.style.display = "none";
+      document.body.classList.remove("no-scroll");  // 👈 allow scroll again
+      hamburger.innerHTML = '<span class="material-symbols-outlined">sort</span>';
+      isMenuOpen = false;
+    }
+  });
+}
+
 
 
 

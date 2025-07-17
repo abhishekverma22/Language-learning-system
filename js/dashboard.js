@@ -27,8 +27,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
       //  language change hole dashboard
 
-      const language = document.documentElement.getAttribute('lan');
-    
 
 
     } else {
@@ -128,3 +126,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 });
+
+
+
+
+

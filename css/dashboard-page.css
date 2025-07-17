@@ -45,27 +45,6 @@ header {
 }
 
 /*   language drop down*/
-select {
-    font-size: 18px;
-    padding: 5px 10px;
-    border: none;
-    outline-color: #ccc;
-    border-radius: 10px;
-    appearance: none;
-    /* Remove default arrow (Chrome/Safari) */
-    -webkit-appearance: none;
-    /* Remove default arrow (Safari) */
-    -moz-appearance: none;
-    /* Remove default arrow (Firefox) */
-    outline: none;
-    cursor: pointer;
-    width: 100%;
-
-}
-
-select::-webkit-scrollbar {
-    display: none;
-}
 
 
 
@@ -76,6 +55,9 @@ select::-webkit-scrollbar {
     display: flex;
     align-items: center;
     gap: 20px;
+    width: 500px;
+    justify-content: space-between;
+    /* background-color: #009688; */
 }
 
 .search-bar {
@@ -83,15 +65,10 @@ select::-webkit-scrollbar {
     border: 1px solid #ccc;
     border-radius: 5px;
     outline-color: rgba(255, 166, 0, 0.432);
-    width: 250px;
+    width: 600px;
     max-width: 100%;
 }
 
-.fa-bell {
-    font-size: 20px;
-    color: #333;
-    cursor: pointer;
-}
 
 .profile-img {
     width: 35px;
@@ -418,23 +395,21 @@ h3 {
         /* 👈 In case hamburger menu needs scrolling */
     }
 
+    .right-section {
+
+        gap: 10px;
+    }
+
     #hamburger {
         display: block;
         color: black;
     }
 
-    select {
-        font-size: 12px;
-        margin-right: 10px;
-    }
-
-
-    .nav-links {
-        display: none;
-    }
 
     .search-bar {
-        display: none;
+        width: 150px;
+        font-size: 12px;
+        padding: 5px;
     }
 
     .task-cards-grid {

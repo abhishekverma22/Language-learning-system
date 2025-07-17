@@ -2,56 +2,176 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>FluencyMate - Language Learning Platform</title>
-  <link rel="stylesheet" href="/css/dashboard-page.css">
-  <link rel="shortcut icon" href="../images/fevicons (2).png" type="image/x-icon">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FluencyMate - Language Learning Platform</title>
+    <link rel="stylesheet" href="/css/dashboard-page.css">
+    <link rel="shortcut icon" href="../images/fevicons (2).png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+
+    <!--  google fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+
 
     <script type="module" src="../js/dashboard.js"></script>
 </head>
 
 <body>
-  <div class="container">
-    <header>
-      <header>
-        <div class="left-section">
-          <div class="logo">
-            <img src="../images/logo.png" alt="logo image">
-          </div>
-          <nav class="nav-links">
-            <ul>
-              <li><a href="./dashboard-page.html">Dashboard</a></li>
-              <li><a href="#">Learning with AI</a></li>
-              <li><a href="./communit-page.html">Community</a></li>
-              <li class="dropdown">
-                <a href="#">Much More <i class="fa fa-caret-down"></i></a>
-                <ul class="dropdown-menu">
-                  <li><a href="#">Comprehensive Lesson</a></li>
-                  <li><a href="#">Quizzes and Exercises</a></li>
-                  <li><a href="#">Speaking Practice with Pronunciation Feedback</a></li>
-                  <li><a href="#">Real-World Conversational Scenarios:</a></li>
-                  <li><a href="#">Peer Interaction and Language Exchange</a></li>
-                </ul>
-              </li>
-            </ul>
-          </nav>
-        </div>
+    <div class="container">
+        <header>
+            <div class="left-section">
+                <div class="logo">
+                    <img src="../images/logo.png" alt="logo image">
+                </div>
+            </div>
+            <!-- ===========right section============= -->
+            <div class="right-section">
+                <input type="text" class="search-bar" placeholder="Search..." />
+                <i class="fa-solid fa-bell"></i>
+                <img src="../images/student.jpg" alt="Profile" class="profile-img" />
+                <button id="hamburger"><span class="material-symbols-outlined">sort</span></button>
+            </div>
+        </header>
 
 
+        <!-- ========== main sectoin ========== -->
+        <main>
+            <!-- ====== side bar ============== -->
+            <aside>
+                <div class="nav-lists">
+                    <a class="sidebar-link active" href="#"><span
+                            class="material-icons">dashboard</span><span>Dashboard</span></a>
+                    <a class="sidebar-link" href="#"><span class="material-icons">library_books</span><span>Lesson
+                            Library</span></a>
+                    <a class="sidebar-link" href="#"><span class="material-icons">quiz</span><span>Interactive
+                            Quizzes</span></a>
+                    <a class="sidebar-link" href="#"><span
+                            class="material-icons">style</span><span>Flashcards</span></a>
+                    <a class="sidebar-link" href="#"><span class="material-icons">mic</span><span>Speaking
+                            Practice</span></a>
+                    <a class="sidebar-link" href="#"><span class="material-icons">trending_up</span><span>Progress
+                            Tracker</span></a>
+                    <a class="sidebar-link" href="#"><span class="material-icons">group</span><span>Peer
+                            Interaction</span></a>
+                    <a class="sidebar-link" href="#"><span
+                            class="material-icons">emoji_events</span><span>Challenges</span></a>
+                    <a class="sidebar-link" href="#"><span class="material-icons">travel_explore</span><span>Cultural
+                            Insights</span></a>
+                    <a class="sidebar-link" href="#"><span class="material-icons">smart_toy</span><span>AI-Powered
+                            Path</span></a>
+                </div>
 
-        <div class="right-section">
-          <input type="text" class="search-bar" placeholder="Search..." />
-          <i class="fa-solid fa-bell"></i>
-          <img src="../images/student.jpg" alt="Profile" class="profile-img" />
-          <button id="logout-btn">Logout</button>
-        </div>
-      </header>
+                <div class="bottom-controls">
+                    <a class="sidebar-link" href="#"><span
+                            class="material-icons">settings</span><span>Settings</span></a>
+                    <a class="sidebar-link logout" href="#" id="logout-btn"><span
+                            class="material-icons">logout</span><span>Logout</span></a>
+                </div>
 
-      <main></main>
+            </aside>
+
+            <!-- ============ section  ================-->
+
+            <section class="dashboard-container">
+
+                <!-- ==========Welcome Section ============== -->
+                <div class="welcome-section">
+                    <h1>Welcome back, Pratham!</h1>
+                    <p>Ready to continue your language journey? Your path to fluency starts now—let's dive in!</p>
+                </div>
+                <div id="progress-bar">
+                    <div class="progress-container">
+                        <div class="zigzag-bar" id="zigzagBar"></div>
+                    </div>
+
+                    <div class="progress-text" id="progressText">Progress: 2%</div>
+
+                </div>
+
+                <!-- ========== task cards ========== -->
+                <div class="task-cards-grid">
+
+                    <!-- Daily Practice Goals -->
+                    <div class="card">
+                        <span class="material-icons card-icon" style="color: #4caf50;">task_alt</span>
+                        <h3>Daily Practice Goals</h3>
+
+                        <div class="check-group">
+                            <span class="material-icons" style="color: #4caf50;">check_circle</span>
+                            <span>Complete 1 lesson</span>
+                        </div>
+                        <div class="check-group">
+                            <span class="material-icons" style="color: #ccc;">radio_button_unchecked</span>
+                            <span>Learn 10 new words</span>
+                        </div>
+                        <div class="check-group">
+                            <span class="material-icons" style="color: #ccc;">radio_button_unchecked</span>
+                            <span>5 min speaking practice</span>
+                        </div>
+
+                        <button class="btn green">Start Practice</button>
+                    </div>
+
+                    <!-- Spaced Repetition -->
+                    <div class="card">
+                        <span class="material-icons card-icon" style="color: #2196f3;">style</span>
+                        <h3>Spaced Repetition</h3>
+                        <p class="text-sm">Review 25 words due today to move them to long-term memory.</p>
+                        <button class="btn blue">Review Flashcards</button>
+                    </div>
+
+                    <!-- Speaking Practice -->
+                    <div class="card">
+                        <span class="material-icons card-icon" style="color: #9c27b0;">mic</span>
+                        <h3>Speaking Practice</h3>
+                        <p class="text-sm">Practice your pronunciation and get instant feedback from our AI.</p>
+                        <button class="btn purple">Start Speaking</button>
+                    </div>
+
+                    <!-- Gamified Learning -->
+                    <div class="card">
+                        <span class="material-icons card-icon" style="color: #f44336;">local_fire_department</span>
+                        <h3>Gamified Learning</h3>
+                        <div class="streak-xp">
+                            <div>
+                                <p style="color: #f44336; font-weight: bold; font-size: 18px;">7</p>
+                                <p class="text-sm">Day Streak</p>
+                            </div>
+                            <div>
+                                <p style="color: #333; font-weight: bold; font-size: 18px;">1250</p>
+                                <p class="text-sm">XP Today</p>
+                            </div>
+                        </div>
+                        <button class="btn red">View Achievements</button>
+                    </div>
+
+                    <!-- Real-world Scenarios -->
+                    <div class="card">
+                        <span class="material-icons card-icon" style="color: #009688;">map</span>
+                        <h3>Real-world Scenarios</h3>
+                        <p class="text-sm">Practice ordering coffee in a virtual café in Madrid.</p>
+                        <button class="btn teal">Enter Scenario</button>
+                    </div>
+
+                    <!-- Offline Mode -->
+                    <div class="card">
+                        <span class="material-icons card-icon" style="color: #757575;">signal_cellular_off</span>
+                        <h3>Offline Mode</h3>
+                        <p class="text-sm">Download lessons to learn anytime, anywhere without internet.</p>
+                        <button class="btn gray">Manage Downloads</button>
+                    </div>
+                </div>
+
+            </section>
+
+        </main>
+
+    </div>
+
+
 
 </body>
 

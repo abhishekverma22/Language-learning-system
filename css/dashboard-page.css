@@ -413,7 +413,7 @@ h3 {
         backdrop-filter: blur(20px);
         -webkit-backdrop-filter: blur(10px);
         background: rgba(204, 204, 204, 0.63);
-        padding: 20px;
+        padding: 20px 20px 40px 20px;
         color: white;
         overflow-y: auto;
         /* 👈 In case hamburger menu needs scrolling */

@@ -1,16 +1,69 @@
-import { auth } from '../firebase-config.js';
+import { auth, db } from '../firebase-config.js';
+import { doc, getDoc } from "https://www.gstatic.com/firebasejs/11.10.0/firebase-firestore.js";
 import { signOut, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/11.10.0/firebase-auth.js";
 
 document.addEventListener("DOMContentLoaded", () => {
 
   // 🔒 Auth state check
-  onAuthStateChanged(auth, (user) => {
-    if (!user) {
-      window.location.replace('../html/login-page.html');
+  onAuthStateChanged(auth, async (user) => {
+
+    //  check user is present or not 
+    if (user) {
+
+      const uid = user.uid;
+
+      // Reference  to firestore user document.
+
+      const userDocRef = doc(db, "users", uid);
+      const userSnapShort = await getDoc(userDocRef);
+
+      if (userSnapShort.exists()) {
+        const userData = userSnapShort.data();
+        const userNameInUI = document.getElementById("user-name");
+        userNameInUI.innerText = `${userData.firstName}`;
+
+      }
+
+
+      //  language change hole dashboard
+
+      const language = document.documentElement.getAttribute('lan');
+    
+
+
     } else {
-      console.log("Logged in as: ---> ", user.email);
+      window.location.replace('../html/login-page.html');
+
+
+
     }
   });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   // 🔓 Logout button
   const logoutBtn = document.getElementById("logout-btn");
@@ -27,30 +80,39 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
+
+
+
+
+
+
+
+
+
+
+
   // 🍔 Hamburger menu toggle
- const dashboardContainer = document.getElementById("dashboard-container");
-const hamburger = document.getElementById("hamburger");
-const aside = document.querySelector("aside");
+  const dashboardContainer = document.getElementById("dashboard-container");
+  const hamburger = document.getElementById("hamburger");
+  const aside = document.querySelector("aside");
 
-let isMenuOpen = false;
+  let isMenuOpen = false;
 
-if (hamburger && aside) {
-  hamburger.addEventListener("click", () => {
-    if (!isMenuOpen) {
-      aside.style.display = "block";
-      document.body.classList.add("no-scroll");  // 👈 prevent scroll
-      hamburger.innerHTML = '<span class="material-symbols-outlined">close</span>';
-      isMenuOpen = true;
-    } else {
-      aside.style.display = "none";
-      document.body.classList.remove("no-scroll");  // 👈 allow scroll again
-      hamburger.innerHTML = '<span class="material-symbols-outlined">sort</span>';
-      isMenuOpen = false;
-    }
-  });
-}
-
-
+  if (hamburger && aside) {
+    hamburger.addEventListener("click", () => {
+      if (!isMenuOpen) {
+        aside.style.display = "block";
+        document.body.classList.add("no-scroll");  // 👈 prevent scroll
+        hamburger.innerHTML = '<span class="material-symbols-outlined">close</span>';
+        isMenuOpen = true;
+      } else {
+        aside.style.display = "none";
+        document.body.classList.remove("no-scroll");  // 👈 allow scroll again
+        hamburger.innerHTML = '<span class="material-symbols-outlined">sort</span>';
+        isMenuOpen = false;
+      }
+    });
+  }
 
 
 
@@ -60,7 +122,8 @@ if (hamburger && aside) {
 
 
 
-  // progress bar
+
+
 
 
 

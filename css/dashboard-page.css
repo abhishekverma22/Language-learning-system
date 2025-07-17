@@ -44,41 +44,34 @@ header {
     width: 140px;
 }
 
-.nav-links ul {
-    display: flex;
-    list-style: none;
-    gap: 30px;
+/*   language drop down*/
+select {
     font-size: 18px;
+    padding: 5px 10px;
+    border: none;
+    outline-color: #ccc;
+    border-radius: 10px;
+    appearance: none;
+    /* Remove default arrow (Chrome/Safari) */
+    -webkit-appearance: none;
+    /* Remove default arrow (Safari) */
+    -moz-appearance: none;
+    /* Remove default arrow (Firefox) */
+    outline: none;
+    cursor: pointer;
+    width: 100%;
+    max-width: 250px;
+
+
 }
 
-.nav-links ul li {
-    padding: 6px 14px;
-    border-radius: 8px;
-    transition: background-color 0.3s ease;
-    position: relative;
-}
-
-.nav-links ul li:hover {
-    background-color: #ebebeb;
-}
-
-.nav-links ul a {
-    text-decoration: none;
-    color: black;
-    display: block;
-}
-
-.nav-links ul li.dropdown .dropdown-menu {
+select::-webkit-scrollbar {
     display: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    min-width: 160px;
-    background-color: white;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-    z-index: 999;
 }
+
+
+
+
 
 /* Right Section */
 .right-section {
@@ -213,6 +206,12 @@ section {
     margin-bottom: 10px;
     font-family: 'Roboto', sans-serif;
     color: #333;
+}
+
+#user-name {
+    text-transform: capitalize;
+    color: orange;
+    font-size: 28px;
 }
 
 .welcome-section p {
@@ -426,6 +425,12 @@ h3 {
         color: black;
     }
 
+    select {
+        font-size: 12px;
+        margin-right: 10px;
+    }
+
+
     .nav-links {
         display: none;
     }
@@ -466,6 +471,8 @@ h3 {
         width: 30px;
         height: 30px;
     }
+
+
 
     .btn {
         padding: 8px;

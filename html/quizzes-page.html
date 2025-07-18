@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FluencyMate - Language Learning Platform</title>
+
+  <link rel="stylesheet" href="/css/quizzes-practice.css">
+
+
+  <link rel="shortcut icon" href="../images/fevicons (2).png" type="image/x-icon">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+
+  <!--  google fonts -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+
+
+  <script type="module" src="../js/quizzes-practice.js" defer></script>
+  <script type="module" src="../js/logout-hamburger.js" defer></script>
+
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <div class="left-section">
+        <div class="logo">
+          <img src="../images/logo.png" alt="logo image">
+        </div>
+
+      </div>
+      <!-- ===========right section============= -->
+      <div class="right-section">
+        <input type="text" class="search-bar" placeholder="Search..." />
+        <img src="../images/student.jpg" alt="Profile" class="profile-img" />
+        <button id="hamburger"><span class="material-symbols-outlined">sort</span></button>
+      </div>
+    </header>
+
+
+    <!-- ========== main sectoin ========== -->
+    <main>
+      <!-- ====== side bar ============== -->
+      <aside>
+        <div class="nav-lists">
+          <a class="sidebar-link " href="./dashboard-page.html"><span
+              class="material-icons">dashboard</span><span>Dashboard</span></a>
+          <a class="sidebar-link" href="#"><span class="material-icons">library_books</span><span>Lesson
+              Library</span></a>
+          <a class="sidebar-link active" href="quizzes-page.html"><span
+              class="material-icons">quiz</span><span>Interactive
+              Quizzes</span></a>
+          <a class="sidebar-link" href="#"><span class="material-icons">style</span><span>Flashcards</span></a>
+          <a class="sidebar-link" href="speaking-practice.html"><span class="material-icons">mic</span><span>Speaking
+              Practice</span></a>
+          <a class="sidebar-link" href="#"><span class="material-icons">group</span><span>Peer
+              Interaction</span></a>
+          <a class="sidebar-link" href="#"><span class="material-icons">emoji_events</span><span>Challenges</span></a>
+          <a class="sidebar-link" href="#"><span class="material-icons">travel_explore</span><span>Cultural
+              Insights</span></a>
+          <a class="sidebar-link" href="#"><span class="material-icons">smart_toy</span><span>AI-Powered
+              Path</span></a>
+          <a class="sidebar-link" href="./feedback.html"><span class="material-symbols-outlined">feedback</span><span>Feedback
+            </span></a>
+        </div>
+
+        <div class="bottom-controls">
+          <a class="sidebar-link" href="#"><span class="material-icons">settings</span><span>Settings</span></a>
+          <a class="sidebar-link logout" href="#" id="logout-btn"><span
+              class="material-icons">logout</span><span>Logout</span></a>
+        </div>
+
+      </aside>
+
+      <!-- ============ section  ================-->
+
+      <section class="dashboard-container">
+        <!-- ========== Quizzes section ========== -->
+        <div class="courses-content">
+          <h1>Select Language</h1>
+          <div class="courses-grid">
+
+
+            <div class="course-card" data-language="English">
+              <h3>English</h3>
+              <img src="https://flagcdn.com/w320/gb.png" alt="English" width="60" height="40">
+              <p>Build your foundation in English with grammar, vocabulary, and speaking practice.</p>
+            </div>
+
+            <div class="course-card" data-language="Spanish">
+              <h3>Spanish</h3>
+              <img src="https://flagcdn.com/w320/es.png" alt="Spanish" width="60" height="40">
+              <p>Learn everyday Spanish phrases, verbs, and pronunciation in an immersive way.</p>
+            </div>
+
+            <div class="course-card" data-language="French">
+              <h3>French</h3>
+              <img src="https://flagcdn.com/w320/fr.png" alt="French" width="60" height="40">
+              <p>Explore French basics including greetings tenses and sentence structure.</p>
+            </div>
+
+            <div class="course-card" data-language="German">
+              <h3>German</h3>
+              <img src="https://flagcdn.com/w320/de.png" alt="German" width="60" height="40">
+              <p>Understand German grammar, numbers, and conversational expressions.</p>
+            </div>
+
+            <div class="course-card" data-language="Japanese">
+              <h3>Japanese</h3>
+              <img src="https://flagcdn.com/w320/jp.png" alt="Japanese" width="60" height="40">
+              <p>Master key Japanese phrases, kanji basics, and polite speech forms.</p>
+            </div>
+
+            <div class="course-card" data-language="Hindi">
+              <h3>Hindi</h3>
+              <img src="https://flagcdn.com/w320/in.png" alt="Hindi" width="60" height="40">
+              <p>Speak and write in Hindi with everyday vocabulary and grammar rules.</p>
+            </div>
+
+            <div class="course-card" data-language="Italian">
+              <h3>Italian</h3>
+              <img src="https://flagcdn.com/w320/it.png" alt="Italian" width="60" height="40">
+              <p>Gain confidence in Italian communication with verbs, greetings, and dialogues.</p>
+            </div>
+
+            <div class="course-card" data-language="Russian">
+              <h3>Russian</h3>
+              <img src="https://flagcdn.com/w320/ru.png" alt="Russian" width="60" height="40">
+              <p>Understand Cyrillic script and practice Russian sentence construction.</p>
+            </div>
+
+            <div class="course-card" data-language="Portuguese">
+              <h3>Portuguese</h3>
+              <img src="https://flagcdn.com/w320/pt.png" alt="Portuguese" width="60" height="40">
+              <p>Learn Brazilian Portuguese basics with sounds, structure, and vocabulary.</p>
+            </div>
+
+            <div class="course-card" data-language="Turkish">
+              <h3>Turkish</h3>
+              <img src="https://flagcdn.com/w320/tr.png" alt="Turkish" width="60" height="40">
+              <p>Understand Turkish grammar structure and start using key phrases quickly.</p>
+            </div>
+
+            <div class="course-card" data-language="Greek">
+              <h3>Greek</h3>
+              <img src="https://flagcdn.com/w320/gr.png" alt="Greek" width="60" height="40">
+              <p>Explore the Greek alphabet, everyday phrases, and simple sentence building.</p>
+            </div>
+
+            <div class="course-card" data-language="Dutch">
+              <h3>Dutch</h3>
+              <img src="https://flagcdn.com/w320/nl.png" alt="Dutch" width="60" height="40">
+              <p>Learn Dutch pronunciation, question patterns, and verbs for daily use.</p>
+            </div>
+
+            <div class="course-card" data-language="Norwegian">
+              <h3>Norwegian</h3>
+              <img src="https://flagcdn.com/w320/no.png" alt="Norwegian Flag" width="60" height="40">
+              <p>Learn the basics of Norwegian grammar, pronunciation, and daily-use vocabulary.</p>
+            </div>
+
+
+            <div class="course-card" data-language="Persian">
+              <h3>Persian</h3>
+              <img src="https://flagcdn.com/w320/ir.png" alt="Persian" width="60" height="40">
+              <p>Understand Persian script, grammar, and useful cultural expressions.</p>
+            </div>
+
+          </div>
+        </div>
+
+
+    </main>
+
+  </div>
+
+
+
+</body>
+
+</html>

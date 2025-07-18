@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Iceberg&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+
 * {
   margin: 0;
   padding: 0;
@@ -18,9 +19,9 @@ body {
   /* Base font size for scalability */
 }
 
+/* Container */
 .container {
-  padding: 0 3%;
-  max-width: 1400px;
+  max-width: 1800px;
   margin: 0 auto;
 }
 
@@ -470,13 +471,15 @@ footer .right a p:hover,
   .login-form-section {
     width: 100%;
     padding: 20px;
-    order: 1; /* Ensure form appears first */
+    order: 1;
+    /* Ensure form appears first */
   }
 
   .testimonials-section {
     width: 100%;
     padding: 20px 3%;
-    order: 2; /* Ensure testimonials appear second */
+    order: 2;
+    /* Ensure testimonials appear second */
   }
 
   .testimonials-section h1 {

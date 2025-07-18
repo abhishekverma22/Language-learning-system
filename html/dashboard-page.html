@@ -7,16 +7,18 @@
     <title>FluencyMate - Language Learning Platform</title>
     <link rel="stylesheet" href="/css/dashboard-page.css">
     <link rel="shortcut icon" href="../images/fevicons (2).png" type="image/x-icon">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
 
     <!--  google fonts -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
 
-
     <script type="module" src="../js/dashboard.js" defer></script>
+    <script type="module" src="../js/logout-hamburger.js" defer></script>
 </head>
 
 <body>
@@ -42,18 +44,18 @@
             <!-- ====== side bar ============== -->
             <aside>
                 <div class="nav-lists">
-                    <a class="sidebar-link active" href="#"><span
+                    <a class="sidebar-link active" href="./dashboard-page.html"><span
                             class="material-icons">dashboard</span><span>Dashboard</span></a>
                     <a class="sidebar-link" href="#"><span class="material-icons">library_books</span><span>Lesson
                             Library</span></a>
-                    <a class="sidebar-link" href="#"><span class="material-icons">quiz</span><span>Interactive
+                    <a class="sidebar-link" href="./quizzes-page.html"><span
+                            class="material-icons">quiz</span><span>Interactive
                             Quizzes</span></a>
                     <a class="sidebar-link" href="#"><span
                             class="material-icons">style</span><span>Flashcards</span></a>
-                    <a class="sidebar-link" href="#"><span class="material-icons">mic</span><span>Speaking
+                    <a class="sidebar-link" href="./speaking-practice.html"><span
+                            class="material-icons">mic</span><span>Speaking
                             Practice</span></a>
-                    <a class="sidebar-link" href="#"><span class="material-icons">trending_up</span><span>Progress
-                            Tracker</span></a>
                     <a class="sidebar-link" href="#"><span class="material-icons">group</span><span>Peer
                             Interaction</span></a>
                     <a class="sidebar-link" href="#"><span
@@ -62,6 +64,9 @@
                             Insights</span></a>
                     <a class="sidebar-link" href="#"><span class="material-icons">smart_toy</span><span>AI-Powered
                             Path</span></a>
+                    <a class="sidebar-link" href="./feedback.html"><span
+                            class="material-symbols-outlined">feedback</span><span>Feedback
+                        </span></a>
                 </div>
 
                 <div class="bottom-controls">
@@ -112,7 +117,7 @@
                             <span>5 min speaking practice</span>
                         </div>
 
-                        <button class="btn green">Start Practice</button>
+                        <a class="btn green" href="#">Start Practice</a>
                     </div>
 
                     <!-- Spaced Repetition -->
@@ -120,7 +125,7 @@
                         <span class="material-icons card-icon" style="color: #2196f3;">style</span>
                         <h3>Spaced Repetition</h3>
                         <p class="text-sm">Review 25 words due today to move them to long-term memory.</p>
-                        <button class="btn blue">Review Flashcards</button>
+                        <a class="btn blue" href="">Review Flashcards</a>
                     </div>
 
                     <!-- Speaking Practice -->
@@ -128,7 +133,7 @@
                         <span class="material-icons card-icon" style="color: #9c27b0;">mic</span>
                         <h3>Speaking Practice</h3>
                         <p class="text-sm">Practice your pronunciation and get instant feedback from our AI.</p>
-                        <button class="btn purple">Start Speaking</button>
+                        <a class="btn purple" href="./speaking-practice.html">Start Speaking</a>
                     </div>
 
                     <!-- Gamified Learning -->
@@ -142,10 +147,10 @@
                             </div>
                             <div>
                                 <p style="color: #333; font-weight: bold; font-size: 18px;">1250</p>
-                                <p class="text-sm">XP Today</p>
+                                <p class="text-sm" href="">XP Today</p>
                             </div>
                         </div>
-                        <button class="btn red">View Achievements</button>
+                        <a class="btn red">View Achievements</a>
                     </div>
 
                     <!-- Real-world Scenarios -->
@@ -153,7 +158,7 @@
                         <span class="material-icons card-icon" style="color: #009688;">map</span>
                         <h3>Real-world Scenarios</h3>
                         <p class="text-sm">Practice ordering coffee in a virtual café in Madrid.</p>
-                        <button class="btn teal">Enter Scenario</button>
+                        <a class="btn teal" href="">Enter Scenario</a>
                     </div>
 
                     <!-- Offline Mode -->
@@ -161,7 +166,7 @@
                         <span class="material-icons card-icon" style="color: #757575;">signal_cellular_off</span>
                         <h3>Offline Mode</h3>
                         <p class="text-sm">Download lessons to learn anytime, anywhere without internet.</p>
-                        <button class="btn gray">Manage Downloads</button>
+                        <a class="btn gray" href="">Manage Downloads</a>
                     </div>
                 </div>
 

@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>FluencyMate - Language Learning Platform</title>
 
-  <link rel="stylesheet" href="/css/practice.css">
+  <link rel="stylesheet" href="/css/feedback-form.css">
 
 
   <link rel="shortcut icon" href="../images/fevicons (2).png" type="image/x-icon">
@@ -21,7 +21,7 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
 
 
-  <script type="module" src="../js/practice.js" defer></script>
+  <script type="module" src="../js/feedback.js" defer></script>
   <script type="module" src="../js/logout-hamburger.js" defer></script>
 
 </head>
@@ -43,18 +43,17 @@
       </div>
     </header>
 
+
     <!-- ========== main sectoin ========== -->
     <main>
-
       <!-- ====== side bar ============== -->
-
       <aside>
         <div class="nav-lists">
           <a class="sidebar-link " href="./dashboard-page.html"><span
               class="material-icons">dashboard</span><span>Dashboard</span></a>
           <a class="sidebar-link" href="#"><span class="material-icons">library_books</span><span>Lesson
               Library</span></a>
-          <a class="sidebar-link active" href="quizzes-page.html"><span class="material-icons">quiz</span><span>Interactive
+          <a class="sidebar-link " href="quizzes-page.html"><span class="material-icons">quiz</span><span>Interactive
               Quizzes</span></a>
           <a class="sidebar-link" href="#"><span class="material-icons">style</span><span>Flashcards</span></a>
           <a class="sidebar-link" href="speaking-practice.html"><span class="material-icons">mic</span><span>Speaking
@@ -66,7 +65,7 @@
               Insights</span></a>
           <a class="sidebar-link" href="#"><span class="material-icons">smart_toy</span><span>AI-Powered
               Path</span></a>
-          <a class="sidebar-link" href="./feedback.html"><span class="material-symbols-outlined">feedback</span><span>Feedback
+          <a class="sidebar-link active" href="#"><span class="material-symbols-outlined">feedback</span><span>Feedback
             </span></a>
         </div>
 
@@ -79,16 +78,62 @@
       </aside>
 
       <!-- ============ section  ================-->
+
       <section class="dashboard-container">
-        <div class="welcome-section">
-          <h2>Hey <span id="user-name"></span>, it's quiz time! 🎉</h2>
-          <p>Sharpen your mind, choose the correct answers, and climb the leaderboard!</p>
-        </div>
         <!-- ========== Quizzes section ========== -->
-        <div class="quiz-section">
+        <div class="feedback-content">
+          <h1>We Value Your Feedback</h1>
+          <p>Your thoughts help us improve and serve you better. Please take a moment to share your experience.</p>
+        </div>
 
+        <div class="feedback-form">
+          <div class="feedback-form-contain">
+            <div class="inputs-filed">
+              <label>Name</label>
+              <input type="text" placeholder="Enter your name" id="feedback-name">
+            </div>
+
+            <div class="inputs-filed">
+              <label>Email</label>
+              <input type="email" placeholder="Enter your email" id="feedback-email">
+            </div>
+
+            <div class="inputs-filed">
+              <label>Feedback Type / category</label>
+              <select id="feedback-category">
+                <option value="" disabled selected>Select</option>
+                <option value="suggestion">Suggestion</option>
+                <option value="bug">Bug Report</option>
+                <option value="compliment">Compliment</option>
+                <option value="question">Question</option>
+                <option value="general">General Feedback</option>
+              </select>
+            </div>
+
+            <div class="inputs-filed">
+              <label>Rating</label>
+              <div id="star-rating">
+                <button class="star-btn" value="1">1</button>
+                <button class="star-btn" value="2">2</button>
+                <button class="star-btn" value="3">3</button>
+                <button class="star-btn" value="4">4</button>
+                <button class="star-btn" value="5">5</button>
+              </div>
+            </div>
+
+            <div class="inputs-filed">
+              <label>Comments or Suggestion</label>
+              <textarea id="feedbac-comments" placeholder="Please provide your feedback here"></textarea>
+            </div>
+
+            <div class="inputs-filed">
+              <button id="submit-feedback">Submit Feedback</button>
+            </div>
+          </div>
 
         </div>
+
+
 
     </main>
 

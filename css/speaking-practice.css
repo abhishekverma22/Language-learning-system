@@ -1,0 +1,461 @@
+/* Global Reset and Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Iceberg&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+}
+
+body {
+  background-color: #f3f3f3;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Header */
+header {
+  width: 100%;
+  max-height: 70px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 10px 8%;
+  background-color: white;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+}
+
+.left-section {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.logo img {
+  width: 140px;
+}
+
+/*   language drop down*/
+
+
+
+
+
+/* Right Section */
+.right-section {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: 500px;
+  justify-content: space-between;
+  /* background-color: #009688; */
+}
+
+.search-bar {
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline-color: rgba(255, 166, 0, 0.432);
+  width: 600px;
+  max-width: 100%;
+}
+
+
+.profile-img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+#hamburger {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 3px;
+  display: none;
+}
+
+
+/* Layout Structure */
+main {
+  display: flex;
+  width: 100%;
+  margin-top: 70px;
+  min-height: calc(100vh - 70px);
+}
+
+aside {
+  width: 300px;
+  background-color: white;
+  box-shadow: 2px 0 4px -2px rgba(0, 0, 0, 0.3);
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: calc(100vh - 70px);
+}
+
+.nav-lists {
+  display: flex;
+  flex-direction: column;
+}
+
+aside a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  margin: 5px 0;
+  padding: 13px 10px;
+  border-radius: 8px;
+  color: #333;
+  font-size: 15px;
+}
+
+aside a:hover {
+  background-color: #ebebeb;
+}
+
+a .material-icons {
+  font-size: 18px;
+}
+
+.active {
+  color: #fff;
+  background-color: #F59E0B;
+}
+
+.active:hover {
+  background-color: #F59E0B;
+}
+
+.bottom-controls {
+  border-top: 1px solid #cacaca;
+}
+
+.logout {
+  margin-top: 20px;
+  padding: 5px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 6px;
+  background-color: orangered;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.logout:hover {
+  background-color: lightcoral;
+}
+
+aside a span {
+  margin: 0 5px;
+}
+
+section {
+  padding: 10px 30px;
+  width: 100%;
+  /* height: calc(100vh - 70px); */
+}
+
+.welcome-section {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.welcome-section h1 {
+  margin-bottom: 10px;
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+}
+
+#user-name {
+  text-transform: capitalize;
+  color: orange;
+  font-size: 40px;
+  font-weight: 400;
+
+}
+
+.welcome-section p {
+  color: #5f6572;
+}
+
+
+
+
+
+
+
+/* ============ progress bar ============= */
+
+#progress-bar {
+  margin-top: 40px;
+  text-align: center;
+
+}
+
+#progress-bar h3 {
+  font-size: 16px;
+  font-weight: 700;
+  color: olive;
+}
+
+.progress-container {
+  margin: auto;
+  width: 30%;
+  height: 10px;
+  background: #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+}
+
+
+.zigzag-bar {
+  height: 100%;
+  width: 20%;
+  background: repeating-linear-gradient(-45deg,
+      #4caf50,
+      #4caf50 10px,
+      #3e8e41 10px,
+      #3e8e41 20px);
+  transition: width 0.5s ease-in-out;
+}
+
+.progress-text p {
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 1rem;
+}
+
+.progress-text p span {
+  color: red;
+  letter-spacing: 3px;
+}
+
+
+/* ============  practice section============ */
+
+
+
+.speaking-practice {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 520px;
+  background-color: #ffe2e2;
+  border-radius: 10px;
+  margin-top: 40px;
+}
+
+.mic-icon {
+  margin-top: 40px;
+}
+
+#show-feedback{
+  margin-bottom: 30px;
+}
+
+.feedback-area {
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 900px;
+}
+
+.chat-bubble {
+  max-width: 70%;
+  padding: 10px 15px;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 15px;
+  word-wrap: break-word;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+  margin: 10px 0;
+}
+
+/* Received (left aligned) */
+.chat-bubble.received {
+  align-self: flex-start;
+  background-color: #ffd0d0;
+  color: rebeccapurple;
+  text-align: left;
+  border-bottom-left-radius: 0;
+}
+
+/* Sent (right aligned) */
+.chat-bubble.sent {
+  align-self: flex-end;
+  background-color: #fcffd0;
+  color: orangered;
+  text-align: right;
+  border-bottom-right-radius: 0;
+}
+
+/* Optional: black text for the inner sentence */
+.chat-bubble strong {
+  color: black;
+}
+
+
+.not-ok {
+  color: red;
+}
+
+#mic-icon {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 60px;
+  color: #333;
+  border: 1px solid #ccc;
+  transition: 0.1s ease-in-out;
+  box-shadow: 1px 1px 12px #585858;
+  margin-bottom: 40px;
+
+  &:hover {
+    box-shadow: 1px 1px 12px orangered;
+
+  }
+
+}
+
+.info-text {
+  font-size: 14px;
+  color: #494949;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #b6b6b6;
+  padding-bottom: 6px;
+}
+
+
+.no-scroll {
+  overflow: hidden;
+  height: 100vh;
+  /* freeze height to prevent scroll */
+}
+
+/* ========== Responsive CSS ========== */
+
+@media (max-width: 992px) {
+  header {
+    padding: 10px 4%;
+  }
+
+  .left-section {
+    gap: 20px;
+  }
+
+  .search-bar {
+    width: 180px;
+  }
+
+  .logo img {
+    width: 120px;
+  }
+
+  .nav-links ul {
+    gap: 20px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  aside {
+    display: none;
+    position: fixed;
+    top: 58px;
+    right: 0;
+    width: 70%;
+    height: calc(100vh - 58px);
+    /* 👈 This ensures it covers below header */
+    border-radius: none;
+    z-index: 1000;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(10px);
+    background: rgba(204, 204, 204, 0.63);
+    padding: 20px 20px 40px 20px;
+    color: white;
+    overflow-y: auto;
+    scrollbar-width: none;
+    /* 👈 In case hamburger menu needs scrolling */
+  }
+
+  .right-section {
+
+    gap: 10px;
+  }
+
+  #hamburger {
+    display: block;
+    color: black;
+  }
+
+
+  .search-bar {
+    width: 150px;
+    font-size: 12px;
+    padding: 5px;
+  }
+
+  .task-cards-grid {
+    grid-template-columns: 1fr;
+    padding-bottom: 60px;
+  }
+
+  .right-section {
+    flex-grow: 1;
+    justify-content: flex-end;
+  }
+
+  section {
+    padding: 10px 15px;
+  }
+
+  .welcome-section h1 {
+    font-size: 22px;
+  }
+
+
+}
+
+@media (max-width: 480px) {
+  .logo img {
+    width: 100px;
+  }
+
+  .profile-img {
+    width: 30px;
+    height: 30px;
+  }
+
+
+
+  .btn {
+    padding: 8px;
+    font-size: 13px;
+  }
+
+  .logout {
+    font-size: 16px;
+  }
+}

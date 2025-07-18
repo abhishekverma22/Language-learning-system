@@ -1,0 +1,381 @@
+/* Global Reset and Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Iceberg&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+}
+
+body {
+  background-color: #f3f3f3;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Header */
+header {
+  width: 100%;
+  height: 70px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 10px 8%;
+  background-color: white;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+}
+
+.left-section {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.logo img {
+  width: 140px;
+}
+
+/*   language drop down*/
+
+
+
+
+
+/* Right Section */
+.right-section {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: 500px;
+  justify-content: space-between;
+  /* background-color: #009688; */
+}
+
+.search-bar {
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline-color: rgba(255, 166, 0, 0.432);
+  width: 600px;
+  max-width: 100%;
+}
+
+
+.profile-img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+#hamburger {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 3px;
+  display: none;
+}
+
+
+/* Layout Structure */
+main {
+  display: flex;
+  width: 100%;
+  margin-top: 70px;
+  max-height: calc(100vh - 70px);
+}
+
+aside {
+  position: fixed;
+  /* Fixed position */
+  top: 70px;
+  /* Push down to avoid header */
+  left: 0;
+  width: 260px;
+  height: calc(100vh - 70px);
+  /* Full height minus header */
+  background-color: white;
+  box-shadow: 2px 0 4px -2px rgba(0, 0, 0, 0.3);
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow-y: auto;
+  /* Allow sidebar to scroll if content overflows */
+  z-index: 100;
+}
+
+.nav-lists {
+  display: flex;
+  flex-direction: column;
+}
+
+aside a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  margin: 5px 0;
+  padding: 13px 10px;
+  border-radius: 8px;
+  color: #333;
+  font-size: 15px;
+}
+
+aside a:hover {
+  background-color: #ebebeb;
+}
+
+a .material-icons {
+  font-size: 18px;
+}
+
+.active {
+  color: #fff;
+  background-color: #F59E0B;
+}
+
+.active:hover {
+  background-color: #F59E0B;
+}
+
+.bottom-controls {
+  border-top: 1px solid #cacaca;
+}
+
+.logout {
+  margin-top: 20px;
+  padding: 5px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 6px;
+  background-color: orangered;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.logout:hover {
+  background-color: lightcoral;
+}
+
+aside a span {
+  margin: 0 5px;
+}
+
+section {
+  padding: 10px 30px;
+  width: 100%;
+  margin-left: 260px;
+  /* height: calc(100vh - 70px); */
+}
+
+.courses-content {
+  flex: 1;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  overflow-y: auto;
+}
+
+.courses-content h1 {
+  margin-bottom: 50px;
+  font-size: clamp(26px, 5vw, 40px);
+  color: rgb(68, 68, 68);
+  text-align: center;
+}
+
+.courses-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.course-card {
+  background-color: #dddddd71;
+  cursor: pointer;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.course-card:hover {
+  transform: translateY(-5px);
+  background-color: #fff9de;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.course-card img {
+  margin: 10px 0;
+  border-radius: 8px;
+  object-fit: cover;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  height: 120px;
+  width: 100%;
+  max-width: 200px;
+}
+
+.course-card h3 {
+  font-size: clamp(16px, 3.5vw, 20px);
+  margin-bottom: 10px;
+  color: rgb(51, 51, 3);
+}
+
+.course-card p {
+  font-size: clamp(13px, 3vw, 15px);
+  color: #444;
+  margin: 20px 0;
+}
+
+
+
+
+
+
+.no-scroll {
+  overflow: hidden;
+  height: 100vh;
+  /* freeze height to prevent scroll */
+}
+
+/* ========== Responsive CSS ========== */
+
+@media (max-width: 992px) {
+  header {
+    padding: 10px 4%;
+  }
+
+  .left-section {
+    gap: 20px;
+  }
+
+  .search-bar {
+    width: 180px;
+  }
+
+  .logo img {
+    width: 120px;
+  }
+
+  .nav-links ul {
+    gap: 20px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  aside {
+    display: none;
+    position: fixed;
+    top: 58px;
+    right: 0;
+    width: 70%;
+    height: calc(100vh - 58px);
+    /* 👈 This ensures it covers below header */
+    border-radius: none;
+    z-index: 1000;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(10px);
+    background: rgba(204, 204, 204, 0.63);
+    padding: 20px 20px 40px 20px;
+    color: white;
+    overflow-y: auto;
+    scrollbar-width: none;
+    /* 👈 In case hamburger menu needs scrolling */
+  }
+
+  .right-section {
+
+    gap: 10px;
+  }
+
+  #hamburger {
+    display: block;
+    color: black;
+  }
+
+
+  .search-bar {
+    width: 150px;
+    font-size: 12px;
+    padding: 5px;
+  }
+
+  .task-cards-grid {
+    grid-template-columns: 1fr;
+    padding-bottom: 60px;
+  }
+
+  .right-section {
+    flex-grow: 1;
+    justify-content: flex-end;
+  }
+
+
+  section {
+    padding: 10px 15px;
+  }
+
+  main {
+    padding: 10px 3% 3% 3%;
+    margin-top: 30px;
+  }
+
+
+  .courses-content {
+
+    padding: 20px;
+  }
+
+  .courses-content h1 {
+    margin-bottom: 30px;
+  }
+
+  .courses-grid {
+    gap: 15px;
+  }
+
+
+}
+
+@media (max-width: 480px) {
+  .logo img {
+    width: 100px;
+  }
+
+  .profile-img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .courses-content {
+    padding: 15px;
+  }
+
+  .course-card img {
+    height: 100px;
+    max-width: 150px;
+  }
+
+
+  .btn {
+    padding: 8px;
+    font-size: 13px;
+  }
+
+  .logout {
+    font-size: 16px;
+  }
+}

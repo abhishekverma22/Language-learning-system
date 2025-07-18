@@ -5,23 +5,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>FluencyMate - Language Learning Platform</title>
-
-  <link rel="stylesheet" href="/css/practice.css">
-
-
+  <link rel="stylesheet" href="/css/speaking-practice.css">
   <link rel="shortcut icon" href="../images/fevicons (2).png" type="image/x-icon">
-
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
     integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
 
   <!--  google fonts -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
 
 
-  <script type="module" src="../js/practice.js" defer></script>
+  <script type="module" src="../js/speaking-practice.js" defer></script>
   <script type="module" src="../js/logout-hamburger.js" defer></script>
 
 </head>
@@ -43,21 +38,20 @@
       </div>
     </header>
 
+
     <!-- ========== main sectoin ========== -->
     <main>
-
       <!-- ====== side bar ============== -->
-
       <aside>
         <div class="nav-lists">
           <a class="sidebar-link " href="./dashboard-page.html"><span
               class="material-icons">dashboard</span><span>Dashboard</span></a>
           <a class="sidebar-link" href="#"><span class="material-icons">library_books</span><span>Lesson
               Library</span></a>
-          <a class="sidebar-link active" href="quizzes-page.html"><span class="material-icons">quiz</span><span>Interactive
+          <a class="sidebar-link" href="quizzes-page.html"><span class="material-icons">quiz</span><span>Interactive
               Quizzes</span></a>
           <a class="sidebar-link" href="#"><span class="material-icons">style</span><span>Flashcards</span></a>
-          <a class="sidebar-link" href="speaking-practice.html"><span class="material-icons">mic</span><span>Speaking
+          <a class="sidebar-link active" href="speaking-practice.html"><span class="material-icons">mic</span><span>Speaking
               Practice</span></a>
           <a class="sidebar-link" href="#"><span class="material-icons">group</span><span>Peer
               Interaction</span></a>
@@ -79,16 +73,55 @@
       </aside>
 
       <!-- ============ section  ================-->
+
       <section class="dashboard-container">
+
+        <!-- ==========Welcome Section ============== -->
         <div class="welcome-section">
-          <h2>Hey <span id="user-name"></span>, it's quiz time! 🎉</h2>
-          <p>Sharpen your mind, choose the correct answers, and climb the leaderboard!</p>
+          <h1><span id="user-name"></span></h1>
+          <p>Time to boost your speaking skills! Practice out loud and get real-time feedback.</p>
         </div>
-        <!-- ========== Quizzes section ========== -->
-        <div class="quiz-section">
+        <div id="progress-bar">
+          <h3>Daily Goal</h3>
+          <div class="progress-container">
+            <div class="zigzag-bar" id="zigzagBar"></div>
+          </div>
+
+          <div class="progress-text" id="progressText">
+            <p><span>1/5</span> lesson completed </p>
+          </div>
+
+        </div>
+
+        <!-- ========== speaking practice ========== -->
+        <section class="speaking-practice">
+          <div class="feedback-area">
+            <p id="show-feedback">
+
+            </p>
+
+            <div class="chat-bubble received">
+              <p><strong>Please Say:</strong> <span id="sentenceByAI"></span></p>
+            </div>
+
+            <div class="chat-bubble sent">
+              <p><strong>Your Speech:</strong> <span id="sentenceByUser"></span></p>
+            </div>
+          </div>
+
+          <div class="mic-icon">
+            <span class="material-icons" id="mic-icon">mic</span>
+          </div>
+
+          <div class="info-text">
+            <p>Tap the mic to start practicing your pronunciation and fluency.<br>Receive instant feedback on your
+              performance.</p>
+          </div>
+        </section>
 
 
-        </div>
+
+      </section>
 
     </main>
 

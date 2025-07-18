@@ -20,8 +20,7 @@ body {
 
 /* Container */
 .container {
-  padding: 0 3%;
-  max-width: 1400px;
+  max-width: 1800px; 
   margin: 0 auto;
 }
 
@@ -139,10 +138,10 @@ header .logo img {
 .top-banner {
   width: 100%;
   text-align: center;
-  padding: 10% 3%;
+  /* padding: 10% 3%; */
   place-content: center;
   border: none;
-  margin: 20px 0px;
+  /* margin: 20px 0px; */
 
 }
 

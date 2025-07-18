@@ -9,36 +9,26 @@ document.addEventListener("DOMContentLoaded", () => {
 
     //  check user is present or not 
     if (user) {
-
       const uid = user.uid;
-
       // Reference  to firestore user document.
-
       const userDocRef = doc(db, "users", uid);
       const userSnapShort = await getDoc(userDocRef);
 
       if (userSnapShort.exists()) {
         const userData = userSnapShort.data();
         const userNameInUI = document.getElementById("user-name");
-        userNameInUI.innerText = `${userData.firstName}`;
+       userNameInUI.innerText = `${userData.firstName}`;
+
       }
-
-
-      //  language change hole dashboard
-
-
 
     } else {
       window.location.replace('../html/login-page.html');
-
-
-
     }
-  });
-
+  })
 
   // 🔓 Logout button
   const logoutBtn = document.getElementById("logout-btn");
+  
   if (logoutBtn) {
     logoutBtn.addEventListener('click', async () => {
       if (confirm("Are you sure you want to logout?")) {
@@ -75,6 +65,18 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     });
   }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 });

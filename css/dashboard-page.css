@@ -369,10 +369,7 @@ h3 {
         width: 120px;
     }
 
-    .nav-links ul {
-        gap: 20px;
-        font-size: 16px;
-    }
+
 }
 
 @media (max-width: 768px) {
@@ -396,8 +393,13 @@ h3 {
         /* 👈 In case hamburger menu needs scrolling */
     }
 
-    .right-section {
+    section {
+        margin-left: 0;
+        padding: 10px 15px;
+        width: 100%;
+    }
 
+    .right-section {
         gap: 10px;
     }
 

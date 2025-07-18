@@ -241,6 +241,8 @@ select {
   padding: 10px;
   font-size: 18px;
   min-height: 160px;
+  outline: none;
+  border: 1px solid #ccc;
 }
 
 textarea::placeholder,

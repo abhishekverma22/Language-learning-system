@@ -2,16 +2,19 @@ import { auth, db } from '../firebase-config.js';
 import {
   collection,
   addDoc,
-  serverTimestamp
-} from "https://www.gstatic.com/firebasejs/11.10.0/firebase-firestore.js"
-import { doc, getDoc } from "https://www.gstatic.com/firebasejs/11.10.0/firebase-firestore.js";
+  serverTimestamp,
+  doc,
+  getDoc
+} from "https://www.gstatic.com/firebasejs/11.10.0/firebase-firestore.js";
+
 import { onAuthStateChanged } from "https://www.gstatic.com/firebasejs/11.10.0/firebase-auth.js";
 
 // track current user
+
+let currentUser = null;
 onAuthStateChanged(auth, async (user) => {
   if (user) {
-    const currentUser = user.uid;
-
+    currentUser = user.uid;
     // Reference to firestore user document.
 
     const userDocRef = doc(db, "users", currentUser);
@@ -37,13 +40,50 @@ onAuthStateChanged(auth, async (user) => {
         });
       });
 
-
-      const name = document.getElementById("feedback-name").value.trim();
-      const email = document.getElementById("feedback-email").value.trim();
-      const category = document.getElementById("feedback-category").value;
-      const comment = document.getElementById("feedback-comments").value.trim();
+      document.getElementById("submit-feedback").addEventListener("click", async (e) => {
+        e.preventDefault();
 
 
+        const name = document.getElementById("feedback-name").value.trim();
+        const email = document.getElementById("feedback-email").value.trim();
+        const category = document.getElementById("feedback-category").value;
+        const comment = document.getElementById("feedback-comments").value.trim();
+
+        if (!name || !email || !category || !comment) {
+          alert("Please fill in all fields and select a rating.");
+          return;
+        }
+
+
+
+        try {
+
+          await addDoc(collection(db, "feedback"), {
+            userID: currentUser,
+            name,
+            email,
+            category,
+            rating: ratingCount,
+            comment,
+            time: serverTimestamp()
+          });
+          alert("✅ Feedback submitted successfully!");
+          document.getElementById("feedback-name").value = "";
+          document.getElementById("feedback-email").value = "";
+          document.getElementById("feedback-category").value = "";
+          document.getElementById("feedback-comments").value = "";
+          ratingCount = 0;
+          document.querySelectorAll(".star-btn").forEach(b => b.classList.remove("active"));
+
+        } catch (error) {
+          console.error("❌ Error submitting feedback:", error.message);
+          alert("Error submitting feedback. Try again.");
+
+        }
+
+
+      }
+      )
     }
 
 

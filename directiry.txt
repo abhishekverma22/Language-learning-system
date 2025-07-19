@@ -46,4 +46,4 @@ LANGUAGE LEARNING PLATFORM/                       # Root directory of the projec
  
 |── README.md                                                         # Markdown documentation for your project
 |── index.html                                                             # Root-level home or redirect page 
-|_____________________________________________________________________________________________________________
+|___________________________________________________________________________________________________________

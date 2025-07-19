@@ -7,6 +7,7 @@ import { getDatabase } from 'https://www.gstatic.com/firebasejs/11.10.0/firebase
 const firebaseConfig = {
   apiKey: "AIzaSyCEL7U6tDzvsQdG3T56BlLk6fuB5Z_dqF0",
   authDomain: "learning-language-system.firebaseapp.com",
+  databaseURL: "https://learning-language-system-default-rtdb.asia-southeast1.firebasedatabase.app",
   projectId: "learning-language-system",
   storageBucket: "learning-language-system.firebasestorage.app",
   messagingSenderId: "310719837811",

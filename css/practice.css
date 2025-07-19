@@ -193,7 +193,132 @@ section {
     color: #5f6572;
 }
 
+/* quiz section */
+.quiz-section {
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: #05c4b017;
+    width: 100%;
+    padding: 30px;
+}
 
+.question-number {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 10px 0px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.question-number select {
+    font-size: 18px;
+    padding: 2px 10px;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.question-number option {
+    background-color: rgb(243, 255, 244);
+    color: #333;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+.question {
+    font-size: 25px;
+    font-weight: 300;
+    text-shadow: 0px 0px 2px rgb(128, 128, 128);
+    background-color: #fff9f97a;
+    padding: 10px;
+    margin: 10px 0px;
+
+}
+
+#quiz-options {
+    padding: 10px;
+    /* background-color: rebeccapurple; */
+}
+
+.option {
+    margin: 10px 0px;
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+.option label {
+    font-size: 22px;
+}
+
+.buttons {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.buttons button {
+    font-size: 20px;
+    padding: 10px 30px;
+    border: 1px solid #ccc;
+    background-color: royalblue;
+    color: #fff;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.1s ease-in-out;
+
+    &:hover {
+        background-color: rgb(37, 90, 250);
+    }
+
+    &:active {
+        transform: scale(0.94);
+    }
+}
+
+.submit-button {
+    margin: 30px 0px;
+    text-align: right;
+}
+
+.submit-button button {
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    background-color: olivedrab;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+
+    &:hover {
+        background-color: rgb(92, 92, 1);
+    }
+
+    &:active {
+        transform: scale(0.94);
+    }
+}
+
+.answer-section {
+    padding: 10px;
+}
+
+.answer-section strong {
+    font-size: 20px;
+    color: #333;
+}
+
+.answer-section p {
+    font-size: 18px;
+    color: #583800;
+    font-weight: 500;
+    text-shadow: 1px 1px 1px #ccc;
+}
 
 
 

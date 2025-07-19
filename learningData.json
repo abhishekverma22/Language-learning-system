@@ -10166,7 +10166,7 @@
         "explanation": "Use 'que' with the subject pronoun 'eu' for 'the man that I saw yesterday.'"
       }
     ],
-     "Hindi": [
+    "Hindi": [
       {
         "language": "Hindi",
         "difficulty": "easy",
@@ -10948,5 +10948,3312 @@
         "explanation": "Use 'जिसे' (jise) as the relative pronoun for the direct object in 'the man whom I saw.'"
       }
     ]
+  },
+  "flashcards": {
+    "English": {
+      "Beginner": [
+        {
+          "front": "Hello",
+          "back": "A greeting"
+        },
+        {
+          "front": "House",
+          "back": "A place to live"
+        },
+        {
+          "front": "Dog",
+          "back": "A common pet"
+        },
+        {
+          "front": "Book",
+          "back": "Something to read"
+        },
+        {
+          "front": "Water",
+          "back": "A drinkable liquid"
+        },
+        {
+          "front": "Sun",
+          "back": "The star in the sky"
+        },
+        {
+          "front": "Tree",
+          "back": "A tall plant"
+        },
+        {
+          "front": "Car",
+          "back": "A vehicle"
+        },
+        {
+          "front": "Food",
+          "back": "Something to eat"
+        },
+        {
+          "front": "Friend",
+          "back": "A close companion"
+        },
+        {
+          "front": "School",
+          "back": "A place to learn"
+        },
+        {
+          "front": "Table",
+          "back": "A piece of furniture"
+        },
+        {
+          "front": "Run",
+          "back": "To move quickly"
+        },
+        {
+          "front": "Big",
+          "back": "Large in size"
+        },
+        {
+          "front": "Happy",
+          "back": "Feeling joy"
+        },
+        {
+          "front": "Red",
+          "back": "A color"
+        },
+        {
+          "front": "One",
+          "back": "The number 1"
+        },
+        {
+          "front": "Eat",
+          "back": "To consume food"
+        },
+        {
+          "front": "Sleep",
+          "back": "To rest at night"
+        },
+        {
+          "front": "Play",
+          "back": "To have fun"
+        }
+      ],
+      "Intermediate": [
+        {
+          "front": "Conversation",
+          "back": "A talk between people"
+        },
+        {
+          "front": "Beautiful",
+          "back": "Very attractive"
+        },
+        {
+          "front": "Travel",
+          "back": "To go to another place"
+        },
+        {
+          "front": "Work",
+          "back": "A job or task"
+        },
+        {
+          "front": "Family",
+          "back": "A group of relatives"
+        },
+        {
+          "front": "Tomorrow",
+          "back": "The next day"
+        },
+        {
+          "front": "Idea",
+          "back": "A thought or plan"
+        },
+        {
+          "front": "Important",
+          "back": "Having great value"
+        },
+        {
+          "front": "Listen",
+          "back": "To hear carefully"
+        },
+        {
+          "front": "City",
+          "back": "A large town"
+        },
+        {
+          "front": "Weather",
+          "back": "The state of the atmosphere"
+        },
+        {
+          "front": "Dream",
+          "back": "Thoughts during sleep"
+        },
+        {
+          "front": "Help",
+          "back": "To assist someone"
+        },
+        {
+          "front": "Time",
+          "back": "A measure of moments"
+        },
+        {
+          "front": "Love",
+          "back": "A strong feeling of affection"
+        },
+        {
+          "front": "Fast",
+          "back": "Quick in speed"
+        },
+        {
+          "front": "Think",
+          "back": "To use the mind"
+        },
+        {
+          "front": "Buy",
+          "back": "To purchase something"
+        },
+        {
+          "front": "Good",
+          "back": "High quality"
+        },
+        {
+          "front": "Night",
+          "back": "The time after sunset"
+        }
+      ],
+      "Advanced": [
+        {
+          "front": "Philosophy",
+          "back": "The study of knowledge and existence"
+        },
+        {
+          "front": "Democracy",
+          "back": "A system of government by the people"
+        },
+        {
+          "front": "Opportunity",
+          "back": "A chance for success"
+        },
+        {
+          "front": "Challenge",
+          "back": "A difficult task"
+        },
+        {
+          "front": "Inspiration",
+          "back": "A spark of creativity"
+        },
+        {
+          "front": "Compromise",
+          "back": "An agreement with concessions"
+        },
+        {
+          "front": "Ambition",
+          "back": "A strong desire for success"
+        },
+        {
+          "front": "Ethics",
+          "back": "Moral principles"
+        },
+        {
+          "front": "Diversity",
+          "back": "Variety or difference"
+        },
+        {
+          "front": "Resilience",
+          "back": "Ability to recover quickly"
+        },
+        {
+          "front": "Innovation",
+          "back": "A new idea or method"
+        },
+        {
+          "front": "Sustainability",
+          "back": "Maintaining resources over time"
+        },
+        {
+          "front": "Globalization",
+          "back": "Worldwide integration"
+        },
+        {
+          "front": "Empathy",
+          "back": "Understanding others' feelings"
+        },
+        {
+          "front": "Justice",
+          "back": "Fairness or moral rightness"
+        },
+        {
+          "front": "Legacy",
+          "back": "Something handed down"
+        },
+        {
+          "front": "Paradox",
+          "back": "A contradictory statement"
+        },
+        {
+          "front": "Authenticity",
+          "back": "Being genuine"
+        },
+        {
+          "front": "Perseverance",
+          "back": "Persistent effort"
+        },
+        {
+          "front": "Wisdom",
+          "back": "Deep understanding"
+        }
+      ]
+    },
+    "Spanish": {
+      "Beginner": [
+        {
+          "front": "Hola",
+          "back": "A greeting"
+        },
+        {
+          "front": "Casa",
+          "back": "A place to live"
+        },
+        {
+          "front": "Perro",
+          "back": "A common pet"
+        },
+        {
+          "front": "Libro",
+          "back": "Something to read"
+        },
+        {
+          "front": "Agua",
+          "back": "A drinkable liquid"
+        },
+        {
+          "front": "Sol",
+          "back": "The star in the sky"
+        },
+        {
+          "front": "Árbol",
+          "back": "A tall plant"
+        },
+        {
+          "front": "Coche",
+          "back": "A vehicle"
+        },
+        {
+          "front": "Comida",
+          "back": "Something to eat"
+        },
+        {
+          "front": "Amigo",
+          "back": "A close companion"
+        },
+        {
+          "front": "Escuela",
+          "back": "A place to learn"
+        },
+        {
+          "front": "Mesa",
+          "back": "A piece of furniture"
+        },
+        {
+          "front": "Correr",
+          "back": "To move quickly"
+        },
+        {
+          "front": "Grande",
+          "back": "Large in size"
+        },
+        {
+          "front": "Feliz",
+          "back": "Feeling joy"
+        },
+        {
+          "front": "Rojo",
+          "back": "A color"
+        },
+        {
+          "front": "Uno",
+          "back": "The number 1"
+        },
+        {
+          "front": "Comer",
+          "back": "To consume food"
+        },
+        {
+          "front": "Dormir",
+          "back": "To rest at night"
+        },
+        {
+          "front": "Jugar",
+          "back": "To have fun"
+        }
+      ],
+      "Intermediate": [
+        {
+          "front": "Conversación",
+          "back": "A talk between people"
+        },
+        {
+          "front": "Hermoso",
+          "back": "Very attractive"
+        },
+        {
+          "front": "Viajar",
+          "back": "To go to another place"
+        },
+        {
+          "front": "Trabajo",
+          "back": "A job or task"
+        },
+        {
+          "front": "Familia",
+          "back": "A group of relatives"
+        },
+        {
+          "front": "Mañana",
+          "back": "The next day"
+        },
+        {
+          "front": "Idea",
+          "back": "A thought or plan"
+        },
+        {
+          "front": "Importante",
+          "back": "Having great value"
+        },
+        {
+          "front": "Escuchar",
+          "back": "To hear carefully"
+        },
+        {
+          "front": "Ciudad",
+          "back": "A large town"
+        },
+        {
+          "front": "Clima",
+          "back": "The state of the atmosphere"
+        },
+        {
+          "front": "Sueño",
+          "back": "Thoughts during sleep"
+        },
+        {
+          "front": "Ayudar",
+          "back": "To assist someone"
+        },
+        {
+          "front": "Tiempo",
+          "back": "A measure of moments"
+        },
+        {
+          "front": "Amor",
+          "back": "A strong feeling of affection"
+        },
+        {
+          "front": "Rápido",
+          "back": "Quick in speed"
+        },
+        {
+          "front": "Pensar",
+          "back": "To use the(Time to think) mind"
+        },
+        {
+          "front": "Comprar",
+          "back": "To purchase something"
+        },
+        {
+          "front": "Bueno",
+          "back": "High quality"
+        },
+        {
+          "front": "Noche",
+          "back": "The time after sunset"
+        }
+      ],
+      "Advanced": [
+        {
+          "front": "Filosofía",
+          "back": "The study of knowledge and existence"
+        },
+        {
+          "front": "Democracia",
+          "back": "A system of government by the people"
+        },
+        {
+          "front": "Oportunidad",
+          "back": "A chance for success"
+        },
+        {
+          "front": "Desafío",
+          "back": "A difficult task"
+        },
+        {
+          "front": "Inspiración",
+          "back": "A spark of creativity"
+        },
+        {
+          "front": "Compromiso",
+          "back": "An agreement with concessions"
+        },
+        {
+          "front": "Ambición",
+          "back": "A strong desire for success"
+        },
+        {
+          "front": "Ética",
+          "back": "Moral principles"
+        },
+        {
+          "front": "Diversidad",
+          "back": "Variety or difference"
+        },
+        {
+          "front": "Resiliencia",
+          "back": "Ability to recover quickly"
+        },
+        {
+          "front": "Innovación",
+          "back": "A new idea or method"
+        },
+        {
+          "front": "Sostenibilidad",
+          "back": "Maintaining resources over time"
+        },
+        {
+          "front": "Globalización",
+          "back": "Worldwide integration"
+        },
+        {
+          "front": "Empatía",
+          "back": "Understanding others' feelings"
+        },
+        {
+          "front": "Justicia",
+          "back": "Fairness or moral rightness"
+        },
+        {
+          "front": "Legado",
+          "back": "Something handed down"
+        },
+        {
+          "front": "Paradoja",
+          "back": "A contradictory statement"
+        },
+        {
+          "front": "Autenticidad",
+          "back": "Being genuine"
+        },
+        {
+          "front": "Perseverancia",
+          "back": "Persistent effort"
+        },
+        {
+          "front": "Sabiduría",
+          "back": "Deep understanding"
+        }
+      ]
+    },
+    "French": {
+      "Beginner": [
+        {
+          "front": "Bonjour",
+          "back": "A greeting"
+        },
+        {
+          "front": "Maison",
+          "back": "A place to live"
+        },
+        {
+          "front": "Chien",
+          "back": "A common pet"
+        },
+        {
+          "front": "Livre",
+          "back": "Something to read"
+        },
+        {
+          "front": "Eau",
+          "back": "A drinkable liquid"
+        },
+        {
+          "front": "Soleil",
+          "back": "The star in the sky"
+        },
+        {
+          "front": "Arbre",
+          "back": "A tall plant"
+        },
+        {
+          "front": "Voiture",
+          "back": "A vehicle"
+        },
+        {
+          "front": "Nourriture",
+          "back": "Something to eat"
+        },
+        {
+          "front": "Ami",
+          "back": "A close companion"
+        },
+        {
+          "front": "École",
+          "back": "A place to learn"
+        },
+        {
+          "front": "Table",
+          "back": "A piece of furniture"
+        },
+        {
+          "front": "Courir",
+          "back": "To move quickly"
+        },
+        {
+          "front": "Grand",
+          "back": "Large in size"
+        },
+        {
+          "front": "Heureux",
+          "back": "Feeling joy"
+        },
+        {
+          "front": "Rouge",
+          "back": "A color"
+        },
+        {
+          "front": "Un",
+          "back": "The number 1"
+        },
+        {
+          "front": "Manger",
+          "back": "To consume food"
+        },
+        {
+          "front": "Dormir",
+          "back": "To rest at night"
+        },
+        {
+          "front": "Jouer",
+          "back": "To have fun"
+        }
+      ],
+      "Intermediate": [
+        {
+          "front": "Conversation",
+          "back": "A talk between people"
+        },
+        {
+          "front": "Beau",
+          "back": "Very attractive"
+        },
+        {
+          "front": "Voyager",
+          "back": "To go to another place"
+        },
+        {
+          "front": "Travail",
+          "back": "A job or task"
+        },
+        {
+          "front": "Famille",
+          "back": "A group of relatives"
+        },
+        {
+          "front": "Demain",
+          "back": "The next day"
+        },
+        {
+          "front": "Idée",
+          "back": "A thought or plan"
+        },
+        {
+          "front": "Important",
+          "back": "Having great value"
+        },
+        {
+          "front": "Écouter",
+          "back": "To hear carefully"
+        },
+        {
+          "front": "Ville",
+          "back": "A large town"
+        },
+        {
+          "front": "Temps",
+          "back": "The state of the atmosphere"
+        },
+        {
+          "front": "Rêve",
+          "back": "Thoughts during sleep"
+        },
+        {
+          "front": "Aider",
+          "back": "To assist someone"
+        },
+        {
+          "front": "Temps",
+          "back": "A measure of moments"
+        },
+        {
+          "front": "Amour",
+          "back": "A strong feeling of affection"
+        },
+        {
+          "front": "Rapide",
+          "back": "Quick in speed"
+        },
+        {
+          "front": "Penser",
+          "back": "To use the mind"
+        },
+        {
+          "front": "Acheter",
+          "back": "To purchase something"
+        },
+        {
+          "front": "Bon",
+          "back": "High quality"
+        },
+        {
+          "front": "Nuit",
+          "back": "The time after sunset"
+        }
+      ],
+      "Advanced": [
+        {
+          "front": "Philosophie",
+          "back": "The study of knowledge and existence"
+        },
+        {
+          "front": "Démocratie",
+          "back": "A system of government by the people"
+        },
+        {
+          "front": "Opportunité",
+          "back": "A chance for success"
+        },
+        {
+          "front": "Défi",
+          "back": "A difficult task"
+        },
+        {
+          "front": "Inspiration",
+          "back": "A spark of creativity"
+        },
+        {
+          "front": "Compromis",
+          "back": "An agreement with concessions"
+        },
+        {
+          "front": "Ambition",
+          "back": "A strong desire for success"
+        },
+        {
+          "front": "Éthique",
+          "back": "Moral principles"
+        },
+        {
+          "front": "Diversité",
+          "back": "Variety or difference"
+        },
+        {
+          "front": "Résilience",
+          "back": "Ability to recover quickly"
+        },
+        {
+          "front": "Innovation",
+          "back": "A new idea or method"
+        },
+        {
+          "front": "Durabilité",
+          "back": "Maintaining resources over time"
+        },
+        {
+          "front": "Mondialisation",
+          "back": "Worldwide integration"
+        },
+        {
+          "front": "Empathie",
+          "back": "Understanding others' feelings"
+        },
+        {
+          "front": "Justice",
+          "back": "Fairness or moral rightness"
+        },
+        {
+          "front": "Héritage",
+          "back": "Something handed down"
+        },
+        {
+          "front": "Paradoxe",
+          "back": "A contradictory statement"
+        },
+        {
+          "front": "Authenticité",
+          "back": "Being genuine"
+        },
+        {
+          "front": "Persévérance",
+          "back": "Persistent effort"
+        },
+        {
+          "front": "Sagesse",
+          "back": "Deep understanding"
+        }
+      ]
+    },
+    "German": {
+      "Beginner": [
+        {
+          "front": "Hallo",
+          "back": "A greeting"
+        },
+        {
+          "front": "Haus",
+          "back": "A place to live"
+        },
+        {
+          "front": "Hund",
+          "back": "A common pet"
+        },
+        {
+          "front": "Buch",
+          "back": "Something to read"
+        },
+        {
+          "front": "Wasser",
+          "back": "A drinkable liquid"
+        },
+        {
+          "front": "Sonne",
+          "back": "The star in the sky"
+        },
+        {
+          "front": "Baum",
+          "back": "A tall plant"
+        },
+        {
+          "front": "Auto",
+          "back": "A vehicle"
+        },
+        {
+          "front": "Essen",
+          "back": "Something to eat"
+        },
+        {
+          "front": "Freund",
+          "back": "A close companion"
+        },
+        {
+          "front": "Schule",
+          "back": "A place to learn"
+        },
+        {
+          "front": "Tisch",
+          "back": "A piece of furniture"
+        },
+        {
+          "front": "Laufen",
+          "back": "To move quickly"
+        },
+        {
+          "front": "Groß",
+          "back": "Large in size"
+        },
+        {
+          "front": "Glücklich",
+          "back": "Feeling joy"
+        },
+        {
+          "front": "Rot",
+          "back": "A color"
+        },
+        {
+          "front": "Eins",
+          "back": "The number 1"
+        },
+        {
+          "front": "Essen",
+          "back": "To consume food"
+        },
+        {
+          "front": "Schlafen",
+          "back": "To rest at night"
+        },
+        {
+          "front": "Spielen",
+          "back": "To have fun"
+        }
+      ],
+      "Intermediate": [
+        {
+          "front": "Gespräch",
+          "back": "A talk between people"
+        },
+        {
+          "front": "Schön",
+          "back": "Very attractive"
+        },
+        {
+          "front": "Reisen",
+          "back": "To go to another place"
+        },
+        {
+          "front": "Arbeit",
+          "back": "A job or task"
+        },
+        {
+          "front": "Familie",
+          "back": "A group of relatives"
+        },
+        {
+          "front": "Morgen",
+          "back": "The next day"
+        },
+        {
+          "front": "Idee",
+          "back": "A thought or plan"
+        },
+        {
+          "front": "Wichtig",
+          "back": "Having great value"
+        },
+        {
+          "front": "Hören",
+          "back": "To hear carefully"
+        },
+        {
+          "front": "Stadt",
+          "back": "A large town"
+        },
+        {
+          "front": "Wetter",
+          "back": "The state of the atmosphere"
+        },
+        {
+          "front": "Traum",
+          "back": "Thoughts during sleep"
+        },
+        {
+          "front": "Helfen",
+          "back": "To assist someone"
+        },
+        {
+          "front": "Zeit",
+          "back": "A measure of moments"
+        },
+        {
+          "front": "Liebe",
+          "back": "A strong feeling of affection"
+        },
+        {
+          "front": "Schnell",
+          "back": "Quick in speed"
+        },
+        {
+          "front": "Denken",
+          "back": "To use the mind"
+        },
+        {
+          "front": "Kaufen",
+          "back": "To purchase something"
+        },
+        {
+          "front": "Gut",
+          "back": "High quality"
+        },
+        {
+          "front": "Nacht",
+          "back": "The time after sunset"
+        }
+      ],
+      "Advanced": [
+        {
+          "front": "Philosophie",
+          "back": "The study of knowledge and existence"
+        },
+        {
+          "front": "Demokratie",
+          "back": "A system of government by the people"
+        },
+        {
+          "front": "Gelegenheit",
+          "back": "A chance for success"
+        },
+        {
+          "front": "Herausforderung",
+          "back": "A difficult task"
+        },
+        {
+          "front": "Inspiration",
+          "back": "A spark of creativity"
+        },
+        {
+          "front": "Kompromiss",
+          "back": "An agreement with concessions"
+        },
+        {
+          "front": "Ambition",
+          "back": "A strong desire for success"
+        },
+        {
+          "front": "Ethik",
+          "back": "Moral principles"
+        },
+        {
+          "front": "Vielfalt",
+          "back": "Variety or difference"
+        },
+        {
+          "front": "Widerstandsfähigkeit",
+          "back": "Ability to recover quickly"
+        },
+        {
+          "front": "Innovation",
+          "back": "A new idea or method"
+        },
+        {
+          "front": "Nachhaltigkeit",
+          "back": "Maintaining resources over time"
+        },
+        {
+          "front": "Globalisierung",
+          "back": "Worldwide integration"
+        },
+        {
+          "front": "Empathie",
+          "back": "Understanding others' feelings"
+        },
+        {
+          "front": "Gerechtigkeit",
+          "back": "Fairness or moral rightness"
+        },
+        {
+          "front": "Erbe",
+          "back": "Something handed down"
+        },
+        {
+          "front": "Paradoxon",
+          "back": "A contradictory statement"
+        },
+        {
+          "front": "Authentizität",
+          "back": "Being genuine"
+        },
+        {
+          "front": "Ausdauer",
+          "back": "Persistent effort"
+        },
+        {
+          "front": "Weisheit",
+          "back": "Deep understanding"
+        }
+      ]
+    },
+    "Japanese": {
+      "Beginner": [
+        {
+          "front": "こんにちは (Konnichiwa)",
+          "back": "A greeting"
+        },
+        {
+          "front": "家 (Ie)",
+          "back": "A place to live"
+        },
+        {
+          "front": "犬 (Inu)",
+          "back": "A common pet"
+        },
+        {
+          "front": "本 (Hon)",
+          "back": "Something to read"
+        },
+        {
+          "front": "水 (Mizu)",
+          "back": "A drinkable liquid"
+        },
+        {
+          "front": "太陽 (Taiyō)",
+          "back": "The star in the sky"
+        },
+        {
+          "front": "木 (Ki)",
+          "back": "A tall plant"
+        },
+        {
+          "front": "車 (Kuruma)",
+          "back": "A vehicle"
+        },
+        {
+          "front": "食べ物 (Tabemono)",
+          "back": "Something to eat"
+        },
+        {
+          "front": "友達 (Tomodachi)",
+          "back": "A close companion"
+        },
+        {
+          "front": "学校 (Gakkō)",
+          "back": "A place to learn"
+        },
+        {
+          "front": "机 (Tsukue)",
+          "back": "A piece of furniture"
+        },
+        {
+          "front": "走る (Hashiru)",
+          "back": "To move quickly"
+        },
+        {
+          "front": "大きい (Ōkii)",
+          "back": "Large in size"
+        },
+        {
+          "front": "幸せ (Shiawase)",
+          "back": "Feeling joy"
+        },
+        {
+          "front": "赤 (Aka)",
+          "back": "A color"
+        },
+        {
+          "front": "一 (Ichi)",
+          "back": "The number 1"
+        },
+        {
+          "front": "食べる (Taberu)",
+          "back": "To consume food"
+        },
+        {
+          "front": "寝る (Neru)",
+          "back": "To rest at night"
+        },
+        {
+          "front": "遊ぶ (Asobu)",
+          "back": "To have fun"
+        }
+      ],
+      "Intermediate": [
+        {
+          "front": "会話 (Kaiwa)",
+          "back": "A talk between people"
+        },
+        {
+          "front": "美しい (Utsukushii)",
+          "back": "Very attractive"
+        },
+        {
+          "front": "旅行する (Ryokō suru)",
+          "back": "To go to another place"
+        },
+        {
+          "front": "仕事 (Shigoto)",
+          "back": "A job or task"
+        },
+        {
+          "front": "家族 (Kazoku)",
+          "back": "A group of relatives"
+        },
+        {
+          "front": "明日 (Ashita)",
+          "back": "The next day"
+        },
+        {
+          "front": "考え (Kangae)",
+          "back": "A thought or plan"
+        },
+        {
+          "front": "重要 (Jūyō)",
+          "back": "Having great value"
+        },
+        {
+          "front": "聞く (Kiku)",
+          "back": "To hear carefully"
+        },
+        {
+          "front": "都市 (Toshi)",
+          "back": "A large town"
+        },
+        {
+          "front": "天気 (Tenki)",
+          "back": "The state of the atmosphere"
+        },
+        {
+          "front": "夢 (Yume)",
+          "back": "Thoughts during sleep"
+        },
+        {
+          "front": "助ける (Tasukeru)",
+          "back": "To assist someone"
+        },
+        {
+          "front": "時間 (Jikan)",
+          "back": "A measure of moments"
+        },
+        {
+          "front": "愛 (Ai)",
+          "back": "A strong feeling of affection"
+        },
+        {
+          "front": "速い (Hayai)",
+          "back": "Quick in speed"
+        },
+        {
+          "front": "考える (Kangaeru)",
+          "back": "To use the mind"
+        },
+        {
+          "front": "買う (Kau)",
+          "back": "To purchase something"
+        },
+        {
+          "front": "良い (Yoi)",
+          "back": "High quality"
+        },
+        {
+          "front": "夜 (Yoru)",
+          "back": "The time after sunset"
+        }
+      ],
+      "Advanced": [
+        {
+          "front": "哲学 (Tetsugaku)",
+          "back": "The study of knowledge and existence"
+        },
+        {
+          "front": "民主主義 (Minshushugi)",
+          "back": "A system of government by the people"
+        },
+        {
+          "front": "機会 (Kikai)",
+          "back": "A chance for success"
+        },
+        {
+          "front": "挑戦 (Chōsen)",
+          "back": "A difficult task"
+        },
+        {
+          "front": "インスピレーション (Insupirēshon)",
+          "back": "A spark of creativity"
+        },
+        {
+          "front": "妥協 (Dakyō)",
+          "back": "An agreement with concessions"
+        },
+        {
+          "front": "野心 (Yashin)",
+          "back": "A strong desire for success"
+        },
+        {
+          "front": "倫理 (Rinri)",
+          "back": "Moral principles"
+        },
+        {
+          "front": "多様性 (Tayōsei)",
+          "back": "Variety or difference"
+        },
+        {
+          "front": "回復力 (Kaifukuryoku)",
+          "back": "Ability to recover quickly"
+        },
+        {
+          "front": "革新 (Kakushin)",
+          "back": "A new idea or method"
+        },
+        {
+          "front": "持続可能性 (Jizoku kanōsei)",
+          "back": "Maintaining resources over time"
+        },
+        {
+          "front": "グローバル化 (Gurōbaruka)",
+          "back": "Worldwide integration"
+        },
+        {
+          "front": "共感 (Kyōkan)",
+          "back": "Understanding others' feelings"
+        },
+        {
+          "front": "正義 (Seigi)",
+          "back": "Fairness or moral rightness"
+        },
+        {
+          "front": "遺産 (Isan)",
+          "back": "Something handed down"
+        },
+        {
+          "front": "パラドックス (Paradokkusu)",
+          "back": "A contradictory statement"
+        },
+        {
+          "front": "本物 (Honmono)",
+          "back": "Being genuine"
+        },
+        {
+          "front": "持続 (Jizoku)",
+          "back": "Persistent effort"
+        },
+        {
+          "front": "知恵 (Chie)",
+          "back": "Deep understanding"
+        }
+      ]
+    },
+    "Russian": {
+      "Beginner": [
+        {
+          "front": "Привет (Privet)",
+          "back": "A greeting"
+        },
+        {
+          "front": "Дом (Dom)",
+          "back": "A place to live"
+        },
+        {
+          "front": "Собака (Sobaka)",
+          "back": "A common pet"
+        },
+        {
+          "front": "Книга (Kniga)",
+          "back": "Something to read"
+        },
+        {
+          "front": "Вода (Voda)",
+          "back": "A drinkable liquid"
+        },
+        {
+          "front": "Солнце (Solntse)",
+          "back": "The star in the sky"
+        },
+        {
+          "front": "Дерево (Derevo)",
+          "back": "A tall plant"
+        },
+        {
+          "front": "Машина (Mashina)",
+          "back": "A vehicle"
+        },
+        {
+          "front": "Еда (Yeda)",
+          "back": "Something to eat"
+        },
+        {
+          "front": "Друг (Drug)",
+          "back": "A close companion"
+        },
+        {
+          "front": "Школа (Shkola)",
+          "back": "A place to learn"
+        },
+        {
+          "front": "Стол (Stol)",
+          "back": "A piece of furniture"
+        },
+        {
+          "front": "Бежать (Bezhat')",
+          "back": "To move quickly"
+        },
+        {
+          "front": "Большой (Bol'shoy)",
+          "back": "Large in size"
+        },
+        {
+          "front": "Счастливый (Schastlivyy)",
+          "back": "Feeling joy"
+        },
+        {
+          "front": "Красный (Krasnyy)",
+          "back": "A color"
+        },
+        {
+          "front": "Один (Odin)",
+          "back": "The number 1"
+        },
+        {
+          "front": "Есть (Yest')",
+          "back": "To consume food"
+        },
+        {
+          "front": "Спать (Spat')",
+          "back": "To rest at night"
+        },
+        {
+          "front": "Играть (Igrat')",
+          "back": "To have fun"
+        }
+      ],
+      "Intermediate": [
+        {
+          "front": "Разговор (Razgovor)",
+          "back": "A talk between people"
+        },
+        {
+          "front": "Красивый (Krasivyy)",
+          "back": "Very attractive"
+        },
+        {
+          "front": "Путешествовать (Puteshestvovat')",
+          "back": "To go to another place"
+        },
+        {
+          "front": "Работа (Rabota)",
+          "back": "A job or task"
+        },
+        {
+          "front": "Семья (Sem'ya)",
+          "back": "A group of relatives"
+        },
+        {
+          "front": "Завтра (Zavtra)",
+          "back": "The next day"
+        },
+        {
+          "front": "Идея (Ideya)",
+          "back": "A thought or plan"
+        },
+        {
+          "front": "Важный (Vazhnyy)",
+          "back": "Having great value"
+        },
+        {
+          "front": "Слушать (Slushat')",
+          "back": "To hear carefully"
+        },
+        {
+          "front": "Город (Gorod)",
+          "back": "A large town"
+        },
+        {
+          "front": "Погода (Pogoda)",
+          "back": "The state of the atmosphere"
+        },
+        {
+          "front": "Сон (Son)",
+          "back": "Thoughts during sleep"
+        },
+        {
+          "front": "Помогать (Pomogat')",
+          "back": "To assist someone"
+        },
+        {
+          "front": "Время (Vremya)",
+          "back": "A measure of moments"
+        },
+        {
+          "front": "Любовь (Lyubov')",
+          "back": "A strong feeling of affection"
+        },
+        {
+          "front": "Быстрый (Bystryy)",
+          "back": "Quick in speed"
+        },
+        {
+          "front": "Думать (Dumat')",
+          "back": "To use the mind"
+        },
+        {
+          "front": "Покупать (Pokupat')",
+          "back": "To purchase something"
+        },
+        {
+          "front": "Хороший (Khoroshiy)",
+          "back": "High quality"
+        },
+        {
+          "front": "Ночь (Noch')",
+          "back": "The time after sunset"
+        }
+      ],
+      "Advanced": [
+        {
+          "front": "Философия (Filosofiya)",
+          "back": "The study of knowledge and existence"
+        },
+        {
+          "front": "Демократия (Demokratiya)",
+          "back": "A system of government by the people"
+        },
+        {
+          "front": "Возможность (Vozmozhnost')",
+          "back": "A chance for success"
+        },
+        {
+          "front": "Вызов (Vyzov)",
+          "back": "A difficult task"
+        },
+        {
+          "front": "Вдохновение (Vdokhnoveniye)",
+          "back": "A spark of creativity"
+        },
+        {
+          "front": "Компромисс (Kompromiss)",
+          "back": "An agreement with concessions"
+        },
+        {
+          "front": "Амбиция (Ambitsiya)",
+          "back": "A strong desire for success"
+        },
+        {
+          "front": "Этика (Etika)",
+          "back": "Moral principles"
+        },
+        {
+          "front": "Разнообразие (Raznoobraziye)",
+          "back": "Variety or difference"
+        },
+        {
+          "front": "Устойчивость (Ustoychivost')",
+          "back": "Ability to recover quickly"
+        },
+        {
+          "front": "Инновация (Innovatsiya)",
+          "back": "A new idea or method"
+        },
+        {
+          "front": "Устойчивость (Ustoychivost')",
+          "back": "Maintaining resources over time"
+        },
+        {
+          "front": "Глобализация (Globalizatsiya)",
+          "back": "Worldwide integration"
+        },
+        {
+          "front": "Эмпатия (Empatiya)",
+          "back": "Understanding others' feelings"
+        },
+        {
+          "front": "Справедливость (Spravedlivost')",
+          "back": "Fairness or moral rightness"
+        },
+        {
+          "front": "Наследие (Naslediye)",
+          "back": "Something handed down"
+        },
+        {
+          "front": "Парадокс (Paradoks)",
+          "back": "A contradictory statement"
+        },
+        {
+          "front": "Подлинность (Podlinnost')",
+          "back": "Being genuine"
+        },
+        {
+          "front": "Упорство (Uporstvo)",
+          "back": "Persistent effort"
+        },
+        {
+          "front": "Мудрость (Mudrost')",
+          "back": "Deep understanding"
+        }
+      ]
+    },
+    "Italian": {
+      "Beginner": [
+        {
+          "front": "Ciao",
+          "back": "A greeting"
+        },
+        {
+          "front": "Casa",
+          "back": "A place to live"
+        },
+        {
+          "front": "Cane",
+          "back": "A common pet"
+        },
+        {
+          "front": "Libro",
+          "back": "Something to read"
+        },
+        {
+          "front": "Acqua",
+          "back": "A drinkable liquid"
+        },
+        {
+          "front": "Sole",
+          "back": "The star in the sky"
+        },
+        {
+          "front": "Albero",
+          "back": "A tall plant"
+        },
+        {
+          "front": "Macchina",
+          "back": "A vehicle"
+        },
+        {
+          "front": "Cibo",
+          "back": "Something to eat"
+        },
+        {
+          "front": "Amico",
+          "back": "A close companion"
+        },
+        {
+          "front": "Scuola",
+          "back": "A place to learn"
+        },
+        {
+          "front": "Tavolo",
+          "back": "A piece of furniture"
+        },
+        {
+          "front": "Correre",
+          "back": "To move quickly"
+        },
+        {
+          "front": "Grande",
+          "back": "Large in size"
+        },
+        {
+          "front": "Felice",
+          "back": "Feeling joy"
+        },
+        {
+          "front": "Rosso",
+          "back": "A color"
+        },
+        {
+          "front": "Uno",
+          "back": "The number 1"
+        },
+        {
+          "front": "Mangiare",
+          "back": "To consume food"
+        },
+        {
+          "front": "Dormire",
+          "back": "To rest at night"
+        },
+        {
+          "front": "Giocare",
+          "back": "To have fun"
+        }
+      ],
+      "Intermediate": [
+        {
+          "front": "Conversazione",
+          "back": "A talk between people"
+        },
+        {
+          "front": "Bello",
+          "back": "Very attractive"
+        },
+        {
+          "front": "Viaggiare",
+          "back": "To go to another place"
+        },
+        {
+          "front": "Lavoro",
+          "back": "A job or task"
+        },
+        {
+          "front": "Famiglia",
+          "back": "A group of relatives"
+        },
+        {
+          "front": "Domani",
+          "back": "The next day"
+        },
+        {
+          "front": "Idea",
+          "back": "A thought or plan"
+        },
+        {
+          "front": "Importante",
+          "back": "Having great value"
+        },
+        {
+          "front": "Ascoltare",
+          "back": "To hear carefully"
+        },
+        {
+          "front": "Città",
+          "back": "A large town"
+        },
+        {
+          "front": "Tempo",
+          "back": "The state of the atmosphere"
+        },
+        {
+          "front": "Sogno",
+          "back": "Thoughts during sleep"
+        },
+        {
+          "front": "Aiutare",
+          "back": "To assist someone"
+        },
+        {
+          "front": "Tempo",
+          "back": "A measure of moments"
+        },
+        {
+          "front": "Amore",
+          "back": "A strong feeling of affection"
+        },
+        {
+          "front": "Veloce",
+          "back": "Quick in speed"
+        },
+        {
+          "front": "Pensare",
+          "back": "To use the mind"
+        },
+        {
+          "front": "Comprare",
+          "back": "To purchase something"
+        },
+        {
+          "front": "Buono",
+          "back": "High quality"
+        },
+        {
+          "front": "Notte",
+          "back": "The time after sunset"
+        }
+      ],
+      "Advanced": [
+        {
+          "front": "Filosofia",
+          "back": "The study of knowledge and existence"
+        },
+        {
+          "front": "Democrazia",
+          "back": "A system of government by the people"
+        },
+        {
+          "front": "Opportunità",
+          "back": "A chance for success"
+        },
+        {
+          "front": "Sfida",
+          "back": "A difficult task"
+        },
+        {
+          "front": "Ispirazione",
+          "back": "A spark of creativity"
+        },
+        {
+          "front": "Compromesso",
+          "back": "An agreement with concessions"
+        },
+        {
+          "front": "Ambizione",
+          "back": "A strong desire for success"
+        },
+        {
+          "front": "Etica",
+          "back": "Moral principles"
+        },
+        {
+          "front": "Diversità",
+          "back": "Variety or difference"
+        },
+        {
+          "front": "Resilienza",
+          "back": "Ability to recover quickly"
+        },
+        {
+          "front": "Innovazione",
+          "back": "A new idea or method"
+        },
+        {
+          "front": "Sostenibilità",
+          "back": "Maintaining resources over time"
+        },
+        {
+          "front": "Globalizzazione",
+          "back": "Worldwide integration"
+        },
+        {
+          "front": "Empatia",
+          "back": "Understanding others' feelings"
+        },
+        {
+          "front": "Giustizia",
+          "back": "Fairness or moral rightness"
+        },
+        {
+          "front": "Eredità",
+          "back": "Something handed down"
+        },
+        {
+          "front": "Paradosso",
+          "back": "A contradictory statement"
+        },
+        {
+          "front": "Autenticità",
+          "back": "Being genuine"
+        },
+        {
+          "front": "Perseveranza",
+          "back": "Persistent effort"
+        },
+        {
+          "front": "Saggezza",
+          "back": "Deep understanding"
+        }
+      ]
+    },
+    "Persian": {
+      "Beginner": [
+        {
+          "front": "سلام (Salam)",
+          "back": "A greeting"
+        },
+        {
+          "front": "خانه (Khaneh)",
+          "back": "A place to live"
+        },
+        {
+          "front": "سگ (Sag)",
+          "back": "A common pet"
+        },
+        {
+          "front": "کتاب (Ketab)",
+          "back": "Something to read"
+        },
+        {
+          "front": "آب (Ab)",
+          "back": "A drinkable liquid"
+        },
+        {
+          "front": "خورشید (Khorshid)",
+          "back": "The star in the sky"
+        },
+        {
+          "front": "درخت (Derakht)",
+          "back": "A tall plant"
+        },
+        {
+          "front": "ماشین (Mashin)",
+          "back": "A vehicle"
+        },
+        {
+          "front": "غذا (Ghaza)",
+          "back": "Something to eat"
+        },
+        {
+          "front": "دوست (Doost)",
+          "back": "A close companion"
+        },
+        {
+          "front": "مدرسه (Madrese)",
+          "back": "A place to learn"
+        },
+        {
+          "front": "میز (Miz)",
+          "back": "A piece of furniture"
+        },
+        {
+          "front": "دویدن (Daviden)",
+          "back": "To move quickly"
+        },
+        {
+          "front": "بزرگ (Bozorg)",
+          "back": "Large in size"
+        },
+        {
+          "front": "خوشحال (Khoshhal)",
+          "back": "Feeling joy"
+        },
+        {
+          "front": "قرمز (Ghermez)",
+          "back": "A color"
+        },
+        {
+          "front": "یک (Yek)",
+          "back": "The number 1"
+        },
+        {
+          "front": "خوردن (Khordan)",
+          "back": "To consume food"
+        },
+        {
+          "front": "خوابیدن (Khabiden)",
+          "back": "To rest at night"
+        },
+        {
+          "front": "بازی کردن (Bazi kardan)",
+          "back": "To have fun"
+        }
+      ],
+      "Intermediate": [
+        {
+          "front": "گفتگو (Goftogoo)",
+          "back": "A talk between people"
+        },
+        {
+          "front": "زیبا (Ziba)",
+          "back": "Very attractive"
+        },
+        {
+          "front": "سفر کردن (Safar kardan)",
+          "back": "To go to another place"
+        },
+        {
+          "front": "کار (Kar)",
+          "back": "A job or task"
+        },
+        {
+          "front": "خانواده (Khanevadeh)",
+          "back": "A group of relatives"
+        },
+        {
+          "front": "فردا (Farda)",
+          "back": "The next day"
+        },
+        {
+          "front": "ایده (Ide)",
+          "back": "A thought or plan"
+        },
+        {
+          "front": "مهم (Mohem)",
+          "back": "Having great value"
+        },
+        {
+          "front": "گوش دادن (Goosh dadan)",
+          "back": "To hear carefully"
+        },
+        {
+          "front": "شهر (Shahr)",
+          "back": "A large town"
+        },
+        {
+          "front": "هوا (Hava)",
+          "back": "The state of the atmosphere"
+        },
+        {
+          "front": "رویا (Roya)",
+          "back": "Thoughts during sleep"
+        },
+        {
+          "front": "کمک کردن (Komak kardan)",
+          "back": "To assist someone"
+        },
+        {
+          "front": "زمان (Zaman)",
+          "back": "A measure of moments"
+        },
+        {
+          "front": "عشق (Eshgh)",
+          "back": "A strong feeling of affection"
+        },
+        {
+          "front": "سریع (Sari')",
+          "back": "Quick in speed"
+        },
+        {
+          "front": "فکر کردن (Fekr kardan)",
+          "back": "To use the mind"
+        },
+        {
+          "front": "خریدن (Kharidan)",
+          "back": "To purchase something"
+        },
+        {
+          "front": "خوب (Khoob)",
+          "back": "High quality"
+        },
+        {
+          "front": "شب (Shab)",
+          "back": "The time after sunset"
+        }
+      ],
+      "Advanced": [
+        {
+          "front": "فلسفه (Falsafeh)",
+          "back": "The study of knowledge and existence"
+        },
+        {
+          "front": "دموکراسی (Demokrasi)",
+          "back": "A system of government by the people"
+        },
+        {
+          "front": "فرصت (Forsat)",
+          "back": "A chance for success"
+        },
+        {
+          "front": "چالش (Chalesh)",
+          "back": "A difficult task"
+        },
+        {
+          "front": "الهام (Elham)",
+          "back": "A spark of creativity"
+        },
+        {
+          "front": "سازش (Sazesh)",
+          "back": "An agreement with concessions"
+        },
+        {
+          "front": "جاه‌طلبی (Jah-talabi)",
+          "back": "A strong desire for success"
+        },
+        {
+          "front": "اخلاق (Akhlagh)",
+          "back": "Moral principles"
+        },
+        {
+          "front": "تنوع (Tano')",
+          "back": "Variety or difference"
+        },
+        {
+          "front": "تاب‌آوری (Tab-avari)",
+          "back": "Ability to recover quickly"
+        },
+        {
+          "front": "نوآوری (Noavari)",
+          "back": "A new idea or method"
+        },
+        {
+          "front": "پایداری (Paydari)",
+          "back": "Maintaining resources over time"
+        },
+        {
+          "front": "جهانی‌سازی (Jahani-sazi)",
+          "back": "Worldwide integration"
+        },
+        {
+          "front": "همدلی (Hamdeli)",
+          "back": "Understanding others' feelings"
+        },
+        {
+          "front": "عدالت (Adalat)",
+          "back": "Fairness or moral rightness"
+        },
+        {
+          "front": "میراث (Miras)",
+          "back": "Something handed down"
+        },
+        {
+          "front": "پارادوکس (Paradoks)",
+          "back": "A contradictory statement"
+        },
+        {
+          "front": "اصالت (Asalat)",
+          "back": "Being genuine"
+        },
+        {
+          "front": "پشتکار (Poshtkar)",
+          "back": "Persistent effort"
+        },
+        {
+          "front": "خرد (Kherad)",
+          "back": "Deep understanding"
+        }
+      ]
+    },
+    "Dutch": {
+      "Beginner": [
+        {
+          "front": "Hallo",
+          "back": "A greeting"
+        },
+        {
+          "front": "Huis",
+          "back": "A place to live"
+        },
+        {
+          "front": "Hond",
+          "back": "A common pet"
+        },
+        {
+          "front": "Boek",
+          "back": "Something to read"
+        },
+        {
+          "front": "Water",
+          "back": "A drinkable liquid"
+        },
+        {
+          "front": "Zon",
+          "back": "The star in the sky"
+        },
+        {
+          "front": "Boom",
+          "back": "A tall plant"
+        },
+        {
+          "front": "Auto",
+          "back": "A vehicle"
+        },
+        {
+          "front": "Eten",
+          "back": "Something to eat"
+        },
+        {
+          "front": "Vriend",
+          "back": "A close companion"
+        },
+        {
+          "front": "School",
+          "back": "A place to learn"
+        },
+        {
+          "front": "Tafel",
+          "back": "A piece of furniture"
+        },
+        {
+          "front": "Rennen",
+          "back": "To move quickly"
+        },
+        {
+          "front": "Groot",
+          "back": "Large in size"
+        },
+        {
+          "front": "Blij",
+          "back": "Feeling joy"
+        },
+        {
+          "front": "Rood",
+          "back": "A color"
+        },
+        {
+          "front": "Eén",
+          "back": "The number 1"
+        },
+        {
+          "front": "Eten",
+          "back": "To consume food"
+        },
+        {
+          "front": "Slapen",
+          "back": "To rest at night"
+        },
+        {
+          "front": "Spelen",
+          "back": "To have fun"
+        }
+      ],
+      "Intermediate": [
+        {
+          "front": "Gesprek",
+          "back": "A talk between people"
+        },
+        {
+          "front": "Mooi",
+          "back": "Very attractive"
+        },
+        {
+          "front": "Reizen",
+          "back": "To go to another place"
+        },
+        {
+          "front": "Werk",
+          "back": "A job or task"
+        },
+        {
+          "front": "Familie",
+          "back": "A group of relatives"
+        },
+        {
+          "front": "Morgen",
+          "back": "The next day"
+        },
+        {
+          "front": "Idee",
+          "back": "A thought or plan"
+        },
+        {
+          "front": "Belangrijk",
+          "back": "Having great value"
+        },
+        {
+          "front": "Luisteren",
+          "back": "To hear carefully"
+        },
+        {
+          "front": "Stad",
+          "back": "A large town"
+        },
+        {
+          "front": "Weer",
+          "back": "The state of the atmosphere"
+        },
+        {
+          "front": "Droom",
+          "back": "Thoughts during sleep"
+        },
+        {
+          "front": "Helpen",
+          "back": "To assist someone"
+        },
+        {
+          "front": "Tijd",
+          "back": "A measure of moments"
+        },
+        {
+          "front": "Liefde",
+          "back": "A strong feeling of affection"
+        },
+        {
+          "front": "Snel",
+          "back": "Quick in speed"
+        },
+        {
+          "front": "Denken",
+          "back": "To use the mind"
+        },
+        {
+          "front": "Kopen",
+          "back": "To purchase something"
+        },
+        {
+          "front": "Goed",
+          "back": "High quality"
+        },
+        {
+          "front": "Nacht",
+          "back": "The time after sunset"
+        }
+      ],
+      "Advanced": [
+        {
+          "front": "Filosofie",
+          "back": "The study of knowledge and existence"
+        },
+        {
+          "front": "Democratie",
+          "back": "A system of government by the people"
+        },
+        {
+          "front": "Gelegenheid",
+          "back": "A chance for success"
+        },
+        {
+          "front": "Uitdaging",
+          "back": "A difficult task"
+        },
+        {
+          "front": "Inspiratie",
+          "back": "A spark of creativity"
+        },
+        {
+          "front": "Compromis",
+          "back": "An agreement with concessions"
+        },
+        {
+          "front": "Ambitie",
+          "back": "A strong desire for success"
+        },
+        {
+          "front": "Ethiek",
+          "back": "Moral principles"
+        },
+        {
+          "front": "Diversiteit",
+          "back": "Variety or difference"
+        },
+        {
+          "front": "Veerkracht",
+          "back": "Ability to recover quickly"
+        },
+        {
+          "front": "Innovatie",
+          "back": "A new idea or method"
+        },
+        {
+          "front": "Duurzaamheid",
+          "back": "Maintaining resources over time"
+        },
+        {
+          "front": "Globalisering",
+          "back": "Worldwide integration"
+        },
+        {
+          "front": "Empathie",
+          "back": "Understanding others' feelings"
+        },
+        {
+          "front": "Gerechtigheid",
+          "back": "Fairness or moral rightness"
+        },
+        {
+          "front": "Erfenis",
+          "back": "Something handed down"
+        },
+        {
+          "front": "Paradox",
+          "back": "A contradictory statement"
+        },
+        {
+          "front": "Authenticiteit",
+          "back": "Being genuine"
+        },
+        {
+          "front": "Volharding",
+          "back": "Persistent effort"
+        },
+        {
+          "front": "Wijsheid",
+          "back": "Deep understanding"
+        }
+      ]
+    },
+    "Turkish": {
+      "Beginner": [
+        {
+          "front": "Merhaba",
+          "back": "A greeting"
+        },
+        {
+          "front": "Ev",
+          "back": "A place to live"
+        },
+        {
+          "front": "Köpek",
+          "back": "A common pet"
+        },
+        {
+          "front": "Kitap",
+          "back": "Something to read"
+        },
+        {
+          "front": "Su",
+          "back": "A drinkable liquid"
+        },
+        {
+          "front": "Güneş",
+          "back": "The star in the sky"
+        },
+        {
+          "front": "Ağaç",
+          "back": "A tall plant"
+        },
+        {
+          "front": "Araba",
+          "back": "A vehicle"
+        },
+        {
+          "front": "Yemek",
+          "back": "Something to eat"
+        },
+        {
+          "front": "Arkadaş",
+          "back": "A close companion"
+        },
+        {
+          "front": "Okul",
+          "back": "A place to learn"
+        },
+        {
+          "front": "Masa",
+          "back": "A piece of furniture"
+        },
+        {
+          "front": "Koşmak",
+          "back": "To move quickly"
+        },
+        {
+          "front": "Büyük",
+          "back": "Large in size"
+        },
+        {
+          "front": "Mutlu",
+          "back": "Feeling joy"
+        },
+        {
+          "front": "Kırmızı",
+          "back": "A color"
+        },
+        {
+          "front": "Bir",
+          "back": "The number 1"
+        },
+        {
+          "front": "Yemek",
+          "back": "To consume food"
+        },
+        {
+          "front": "Uyumak",
+          "back": "To rest at night"
+        },
+        {
+          "front": "Oynamak",
+          "back": "To have fun"
+        }
+      ],
+      "Intermediate": [
+        {
+          "front": "Konuşma",
+          "back": "A talk between people"
+        },
+        {
+          "front": "Güzel",
+          "back": "Very attractive"
+        },
+        {
+          "front": "Seyahat etmek",
+          "back": "To go to another place"
+        },
+        {
+          "front": "İş",
+          "back": "A job or task"
+        },
+        {
+          "front": "Aile",
+          "back": "A group of relatives"
+        },
+        {
+          "front": "Yarın",
+          "back": "The next day"
+        },
+        {
+          "front": "Fikir",
+          "back": "A thought or plan"
+        },
+        {
+          "front": "Önemli",
+          "back": "Having great value"
+        },
+        {
+          "front": "Dinlemek",
+          "back": "To hear carefully"
+        },
+        {
+          "front": "Şehir",
+          "back": "A large town"
+        },
+        {
+          "front": "Hava",
+          "back": "The state of the atmosphere"
+        },
+        {
+          "front": "Rüya",
+          "back": "Thoughts during sleep"
+        },
+        {
+          "front": "Yardım etmek",
+          "back": "To assist someone"
+        },
+        {
+          "front": "Zaman",
+          "back": "A measure of moments"
+        },
+        {
+          "front": "Aşk",
+          "back": "A strong feeling of affection"
+        },
+        {
+          "front": "Hızlı",
+          "back": "Quick in speed"
+        },
+        {
+          "front": "Düşünmek",
+          "back": "To use the mind"
+        },
+        {
+          "front": "Satın almak",
+          "back": "To purchase something"
+        },
+        {
+          "front": "İyi",
+          "back": "High quality"
+        },
+        {
+          "front": "Gece",
+          "back": "The time after sunset"
+        }
+      ],
+      "Advanced": [
+        {
+          "front": "Felsefe",
+          "back": "The study of knowledge and existence"
+        },
+        {
+          "front": "Demokrasi",
+          "back": "A system of government by the people"
+        },
+        {
+          "front": "Fırsat",
+          "back": "A chance for success"
+        },
+        {
+          "front": "Meydan okuma",
+          "back": "A difficult task"
+        },
+        {
+          "front": "İlham",
+          "back": "A spark of creativity"
+        },
+        {
+          "front": "Uzlaşma",
+          "back": "An agreement with concessions"
+        },
+        {
+          "front": "Hırs",
+          "back": "A strong desire for success"
+        },
+        {
+          "front": "Etik",
+          "back": "Moral principles"
+        },
+        {
+          "front": "Çeşitlilik",
+          "back": "Variety or difference"
+        },
+        {
+          "front": "Dayanıklılık",
+          "back": "Ability to recover quickly"
+        },
+        {
+          "front": "Yenilik",
+          "back": "A new idea or method"
+        },
+        {
+          "front": "Sürdürülebilirlik",
+          "back": "Maintaining resources over time"
+        },
+        {
+          "front": "Küreselleşme",
+          "back": "Worldwide integration"
+        },
+        {
+          "front": "Empati",
+          "back": "Understanding others' feelings"
+        },
+        {
+          "front": "Adalet",
+          "back": "Fairness or moral rightness"
+        },
+        {
+          "front": "Miras",
+          "back": "Something handed down"
+        },
+        {
+          "front": "Paradoks",
+          "back": "A contradictory statement"
+        },
+        {
+          "front": "Özgünlük",
+          "back": "Being genuine"
+        },
+        {
+          "front": "Sebat",
+          "back": "Persistent effort"
+        },
+        {
+          "front": "Bilgelik",
+          "back": "Deep understanding"
+        }
+      ]
+    },
+    "Greek": {
+      "Beginner": [
+        {
+          "front": "Γεια (Yia)",
+          "back": "A greeting"
+        },
+        {
+          "front": "Σπίτι (Spiti)",
+          "back": "A place to live"
+        },
+        {
+          "front": "Σκύλος (Skilos)",
+          "back": "A common pet"
+        },
+        {
+          "front": "Βιβλίο (Vivlio)",
+          "back": "Something to read"
+        },
+        {
+          "front": "Νερό (Nero)",
+          "back": "A drinkable liquid"
+        },
+        {
+          "front": "Ήλιος (Ilios)",
+          "back": "The star in the sky"
+        },
+        {
+          "front": "Δέντρο (Déntro)",
+          "back": "A tall plant"
+        },
+        {
+          "front": "Αυτοκίνητο (Aftokinito)",
+          "back": "A vehicle"
+        },
+        {
+          "front": "Φαγητό (Fagito)",
+          "back": "Something to eat"
+        },
+        {
+          "front": "Φίλος (Filos)",
+          "back": "A close companion"
+        },
+        {
+          "front": "Σχολείο (Scholio)",
+          "back": "A place to learn"
+        },
+        {
+          "front": "Τραπέζι (Trapézi)",
+          "back": "A piece of furniture"
+        },
+        {
+          "front": "Τρέχω (Trecho)",
+          "back": "To move quickly"
+        },
+        {
+          "front": "Μεγάλος (Megálos)",
+          "back": "Large in size"
+        },
+        {
+          "front": "Χαρούμενος (Charoumenos)",
+          "back": "Feeling joy"
+        },
+        {
+          "front": "Κόκκινος (Kokkinos)",
+          "back": "A color"
+        },
+        {
+          "front": "Ένας (Enas)",
+          "back": "The number 1"
+        },
+        {
+          "front": "Τρώω (Troo)",
+          "back": "To consume food"
+        },
+        {
+          "front": "Κοιμάμαι (Kimame)",
+          "back": "To rest at night"
+        },
+        {
+          "front": "Παίζω (Pezo)",
+          "back": "To have fun"
+        }
+      ],
+      "Intermediate": [
+        {
+          "front": "Συνομιλία (Synomilia)",
+          "back": "A talk between people"
+        },
+        {
+          "front": "Όμορφος (Omorfos)",
+          "back": "Very attractive"
+        },
+        {
+          "front": "Ταξιδεύω (Taxidevo)",
+          "back": "To go to another place"
+        },
+        {
+          "front": "Εργασία (Ergasia)",
+          "back": "A job or task"
+        },
+        {
+          "front": "Οικογένεια (Oikogeneia)",
+          "back": "A group of relatives"
+        },
+        {
+          "front": "Αύριο (Avrio)",
+          "back": "The next day"
+        },
+        {
+          "front": "Ιδέα (Idéa)",
+          "back": "A thought or plan"
+        },
+        {
+          "front": "Σημαντικός (Simantikos)",
+          "back": "Having great value"
+        },
+        {
+          "front": "Ακούω (Akouo)",
+          "back": "To hear carefully"
+        },
+        {
+          "front": "Πόλη (Poli)",
+          "back": "A large town"
+        },
+        {
+          "front": "Καιρός (Keros)",
+          "back": "The state of the atmosphere"
+        },
+        {
+          "front": "Όνειρο (Oniro)",
+          "back": "Thoughts during sleep"
+        },
+        {
+          "front": "Βοηθώ (Voitho)",
+          "back": "To assist someone"
+        },
+        {
+          "front": "Χρόνος (Chronos)",
+          "back": "A measure of moments"
+        },
+        {
+          "front": "Αγάπη (Agapi)",
+          "back": "A strong feeling of affection"
+        },
+        {
+          "front": "Γρήγορος (Grigoros)",
+          "back": "Quick in speed"
+        },
+        {
+          "front": "Σκέφτομαι (Skeftomai)",
+          "back": "To use the mind"
+        },
+        {
+          "front": "Αγοράζω (Agorazo)",
+          "back": "To purchase something"
+        },
+        {
+          "front": "Καλός (Kalos)",
+          "back": "High quality"
+        },
+        {
+          "front": "Νύχτα (Nychta)",
+          "back": "The time after sunset"
+        }
+      ],
+      "Advanced": [
+        {
+          "front": "Φιλοσοφία (Filosofia)",
+          "back": "The study of knowledge and existence"
+        },
+        {
+          "front": "Δημοκρατία (Dimokratia)",
+          "back": "A system of government by the people"
+        },
+        {
+          "front": "Ευκαιρία (Efkería)",
+          "back": "A chance for success"
+        },
+        {
+          "front": "Πρόκληση (Proklisi)",
+          "back": "A difficult task"
+        },
+        {
+          "front": "Έμπνευση (Émpnefsi)",
+          "back": "A spark of creativity"
+        },
+        {
+          "front": "Συμβιβασμός (Symvivasmos)",
+          "back": "An agreement with concessions"
+        },
+        {
+          "front": "Φιλοδοξία (Filodoxia)",
+          "back": "A strong desire for success"
+        },
+        {
+          "front": "Ηθική (Ithiki)",
+          "back": "Moral principles"
+        },
+        {
+          "front": "Ποικιλία (Pikilia)",
+          "back": "Variety or difference"
+        },
+        {
+          "front": "Ανθεκτικότητα (Anthektikotita)",
+          "back": "Ability to recover quickly"
+        },
+        {
+          "front": "Καινοτομία (Kenotomia)",
+          "back": "A new idea or method"
+        },
+        {
+          "front": "Βιωσιμότητα (Viosimotita)",
+          "back": "Maintaining resources over time"
+        },
+        {
+          "front": "Παγκοσμιοποίηση (Pagkosmiopoiisi)",
+          "back": "Worldwide integration"
+        },
+        {
+          "front": "Ενσυναίσθηση (Ensynaisthisi)",
+          "back": "Understanding others' feelings"
+        },
+        {
+          "front": "Δικαιοσύνη (Dikeosyni)",
+          "back": "Fairness or moral rightness"
+        },
+        {
+          "front": "Κληρονομιά (Klironomia)",
+          "back": "Something handed down"
+        },
+        {
+          "front": "Παράδοξο (Paradoxo)",
+          "back": "A contradictory statement"
+        },
+        {
+          "front": "Αυθεντικότητα (Afthentikotita)",
+          "back": "Being genuine"
+        },
+        {
+          "front": "Επιμονή (Epimoni)",
+          "back": "Persistent effort"
+        },
+        {
+          "front": "Σοφία (Sofia)",
+          "back": "Deep understanding"
+        }
+      ]
+    },
+    "Norwegian": {
+      "Beginner": [
+        {
+          "front": "Hei",
+          "back": "A greeting"
+        },
+        {
+          "front": "Hus",
+          "back": "A place to live"
+        },
+        {
+          "front": "Hund",
+          "back": "A common pet"
+        },
+        {
+          "front": "Bok",
+          "back": "Something to read"
+        },
+        {
+          "front": "Vann",
+          "back": "A drinkable liquid"
+        },
+        {
+          "front": "Sol",
+          "back": "The star in the sky"
+        },
+        {
+          "front": "Tre",
+          "back": "A tall plant"
+        },
+        {
+          "front": "Bil",
+          "back": "A vehicle"
+        },
+        {
+          "front": "Mat",
+          "back": "Something to eat"
+        },
+        {
+          "front": "Venn",
+          "back": "A close companion"
+        },
+        {
+          "front": "Skole",
+          "back": "A place to learn"
+        },
+        {
+          "front": "Bord",
+          "back": "A piece of furniture"
+        },
+        {
+          "front": "Løpe",
+          "back": "To move quickly"
+        },
+        {
+          "front": "Stor",
+          "back": "Large in size"
+        },
+        {
+          "front": "Glad",
+          "back": "Feeling joy"
+        },
+        {
+          "front": "Rød",
+          "back": "A color"
+        },
+        {
+          "front": "En",
+          "back": "The number 1"
+        },
+        {
+          "front": "Spise",
+          "back": "To consume food"
+        },
+        {
+          "front": "Sove",
+          "back": "To rest at night"
+        },
+        {
+          "front": "Leke",
+          "back": "To have fun"
+        }
+      ],
+      "Intermediate": [
+        {
+          "front": "Samtale",
+          "back": "A talk between people"
+        },
+        {
+          "front": "Vakker",
+          "back": "Very attractive"
+        },
+        {
+          "front": "Reise",
+          "back": "To go to another place"
+        },
+        {
+          "front": "Arbeid",
+          "back": "A job or task"
+        },
+        {
+          "front": "Familie",
+          "back": "A group of relatives"
+        },
+        {
+          "front": "I morgen",
+          "back": "The next day"
+        },
+        {
+          "front": "Idé",
+          "back": "A thought or plan"
+        },
+        {
+          "front": "Viktig",
+          "back": "Having great value"
+        },
+        {
+          "front": "Lytte",
+          "back": "To hear carefully"
+        },
+        {
+          "front": "By",
+          "back": "A large town"
+        },
+        {
+          "front": "Vær",
+          "back": "The state of the atmosphere"
+        },
+        {
+          "front": "Drøm",
+          "back": "Thoughts during sleep"
+        },
+        {
+          "front": "Hjelpe",
+          "back": "To assist someone"
+        },
+        {
+          "front": "Tid",
+          "back": "A measure of moments"
+        },
+        {
+          "front": "Kjærlighet",
+          "back": "A strong feeling of affection"
+        },
+        {
+          "front": "Rask",
+          "back": "Quick in speed"
+        },
+        {
+          "front": "Tenke",
+          "back": "To use the mind"
+        },
+        {
+          "front": "Kjøpe",
+          "back": "To purchase something"
+        },
+        {
+          "front": "God",
+          "back": "High quality"
+        },
+        {
+          "front": "Natt",
+          "back": "The time after sunset"
+        }
+      ],
+      "Advanced": [
+        {
+          "front": "Filosofi",
+          "back": "The study of knowledge and existence"
+        },
+        {
+          "front": "Demokrati",
+          "back": "A system of government by the people"
+        },
+        {
+          "front": "Mulighet",
+          "back": "A chance for success"
+        },
+        {
+          "front": "Utfordring",
+          "back": "A difficult task"
+        },
+        {
+          "front": "Inspirasjon",
+          "back": "A spark of creativity"
+        },
+        {
+          "front": "Kompromiss",
+          "back": "An agreement with concessions"
+        },
+        {
+          "front": "Ambisjon",
+          "back": "A strong desire for success"
+        },
+        {
+          "front": "Etikk",
+          "back": "Moral principles"
+        },
+        {
+          "front": "Mangfold",
+          "back": "Variety or difference"
+        },
+        {
+          "front": "Motstandskraft",
+          "back": "Ability to recover quickly"
+        },
+        {
+          "front": "Innovasjon",
+          "back": "A new idea or method"
+        },
+        {
+          "front": "Bærekraft",
+          "back": "Maintaining resources over time"
+        },
+        {
+          "front": "Globalisering",
+          "back": "Worldwide integration"
+        },
+        {
+          "front": "Empati",
+          "back": "Understanding others' feelings"
+        },
+        {
+          "front": "Rettferdighet",
+          "back": "Fairness or moral rightness"
+        },
+        {
+          "front": "Arv",
+          "back": "Something handed down"
+        },
+        {
+          "front": "Paradoks",
+          "back": "A contradictory statement"
+        },
+        {
+          "front": "Autentisitet",
+          "back": "Being genuine"
+        },
+        {
+          "front": "Utholdenhet",
+          "back": "Persistent effort"
+        },
+        {
+          "front": "Visdom",
+          "back": "Deep understanding"
+        }
+      ]
+    },
+    "Portuguese": {
+      "Beginner": [
+        {
+          "front": "Olá",
+          "back": "A greeting"
+        },
+        {
+          "front": "Casa",
+          "back": "A place to live"
+        },
+        {
+          "front": "Cão",
+          "back": "A common pet"
+        },
+        {
+          "front": "Livro",
+          "back": "Something to read"
+        },
+        {
+          "front": "Água",
+          "back": "A drinkable liquid"
+        },
+        {
+          "front": "Sol",
+          "back": "The star in the sky"
+        },
+        {
+          "front": "Árvore",
+          "back": "A tall plant"
+        },
+        {
+          "front": "Carro",
+          "back": "A vehicle"
+        },
+        {
+          "front": "Comida",
+          "back": "Something to eat"
+        },
+        {
+          "front": "Amigo",
+          "back": "A close companion"
+        },
+        {
+          "front": "Escola",
+          "back": "A place to learn"
+        },
+        {
+          "front": "Mesa",
+          "back": "A piece of furniture"
+        },
+        {
+          "front": "Correr",
+          "back": "To move quickly"
+        },
+        {
+          "front": "Grande",
+          "back": "Large in size"
+        },
+        {
+          "front": "Feliz",
+          "back": "Feeling joy"
+        },
+        {
+          "front": "Vermelho",
+          "back": "A color"
+        },
+        {
+          "front": "Um",
+          "back": "The number 1"
+        },
+        {
+          "front": "Comer",
+          "back": "To consume food"
+        },
+        {
+          "front": "Dormir",
+          "back": "To rest at night"
+        },
+        {
+          "front": "Jogar",
+          "back": "To have fun"
+        }
+      ],
+      "Intermediate": [
+        {
+          "front": "Conversa",
+          "back": "A talk between people"
+        },
+        {
+          "front": "Bonito",
+          "back": "Very attractive"
+        },
+        {
+          "front": "Viajar",
+          "back": "To go to another place"
+        },
+        {
+          "front": "Trabalho",
+          "back": "A job or task"
+        },
+        {
+          "front": "Família",
+          "back": "A group of relatives"
+        },
+        {
+          "front": "Amanhã",
+          "back": "The next day"
+        },
+        {
+          "front": "Ideia",
+          "back": "A thought or plan"
+        },
+        {
+          "front": "Importante",
+          "back": "Having great value"
+        },
+        {
+          "front": "Ouvir",
+          "back": "To hear carefully"
+        },
+        {
+          "front": "Cidade",
+          "back": "A large town"
+        },
+        {
+          "front": "Tempo",
+          "back": "The state of the atmosphere"
+        },
+        {
+          "front": "Sonho",
+          "back": "Thoughts during sleep"
+        },
+        {
+          "front": "Ajudar",
+          "back": "To assist someone"
+        },
+        {
+          "front": "Tempo",
+          "back": "A measure of moments"
+        },
+        {
+          "front": "Amor",
+          "back": "A strong feeling of affection"
+        },
+        {
+          "front": "Rápido",
+          "back": "Quick in speed"
+        },
+        {
+          "front": "Pensar",
+          "back": "To use the mind"
+        },
+        {
+          "front": "Comprar",
+          "back": "To purchase something"
+        },
+        {
+          "front": "Bom",
+          "back": "High quality"
+        },
+        {
+          "front": "Noite",
+          "back": "The time after sunset"
+        }
+      ],
+      "Advanced": [
+        {
+          "front": "Filosofia",
+          "back": "The study of knowledge and existence"
+        },
+        {
+          "front": "Democracia",
+          "back": "A system of government by the people"
+        },
+        {
+          "front": "Oportunidade",
+          "back": "A chance for success"
+        },
+        {
+          "front": "Desafio",
+          "back": "A difficult task"
+        },
+        {
+          "front": "Inspiração",
+          "back": "A spark of creativity"
+        },
+        {
+          "front": "Compromisso",
+          "back": "An agreement with concessions"
+        },
+        {
+          "front": "Ambição",
+          "back": "A strong desire for success"
+        },
+        {
+          "front": "Ética",
+          "back": "Moral principles"
+        },
+        {
+          "front": "Diversidade",
+          "back": "Variety or difference"
+        },
+        {
+          "front": "Resiliência",
+          "back": "Ability to recover quickly"
+        },
+        {
+          "front": "Inovação",
+          "back": "A new idea or method"
+        },
+        {
+          "front": "Sustentabilidade",
+          "back": "Maintaining resources over time"
+        },
+        {
+          "front": "Globalização",
+          "back": "Worldwide integration"
+        },
+        {
+          "front": "Empatia",
+          "back": "Understanding others' feelings"
+        },
+        {
+          "front": "Justiça",
+          "back": "Fairness or moral rightness"
+        },
+        {
+          "front": "Legado",
+          "back": "Something handed down"
+        },
+        {
+          "front": "Paradoxo",
+          "back": "A contradictory statement"
+        },
+        {
+          "front": "Autenticidade",
+          "back": "Being genuine"
+        },
+        {
+          "front": "Perseverança",
+          "back": "Persistent effort"
+        },
+        {
+          "front": "Sabedoria",
+          "back": "Deep understanding"
+        }
+      ]
+    },
+  "Hindi": {
+      "Beginner": [
+        { "front": "नमस्ते (Namaste)", "back": "A greeting" },
+        { "front": "घर (Ghar)", "back": "A place to live" },
+        { "front": "कुत्ता (Kutta)", "back": "A common pet" },
+        { "front": "किताब (Kitab)", "back": "Something to read" },
+        { "front": "पानी (Pani)", "back": "A drinkable liquid" },
+        { "front": "सूरज (Suraj)", "back": "The star in the sky" },
+        { "front": "पेड़ (Ped)", "back": "A tall plant" },
+        { "front": "कार (Car)", "back": "A vehicle" },
+        { "front": "खाना (Khana)", "back": "Something to eat" },
+        { "front": "दोस्त (Dost)", "back": "A close companion" },
+        { "front": "स्कूल (School)", "back": "A place to learn" },
+        { "front": "मेज (Mej)", "back": "A piece of furniture" },
+        { "front": "दौड़ना (Daurna)", "back": "To move quickly" },
+        { "front": "बड़ा (Bada)", "back": "Large in size" },
+        { "front": "खुश (Khush)", "back": "Feeling joy" },
+        { "front": "लाल (Laal)", "back": "A color" },
+        { "front": "एक (Ek)", "back": "The number 1" },
+        { "front": "खाना (Khana)", "back": "To consume food" },
+        { "front": "सोना (Sona)", "back": "To rest at night" },
+        { "front": "खेलना (Khelna)", "back": "To have fun" }
+      ],
+      "Intermediate": [
+        { "front": "बातचीत (Baatchit)", "back": "A talk between people" },
+        { "front": "सुंदर (Sundar)", "back": "Very attractive" },
+        { "front": "यात्रा करना (Yatra karna)", "back": "To go to another place" },
+        { "front": "काम (Kaam)", "back": "A job or task" },
+        { "front": "परिवार (Parivar)", "back": "A group of relatives" },
+        { "front": "कल (Kal)", "back": "The next day" },
+        { "front": "विचार (Vichar)", "back": "A thought or plan" },
+        { "front": "महत्वपूर्ण (Mahatvapurna)", "back": "Having great value" },
+        { "front": "सुनना (Sunna)", "back": "To hear carefully" },
+        { "front": "शहर (Sheher)", "back": "A large town" },
+        { "front": "मौसम (Mausam)", "back": "The state of the atmosphere" },
+        { "front": "सपना (Sapna)", "back": "Thoughts during sleep" },
+        { "front": "मदद करना (Madad karna)", "back": "To assist someone" },
+        { "front": "समय (Samay)", "back": "A measure of moments" },
+        { "front": "प्यार (Pyar)", "back": "A strong feeling of affection" },
+        { "front": "तेज (Tej)", "back": "Quick in speed" },
+        { "front": "सोचना (Sochna)", "back": "To use the mind" },
+        { "front": "खरीदना (Khareedna)", "back": "To purchase something" },
+        { "front": "अच्छा (Accha)", "back": "High quality" },
+        { "front": "रात (Raat)", "back": "The time after sunset" }
+      ],
+      "Advanced": [
+        { "front": "दर्शन (Darshan)", "back": "The study of knowledge and existence" },
+        { "front": "लोकतंत्र (Loktantra)", "back": "A system of government by the people" },
+        { "front": "अवसर (Avasar)", "back": "A chance for success" },
+        { "front": "चुनौती (Chunauti)", "back": "A difficult task" },
+        { "front": "प्रेरणा (Prerna)", "back": "A spark of creativity" },
+        { "front": "समझौता (Samjhauta)", "back": "An agreement with concessions" },
+        { "front": "महत्वाकांक्षा (Mahatvakanaksha)", "back": "A strong desire for success" },
+        { "front": "नैतिकता (Naitikta)", "back": "Moral principles" },
+        { "front": "विविधता (Vividhta)", "back": "Variety or difference" },
+        { "front": "लचीलापन (Lachilapan)", "back": "Ability to recover quickly" },
+        { "front": "नवाचार (Navachar)", "back": "A new idea or method" },
+        { "front": "स्थिरता (Sthirta)", "back": "Maintaining resources over time" },
+        { "front": "वैश्वीकरण (Vaishvikaran)", "back": "Worldwide integration" },
+        { "front": "सहानुभूति (Sahanubhuti)", "back": "Understanding others' feelings" },
+        { "front": "न्याय (Nyay)", "back": "Fairness or moral rightness" },
+        { "front": "विरासत (Virasat)", "back": "Something handed down" },
+        { "front": "विरोधाभास (Virodhabhas)", "back": "A contradictory statement" },
+        { "front": "प्रामाणिकता (Pramanikta)", "back": "Being genuine" },
+        { "front": "दृढ़ता (Dridhta)", "back": "Persistent effort" },
+        { "front": "ज्ञान (Gyan)", "back": "Deep understanding" }
+      ]
+    }
   }
 }
+    
+
+
+
+
+
+
+
+
+
+
+
+

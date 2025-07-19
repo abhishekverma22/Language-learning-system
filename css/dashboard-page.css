@@ -216,6 +216,10 @@ section {
     margin-bottom: 10px;
 }
 
+.card a {
+    text-decoration: none;
+}
+
 h3 {
     margin: 0 0 10px;
     font-size: 18px;

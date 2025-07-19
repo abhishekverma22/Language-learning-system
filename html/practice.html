@@ -54,9 +54,10 @@
               class="material-icons">dashboard</span><span>Dashboard</span></a>
           <a class="sidebar-link" href="#"><span class="material-icons">library_books</span><span>Lesson
               Library</span></a>
-          <a class="sidebar-link active" href="quizzes-page.html"><span class="material-icons">quiz</span><span>Interactive
+          <a class="sidebar-link active" href="quizzes-page.html"><span
+              class="material-icons">quiz</span><span>Interactive
               Quizzes</span></a>
-          <a class="sidebar-link" href="#"><span class="material-icons">style</span><span>Flashcards</span></a>
+          <a class="sidebar-link" href="flashCards.html"><span class="material-icons">style</span><span>Flashcards</span></a>
           <a class="sidebar-link" href="speaking-practice.html"><span class="material-icons">mic</span><span>Speaking
               Practice</span></a>
           <a class="sidebar-link" href="#"><span class="material-icons">group</span><span>Peer
@@ -66,7 +67,8 @@
               Insights</span></a>
           <a class="sidebar-link" href="#"><span class="material-icons">smart_toy</span><span>AI-Powered
               Path</span></a>
-          <a class="sidebar-link" href="./feedback.html"><span class="material-symbols-outlined">feedback</span><span>Feedback
+          <a class="sidebar-link" href="./feedback.html"><span
+              class="material-symbols-outlined">feedback</span><span>Feedback
             </span></a>
         </div>
 
@@ -86,8 +88,43 @@
         </div>
         <!-- ========== Quizzes section ========== -->
         <div class="quiz-section">
+          <!-- Question Number -->
+          <div class="question-number">
+            <p>Question <span id="question-count"></span></p>
+            <select id="difficulty">
+              <option value="" selected disabled> Choose Level</option>
+              <option value="easy">Easy</option>
+              <option value="medium">Medium</option>
+              <option value="hard">Hard</option>
+            </select>
+          </div>
 
+          <!-- Question Text -->
+          <div class="question">
+            <strong id="question-text"></strong>
+          </div>
 
+          <!-- Options -->
+          <div class="options" id="quiz-options">
+        
+          </div>
+
+          <!-- Navigation Buttons -->
+          <div class="buttons">
+            <button id="prev-btn">Previous</button>
+            <button id="next-btn">Next</button>
+          </div>
+
+          <!-- Submit Button -->
+          <div class="submit-button">
+            <button id="submit-btn">Submit</button>
+          </div>
+
+          <!-- Correct Answer Display -->
+          <div class="answer-section" id="answer-section">
+            <strong>Correct Answer</strong>
+            <p id="correct-answer-text">.</p>
+          </div>
         </div>
 
     </main>

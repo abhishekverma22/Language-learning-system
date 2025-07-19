@@ -45,5 +45,5 @@ LANGUAGE LEARNING PLATFORM/                       # Root directory of the projec
 │   └── style.css                                                             # Global stylesheet (applied site-wide)
  
 |── README.md                                                         # Markdown documentation for your project
-|── index.html                                                             # Root-level home or redirect page (optional)
-|___________________________________________________________________________________________________________________________________________
+|── index.html                                                             # Root-level home or redirect page 
+|________________________________________________________________________________________________________________

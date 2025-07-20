@@ -10,7 +10,7 @@ onAuthStateChanged(auth, async (user) => {
       card.addEventListener('click', () => {
         const selectLanguage = card.getAttribute('data-language');
         // console.log(selectLanguage)
-        window.location.href = `../html/practice.html?lang = ${selectLanguage}`
+        window.location.href = `../html/quiz-practice.html?lang = ${selectLanguage}`
 
       });
 

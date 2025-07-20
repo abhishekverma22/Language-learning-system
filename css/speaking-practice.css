@@ -203,49 +203,21 @@ section {
 
 /* ============ progress bar ============= */
 
-#progress-bar {
+#language-select {
   margin-top: 40px;
-  text-align: center;
 
 }
 
-#progress-bar h3 {
-  font-size: 16px;
-  font-weight: 700;
-  color: olive;
-}
-
-.progress-container {
-  margin: auto;
-  width: 30%;
-  height: 10px;
-  background: #ddd;
+#language-select select {
+  font-size: 20px;
+  padding: 10px;
+  background-color: rgba(255, 166, 0, 0.432);
   border-radius: 10px;
-  overflow: hidden;
-  position: relative;
-}
+  color: #333;
+  width: 100%;
+border: 1px solid #ccc;
+outline: none;
 
-
-.zigzag-bar {
-  height: 100%;
-  width: 20%;
-  background: repeating-linear-gradient(-45deg,
-      #4caf50,
-      #4caf50 10px,
-      #3e8e41 10px,
-      #3e8e41 20px);
-  transition: width 0.5s ease-in-out;
-}
-
-.progress-text p {
-  font-size: 18px;
-  font-weight: 500;
-  margin-top: 1rem;
-}
-
-.progress-text p span {
-  color: red;
-  letter-spacing: 3px;
 }
 
 
@@ -269,8 +241,10 @@ section {
   margin-top: 40px;
 }
 
-#show-feedback{
+#show-feedback {
   margin-bottom: 30px;
+  font-size: 30px;
+  font-weight: 600;
 }
 
 .feedback-area {

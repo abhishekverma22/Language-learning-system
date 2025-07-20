@@ -68,8 +68,7 @@ onAuthStateChanged(auth, async (user) => {
             time: serverTimestamp()
           });
           alert("✅ Feedback submitted successfully!");
-          document.getElementById("feedback-name").value = "";
-          document.getElementById("feedback-email").value = "";
+
           document.getElementById("feedback-category").value = "";
           document.getElementById("feedback-comments").value = "";
           ratingCount = 0;

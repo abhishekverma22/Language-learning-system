@@ -5,8 +5,6 @@ coursesCard.forEach((card) => {
 
     if (confirm("Please Login First")) {
       window.location.href = "../html/signup-page.html"
-    } else {
-      alert("Without login you ")
     }
   })
 })

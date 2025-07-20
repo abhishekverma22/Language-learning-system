@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>FluencyMate - Language Learning Platform</title>
 
-  <link rel="stylesheet" href="/css/practice.css">
+  <link rel="stylesheet" href="/css/flash-practice.css">
 
 
   <link rel="shortcut icon" href="../images/fevicons (2).png" type="image/x-icon">
@@ -21,7 +21,7 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
 
 
-  <script type="module" src="../js/practice.js" defer></script>
+  <script type="module" src="../js/flashCardPractice.js" defer></script>
   <script type="module" src="../js/logout-hamburger.js" defer></script>
 
 </head>
@@ -54,10 +54,9 @@
               class="material-icons">dashboard</span><span>Dashboard</span></a>
           <a class="sidebar-link" href="#"><span class="material-icons">library_books</span><span>Lesson
               Library</span></a>
-          <a class="sidebar-link active" href="quizzes-page.html"><span
-              class="material-icons">quiz</span><span>Interactive
+          <a class="sidebar-link " href="quizzes-page.html"><span class="material-icons">quiz</span><span>Interactive
               Quizzes</span></a>
-          <a class="sidebar-link" href="flashCards.html"><span
+          <a class="sidebar-link active" href="flashCards.html"><span
               class="material-icons">style</span><span>Flashcards</span></a>
           <a class="sidebar-link" href="speaking-practice.html"><span class="material-icons">mic</span><span>Speaking
               Practice</span></a>
@@ -84,55 +83,34 @@
       <!-- ============ section  ================-->
       <section class="dashboard-container">
         <div class="welcome-section">
-          <h2>Hey <span id="user-name"></span>, it's quiz time! 🎉</h2>
-          <p>Sharpen your mind, choose the correct answers, and climb the leaderboard!</p>
+          <h2>Welcome to the Flash Card Zone, <span id="user-name"></span>!</h2>
+          <p>Each flashcard is a secret spell—master them and watch your language powers grow! 🌟</p>
         </div>
-        <!-- ========== Quizzes section ========== -->
-
+        <!-- ========== flashcard section ========== -->
         <div id="lang-select">
-          <p> Choose your level first to unlock your Quize! <br> Every step counts on your language journey. </p>
-          <select id="difficulty">
-            <option value="" selected disabled> Choose Level</option>
-            <option value="easy">Easy</option>
-            <option value="medium">Medium</option>
-            <option value="hard">Hard</option>
-          </select>
-        </div>
-        <div class="quiz-section" style="display: none;" id="quiz-section-unhide">
-          <!-- Question Number -->
-          <div class="question-number">
-            <p>Question <span id="question-count"></span></p>
-
-          </div>
-
-          <!-- Question Text -->
-          <div class="question">
-            <strong id="question-text"></strong>
-          </div>
-
-          <!-- Options -->
-          <div class="options" id="quiz-options">
-
-          </div>
-
-          <!-- Navigation Buttons -->
-          <div class="buttons">
-            <button id="prev-btn">Previous</button>
-            <button id="next-btn">Next</button>
-          </div>
-
-          <!-- Submit Button -->
-          <div class="submit-button">
-            <button id="close-btn">Close </button>
-            <button id="submit-btn">Submit</button>
-          </div>
-
-          <!-- Correct Answer Display -->
-          <div class="answer-section" id="answer-section">
-            <strong>Correct Answer</strong>
-            <p id="correct-answer-text">.</p>
+          <p> Pick your level to begin your Flash Card adventure! <br>Small steps today lead to big language wins
+            tomorrow.</p>
+          <div class="select">
+            <select id="difficulty">
+              <option value="" selected disabled> Choose Level</option>
+              <option value="Beginner">Easy</option>
+              <option value="Intermediate">Medium</option>
+              <option value="Advanced">Hard</option>
+            </select>
           </div>
         </div>
+
+        <div class="flashCard-practice-section" id="flashcards-section">
+
+          <!-- Flip Card -->
+
+        </div>
+
+        <div id="complete-button" style="display: none;">
+          <button id="done-btn">DONE</button>
+        </div>
+
+
 
     </main>
 

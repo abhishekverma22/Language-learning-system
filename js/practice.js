@@ -15,6 +15,7 @@ const prevBtn = document.getElementById("prev-btn");
 const nextBtn = document.getElementById("next-btn");
 const answerSection = document.getElementById("answer-section");
 const correctAnswerText = document.getElementById("correct-answer-text");
+const closeBtn = document.getElementById("close-btn");
 
 let allQuestions = [];
 let currentIndex = 0;
@@ -41,6 +42,8 @@ onAuthStateChanged(auth, async (user) => {
       const level = e.target.value;
       await fetchQuiz(language, level);
       renderQuestion();
+      document.getElementById("quiz-section-unhide").style.display = "block"
+      document.getElementById("lang-select").style.display = "none"
     });
 
     submitBtn.addEventListener("click", submitQuiz);
@@ -59,6 +62,9 @@ onAuthStateChanged(auth, async (user) => {
       }
     });
 
+    closeBtn.addEventListener("click", () => {
+      window.location.reload()
+    })
   } else {
     window.location.replace('../html/login-page.html');
   }
@@ -117,44 +123,9 @@ function renderQuestion() {
   });
 }
 
-// // Submit quiz and save result to Firestore
-// async function submitQuiz() {
-//   const qlevel = select.value;
-//   if (!qlevel) return alert("Please select difficulty level first.");
-//   if (Object.keys(selectedAnswer).length < allQuestions.length) {
-//     return alert("Please answer all questions before submitting.");
-//   }
 
 
 
-//   correctAnswerCount = 0;
-//   allQuestions.forEach((q, i) => {
-//     if (selectedAnswer[i] === q.correctAnswer) correctAnswerCount++;
-//   });
-
-//   const today = new Date().toISOString().split("T")[0];
-//   const params = new URLSearchParams(window.location.search);
-//   const language = params.get("lang ")?.trim(); // ✅ fixed
-
-//   const progressRef = doc(db, `users/${userUID}/quizProgress/${today}`);
-//   const prevData = (await getDoc(progressRef)).data() || {};
-
-
-
-
-//   await setDoc(progressRef, {
-//     ...prevData,
-//     [qlevel]: {
-//       attempted: allQuestions.length,
-//       correct: correctAnswerCount,
-//       language,
-//       timestamp: Date.now()
-//     }
-//   });
-
-//   correctAnswerText.innerText = `You got ${correctAnswerCount} out of ${allQuestions.length} correct.`;
-//   answerSection.style.display = "block";
-// }
 
 async function submitQuiz() {
   const qlevel = select.value;
@@ -164,7 +135,8 @@ async function submitQuiz() {
   }
 
   correctAnswerCount = 0;
-  let resultHtml;
+  let resultHtml = ""
+
   allQuestions.forEach((q, i) => {
     const userAns = selectedAnswer[i];
     const isCorrect = userAns === q.correctAnswer;
@@ -202,3 +174,5 @@ async function submitQuiz() {
   correctAnswerText.innerHTML = `<strong>You got ${correctAnswerCount} out of ${allQuestions.length} correct.</strong><br><br>` + resultHtml;
   answerSection.style.display = "block";
 }
+
+

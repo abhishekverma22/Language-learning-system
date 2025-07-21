@@ -137,6 +137,8 @@ cd language-learning-app
 You can open the project in VS Code, Sublime, or any text editor of your choice.
 
 3. Firebase Setup
+- Create one file in root folder name : firebase-config.js and put your own configration templates for enable firebase 
+See blow for sample
 - Create a Firebase project at https://console.firebase.google.com
 - Enable:
          - Authentication (Email/Password)
@@ -156,6 +158,7 @@ const firebaseConfig = {
   appId: "YOUR_APP_ID"
 };
 ```
+
 
 4. Run the App
 Simply open index.html in your browser to start using the app.

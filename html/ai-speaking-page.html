@@ -5,23 +5,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>FluencyMate - Language Learning Platform</title>
-
-  <link rel="stylesheet" href="/css/quiz-practice.css">
-
-
+  <link rel="stylesheet" href="/css/speaking-practice.css">
   <link rel="shortcut icon" href="../images/fevicons (2).png" type="image/x-icon">
-
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
     integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
 
   <!--  google fonts -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
 
 
-  <script type="module" src="../js/quiz-practice.js" defer></script>
+  <script type="module" src="../js/speaking-practice.js" defer></script>
   <script type="module" src="../js/logout-hamburger.js" defer></script>
 
 </head>
@@ -43,24 +38,23 @@
       </div>
     </header>
 
+
     <!-- ========== main sectoin ========== -->
     <main>
-
       <!-- ====== side bar ============== -->
-
       <aside>
         <div class="nav-lists">
           <a class="sidebar-link " href="./dashboard-page.html"><span
               class="material-icons">dashboard</span><span>Dashboard</span></a>
-          <a class="sidebar-link active" href="quizzes-page.html"><span
-              class="material-icons">quiz</span><span>Interactive
+          <a class="sidebar-link" href="quizzes-page.html"><span class="material-icons">quiz</span><span>Interactive
               Quizzes</span></a>
           <a class="sidebar-link" href="flashCards.html"><span
               class="material-icons">style</span><span>Flashcards</span></a>
           <a class="sidebar-link" href="speaking-practice.html"><span class="material-icons">mic</span><span>Speaking
               Practice</span></a>
-              <a class="sidebar-link" href="ai-speaking-page.html"><span class="material-icons">smart_toy</span><span>AI-Powered
-                  Path</span></a>
+          <a class="sidebar-link active" href="speaking-practice.html"><span
+              class="material-icons">smart_toy</span><span>AI-Powered
+              Path</span></a>
           <a class="sidebar-link" href="leaderboard-page.html"><span class="material-symbols-outlined">
               leaderboard</span><span>Leaderboard</span></a>
           <a class="sidebar-link" href="./feedback.html"><span
@@ -77,57 +71,66 @@
       </aside>
 
       <!-- ============ section  ================-->
+
       <section class="dashboard-container">
+
+        <!-- ==========Welcome Section ============== -->
         <div class="welcome-section">
-          <h2>Hey <span id="user-name"></span>, it's quiz time! 🎉</h2>
-          <p>Sharpen your mind, choose the correct answers, and climb the leaderboard!</p>
+          <h1><span id="user-name"></span></h1>
+          <p>Time to boost your speaking skills! Practice out loud and get real-time feedback.</p>
         </div>
-        <!-- ========== Quizzes section ========== -->
-
-        <div id="lang-select">
-          <p> Choose your level first to unlock your Quize! <br> Every step counts on your language journey. </p>
-          <select id="difficulty">
-            <option value="" selected disabled> Choose Level</option>
-            <option value="easy">Easy</option>
-            <option value="medium">Medium</option>
-            <option value="hard">Hard</option>
+        <div id="language-select">
+          <select id="languageSelect">
+            <option value=""> ---- Select Language ---- </option>
+            <option value="en-US">English</option>
+            <option value="es-ES">Spanish</option>
+            <option value="fr-FR">French</option>
+            <option value="de-DE">German</option>
+            <option value="ja-JP">Japanese</option>
+            <option value="ru-RU">Russian</option>
+            <option value="it-IT">Italian</option>
+            <option value="fa-IR">Persian</option>
+            <option value="nl-NL">Dutch</option>
+            <option value="tr-TR">Turkish</option>
+            <option value="el-GR">Greek</option>
+            <option value="no-NO">Norwegian</option>
+            <option value="pt-BR">Portuguese</option>
+            <option value="hi-IN">Hindi</option>
           </select>
+
+
         </div>
-        <div class="quiz-section" style="display: none;" id="quiz-section-unhide">
-          <!-- Question Number -->
-          <div class="question-number">
-            <p>Question <span id="question-count"></span></p>
 
+        <!-- ========== speaking practice ========== -->
+        <section class="speaking-practice">
+          <div class="feedback-area">
+            <p id="show-feedback">
+              Please select a language to continue your Speaking journey! <span>With AI</span>
+
+            </p>
+
+            <div class="chat-bubble received">
+              <p><strong>Please Say:</strong> <span id="sentenceByAI"></span></p>
+            </div>
+
+            <div class="chat-bubble sent">
+              <p><strong>Your Speech:</strong> <span id="sentenceByUser"></span></p>
+            </div>
           </div>
 
-          <!-- Question Text -->
-          <div class="question">
-            <strong id="question-text"></strong>
+          <div class="mic-icon">
+            <span class="material-icons" id="mic-icon">mic</span>
           </div>
 
-          <!-- Options -->
-          <div class="options" id="quiz-options">
-
+          <div class="info-text">
+            <p>Tap the mic to start practicing your pronunciation and fluency.<br>Receive instant feedback on your
+              performance.</p>
           </div>
+        </section>
 
-          <!-- Navigation Buttons -->
-          <div class="buttons">
-            <button id="prev-btn">Previous</button>
-            <button id="next-btn">Next</button>
-          </div>
 
-          <!-- Submit Button -->
-          <div class="submit-button">
-            <button id="close-btn">Close </button>
-            <button id="submit-btn">Submit</button>
-          </div>
 
-          <!-- Correct Answer Display -->
-          <div class="answer-section" id="answer-section">
-            <strong>Correct Answer</strong>
-            <p id="correct-answer-text">.</p>
-          </div>
-        </div>
+      </section>
 
     </main>
 

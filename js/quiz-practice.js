@@ -2,7 +2,7 @@ import { rtdb, auth, db } from "../firebase-config.js";
 
 import { onAuthStateChanged } from "https://www.gstatic.com/firebasejs/11.10.0/firebase-auth.js";
 import { ref, get } from "https://www.gstatic.com/firebasejs/11.10.0/firebase-database.js";
-import { doc, setDoc, getDoc } from "https://www.gstatic.com/firebasejs/11.10.0/firebase-firestore.js";
+import { doc, setDoc, getDoc, serverTimestamp } from "https://www.gstatic.com/firebasejs/11.10.0/firebase-firestore.js";
 
 
 // DOM elements
@@ -166,7 +166,7 @@ async function submitQuiz() {
       attempted: allQuestions.length,
       correct: correctAnswerCount,
       language,
-      timestamp: Date.now()
+      timestamp: serverTimestamp()
     }
   });
 

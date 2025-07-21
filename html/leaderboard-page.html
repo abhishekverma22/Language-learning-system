@@ -83,8 +83,85 @@
         <div class="welcome-section">
           <h1>Progress Makes Perfect, <span id="user-name"></span>!</h1>
           <p>Your learning stats are more than numbers — they tell the story of your journey.
-Flashcards mastered. Quizzes conquered. You’re building fluency, one day at a time. 🌟</p>
+            Flashcards mastered. Quizzes conquered. You’re building fluency, one day at a time. 🌟</p>
         </div>
+        <!-- Quiz Section -->
+        <div class="quiz-section">
+          <h3>Quiz Score</h3>
+          <div class="filter-and-sorting">
+            <input type="date" id="quizDateFilter">
+            <select id="quizSortDate">
+              <option value="desc">Newest First</option>
+              <option value="asc">Oldest First</option>
+            </select>
+          </div>
+          <div class="score-lists">
+            <ul id="quiz-score-list">
+              <!-- Date 1 -->
+              <li class="quiz-date-item">
+                <div class="quiz-date-toggle">📅 2025-07-20</div>
+                <ul class="level-list" style="display: none;">
+                  <li class="level-toggle">Easy
+                    <div class="level-details" style="display: none;">
+                      Language: Spanish | Attempted: 5 | Correct: 3 | Time: 5:30 PM
+                    </div>
+                  </li>
+                  <li class="level-toggle">Medium
+                    <div class="level-details" style="display: none;">
+                      Language: Spanish | Attempted: 4 | Correct: 2 | Time: 6:00 PM
+                    </div>
+                  </li>
+                  <li class="level-toggle">Hard
+                    <div class="level-details" style="display: none;">
+                      Language: Spanish | Attempted: 3 | Correct: 1 | Time: 6:30 PM
+                    </div>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Flashcard Section -->
+        <div class="flash-section">
+          <h3>Flashcard Score</h3>
+          <div class="filter-and-sorting">
+            <input type="date" id="flashDateFilter">
+            <select id="flashSortDate">
+              <option value="desc">Newest First</option>
+              <option value="asc">Oldest First</option>
+            </select>
+          </div>
+          <div class="score-lists">
+            <ul id="flashcard-score-list">
+
+              
+              <!-- Date 1 -->
+              <li class="flash-date-item">
+                <div class="flash-date-toggle">📅 2025-07-20</div>
+                <ul class="level-list" style="display: none;">
+                  <li class="level-toggle">Easy
+                    <div class="level-details" style="display: none;">
+                      Language: Spanish | Attempted: 10 | Correct: 7 | Time: 5:00 PM
+                    </div>
+                  </li>
+                  <li class="level-toggle">Medium
+                    <div class="level-details" style="display: none;">
+                      Language: Spanish | Attempted: 9 | Correct: 6 | Time: 6:00 PM
+                    </div>
+                  </li>
+                  <li class="level-toggle">Hard
+                    <div class="level-details" style="display: none;">
+                      Language: Spanish | Attempted: 5 | Correct: 3 | Time: 6:45 PM
+                    </div>
+                  </li>
+                </ul>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+
 
 
     </main>

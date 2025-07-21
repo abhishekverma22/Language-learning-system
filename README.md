@@ -15,10 +15,10 @@ FluencyMate is a fullstack web application that combines both frontend and backe
 - Backend: Powered by Firebase (Realtime Database, Authentication, and Storage), it handles user management, real-time data syncing, quiz tracking, flashcard storage, and speech data analysis.
 
 ## Deplolyed App
-
 - Frontend: https://fluencymate.netlify.app/
 - Backend: https://console.firebase.google.com/
 - Database: https://learning-language-system-default-rtdb.asia-southeast1.firebasedatabase.app/
+- Github - https://github.com/abhishekverma22/Language-learning-system
 
 ## Directory Structure
 

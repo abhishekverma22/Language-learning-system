@@ -226,4 +226,5 @@ Here are the key paths in Firebase Realtime Database used in the app:
 - Firebase Firestore Database :Store user data flashCard Progress / Quiz Progress 
 - Web speech API : Enables speech recognition for pronunciation feedback
 - VS code : 	Development environment and local preview
+- Netlify :  Used for seamless deployment and hosting of the web application.
 
